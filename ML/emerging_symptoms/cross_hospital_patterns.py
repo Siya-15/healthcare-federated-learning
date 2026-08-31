@@ -1,8 +1,24 @@
+from pathlib import Path
+
 import pandas as pd
 
 from .emerging_symptom_model import (
     SYMPTOM_COLUMNS,
     detect_anomalies,
+)
+
+
+# ==========================================================
+# OUTPUT LOCATION
+#
+# Anchored to ML/data so the artifacts always land in the
+# same place, whatever working directory the script was
+# launched from.
+# ==========================================================
+
+DATA_DIR = (
+    Path(__file__).resolve().parent.parent
+    / "data"
 )
 
 
@@ -44,13 +60,55 @@ def get_hospital_patterns(hospital_id):
         )
     )
 
-    return anomalous_df[
+    # ------------------------------------------------------
+    # Per-hospital summary
+    #
+    # detect_anomalies flags a fixed top 5% of encounters,
+    # so anomalies_flagged scales with the dataset size by
+    # construction and is not itself an outbreak signal.
+    # recurring_patterns is the figure worth reporting.
+    # ------------------------------------------------------
+
+    pattern_counts = (
+        anomalous_df["symptom_pattern"]
+        .value_counts()
+    )
+
+    summary = {
+
+        "hospital_id": hospital_id,
+
+        "encounters_analysed": int(
+            len(results)
+        ),
+
+        "anomalies_flagged": int(
+            results["is_anomalous"].sum()
+        ),
+
+        "anomaly_threshold": float(
+            results["anomaly_threshold"].iloc[0]
+        ),
+
+        "distinct_patterns": int(
+            pattern_counts.size
+        ),
+
+        "recurring_patterns": int(
+            (pattern_counts >= 2).sum()
+        ),
+
+    }
+
+    patterns = anomalous_df[
         [
             "hospital_id",
             "encounter_id",
             "symptom_pattern",
         ]
     ]
+
+    return patterns, summary
 
 
 # ==========================================================
@@ -60,6 +118,8 @@ def get_hospital_patterns(hospital_id):
 def analyze_all_hospitals():
 
     all_patterns = []
+
+    all_summaries = []
 
     hospitals = [
         f"H{i:03d}"
@@ -72,7 +132,7 @@ def analyze_all_hospitals():
             f"Processing {hospital_id}..."
         )
 
-        hospital_patterns = (
+        hospital_patterns, summary = (
             get_hospital_patterns(
                 hospital_id
             )
@@ -82,9 +142,17 @@ def analyze_all_hospitals():
             hospital_patterns
         )
 
+        all_summaries.append(
+            summary
+        )
+
     combined = pd.concat(
         all_patterns,
         ignore_index=True
+    )
+
+    anomaly_summary = pd.DataFrame(
+        all_summaries
     )
 
     # ------------------------------------------------------
@@ -154,6 +222,7 @@ def analyze_all_hospitals():
         combined,
         hospital_counts,
         cross_hospital,
+        anomaly_summary,
     )
 
 
@@ -171,11 +240,21 @@ if __name__ == "__main__":
         combined,
         hospital_counts,
         cross_hospital,
+        anomaly_summary,
     ) = analyze_all_hospitals()
 
     print(
         "\nCross-hospital patterns found:",
         len(cross_hospital)
+    )
+
+    print(
+        "\nPer-hospital summary:"
+    )
+
+    print(
+        anomaly_summary
+        .to_string(index=False)
     )
 
     print(
@@ -192,16 +271,29 @@ if __name__ == "__main__":
     # Save results
     # ------------------------------------------------------
 
+    DATA_DIR.mkdir(
+        parents=True,
+        exist_ok=True
+    )
+
     cross_hospital.to_csv(
-        "cross_hospital_symptom_patterns.csv",
+        DATA_DIR
+        / "cross_hospital_symptom_patterns.csv",
         index=False
     )
 
     hospital_counts.to_csv(
-        "hospital_symptom_pattern_counts.csv",
+        DATA_DIR
+        / "hospital_symptom_pattern_counts.csv",
+        index=False
+    )
+
+    anomaly_summary.to_csv(
+        DATA_DIR
+        / "hospital_anomaly_summary.csv",
         index=False
     )
 
     print(
-        "\nResults saved successfully."
+        f"\nResults saved to {DATA_DIR}"
     )

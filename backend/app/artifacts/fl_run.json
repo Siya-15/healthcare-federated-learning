@@ -1,0 +1,25 @@
+{
+  "run_id": "fl-review2-validated",
+  "status": "COMPLETED",
+  "strategy": "FedAvg",
+  "model": "TabNet (multi-label symptom classifier)",
+  "rounds_completed": 3,
+  "rounds_configured": 3,
+  "hospitals_participating": 10,
+  "hospital_ids": ["H001","H002","H003","H004","H005","H006","H007","H008","H009","H010"],
+  "feature_count": 10,
+  "label_count": 27,
+  "global_metrics": {
+    "accuracy": 87.82,
+    "micro_f1": 39.23,
+    "macro_f1": 5.83,
+    "hamming_loss": 12.18
+  },
+  "raw_data_left_hospital": false,
+  "limitations": [
+    "Accuracy and Hamming loss improved across rounds, but Micro-F1 did not improve monotonically.",
+    "Macro-F1 remained low (5.83%), indicating weak performance on rarer symptom labels.",
+    "Differential privacy and secure aggregation are NOT implemented."
+  ],
+  "note": "Static record of the last validated run. The dashboard does not trigger a live federated simulation."
+}

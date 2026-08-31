@@ -75,3 +75,5 @@ Thumbs.db
 # ML/outbreak_surveillance.csv
 # ML/privacy_audit.csv
 # ML/data_minimization_matrix.csv
+md_files
+CLAUDE.md
