@@ -1,0 +1,49 @@
+[project]
+name = "healthcare-federated-learning"
+version = "1.0.0"
+description = "Federated learning prototype for healthcare project"
+license = { text = "Apache-2.0" }
+dependencies = [
+    "flwr[simulation]>=1.35.0",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "pytorch-tabnet",
+    "torch",
+    "joblib",
+    "sqlalchemy",
+    "psycopg2-binary",
+    "python-dotenv"
+]
+
+[tool.flwr.app]
+publisher = "healthcare-project"
+
+[tool.flwr.app.components]
+serverapp = "federated_learning.flower_server:app"
+clientapp = "federated_learning.flower_client:app"
+
+[tool.flwr.app.config]
+num-server-rounds = 3
+
+
+#######################################################################
+# CONFIGURATION MIGRATION NOTICE:
+#
+# What was previously called "federation config" for SuperLink
+# connections in pyproject.toml has been renamed and moved.
+#
+# These settings are now **SuperLink connection configuration**
+# and are defined in the Flower configuration file.
+#
+# The entries below are commented out intentionally and are kept
+# only as a migration reference.
+#
+# Docs: https://flower.ai/docs/framework/ref-flower-configuration.html
+#######################################################################
+
+# [tool.flwr.federations]
+# default = "local-simulation"
+
+# [tool.flwr.federations.local-simulation]
+# options.num-supernodes = 3

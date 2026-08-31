@@ -1,0 +1,230 @@
+symptom_pattern,hospital_id,occurrences
+Abdominal Pain + Dehydration + Diarrhoea + Fever + Nausea + Vomiting,H001,2
+Abdominal Pain + Dehydration + Diarrhoea + Fever + Nausea + Vomiting,H002,3
+Abdominal Pain + Dehydration + Diarrhoea + Fever + Nausea + Vomiting,H003,4
+Abdominal Pain + Dehydration + Diarrhoea + Fever + Nausea + Vomiting,H004,5
+Abdominal Pain + Dehydration + Diarrhoea + Fever + Nausea + Vomiting,H005,7
+Abdominal Pain + Dehydration + Diarrhoea + Fever + Nausea + Vomiting,H006,5
+Abdominal Pain + Dehydration + Diarrhoea + Fever + Nausea + Vomiting,H007,1
+Abdominal Pain + Dehydration + Diarrhoea + Fever + Nausea + Vomiting,H008,2
+Abdominal Pain + Dehydration + Diarrhoea + Fever + Nausea + Vomiting,H009,6
+Abdominal Pain + Dehydration + Diarrhoea + Fever + Nausea + Vomiting,H010,2
+Abdominal Pain + Dehydration + Diarrhoea + Fever + Vomiting,H003,1
+Abdominal Pain + Dehydration + Diarrhoea + Fever + Vomiting,H008,1
+Abdominal Pain + Dehydration + Diarrhoea + Nausea + Vomiting,H007,1
+Abdominal Pain + Dehydration + Diarrhoea + Nausea + Vomiting,H008,1
+Abdominal Pain + Dehydration + Diarrhoea + Vomiting,H002,1
+Abdominal Pain + Diarrhoea + Fatigue + Fever + Headache,H007,1
+Abdominal Pain + Diarrhoea + Fatigue + Fever + Headache,H008,1
+Abdominal Pain + Diarrhoea + Fatigue + Fever + Headache + Loss of Appetite,H001,4
+Abdominal Pain + Diarrhoea + Fatigue + Fever + Headache + Loss of Appetite,H004,3
+Abdominal Pain + Diarrhoea + Fatigue + Fever + Headache + Loss of Appetite,H006,5
+Abdominal Pain + Diarrhoea + Fatigue + Fever + Headache + Loss of Appetite,H009,1
+Abdominal Pain + Diarrhoea + Fatigue + Fever + Loss of Appetite,H001,1
+Abdominal Pain + Diarrhoea + Fatigue + Fever + Loss of Appetite,H003,1
+Abdominal Pain + Diarrhoea + Fatigue + Fever + Loss of Appetite,H009,1
+Abdominal Pain + Diarrhoea + Fever + Headache + Loss of Appetite,H001,1
+Abdominal Pain + Diarrhoea + Fever + Headache + Loss of Appetite,H009,1
+Abdominal Pain + Diarrhoea + Fever + Headache + Loss of Appetite,H010,2
+Abdominal Pain + Diarrhoea + Fever + Loss of Appetite,H007,1
+Abdominal Pain + Fatigue + Fever + Headache,H007,2
+Abdominal Pain + Fatigue + Fever + Headache,H008,1
+Abdominal Pain + Fatigue + Fever + Headache,H009,1
+Abdominal Pain + Fatigue + Fever + Headache + Loss of Appetite,H004,4
+Abdominal Pain + Fatigue + Fever + Headache + Loss of Appetite,H006,4
+Abdominal Pain + Fatigue + Fever + Loss of Appetite,H001,2
+Abdominal Pain + Fatigue + Fever + Loss of Appetite,H004,1
+Abdominal Pain + Fatigue + Fever + Loss of Appetite,H010,1
+Abdominal Pain + Fever + Headache + Loss of Appetite,H006,1
+Abdominal Pain + Fever + Headache + Loss of Appetite,H010,1
+Abdominal Pain + Fever + Loss of Appetite,H003,1
+Abdominal Pain + Fever + Loss of Appetite,H009,1
+Anaemia + Chills + Fatigue + Fever + Headache + Nausea + Sweating,H001,2
+Anaemia + Chills + Fatigue + Fever + Headache + Nausea + Sweating,H005,1
+Anaemia + Chills + Fatigue + Fever + Headache + Nausea + Sweating,H009,1
+Anaemia + Chills + Fatigue + Fever + Headache + Nausea + Sweating + Vomiting,H005,1
+Anaemia + Chills + Fatigue + Fever + Headache + Nausea + Sweating + Vomiting,H006,2
+Anaemia + Chills + Fatigue + Fever + Headache + Nausea + Sweating + Vomiting,H008,1
+Anaemia + Chills + Fatigue + Fever + Headache + Nausea + Sweating + Vomiting,H010,1
+Anaemia + Chills + Fatigue + Fever + Headache + Sweating + Vomiting,H002,1
+Anaemia + Chills + Fatigue + Fever + Headache + Sweating + Vomiting,H003,1
+Anaemia + Chills + Fatigue + Fever + Headache + Sweating + Vomiting,H006,1
+Anaemia + Chills + Fatigue + Fever + Headache + Sweating + Vomiting,H010,1
+Anaemia + Chills + Fever + Headache + Nausea + Sweating + Vomiting,H006,1
+Anaemia + Chills + Fever + Sweating + Vomiting,H005,1
+Bleeding + Fever + Headache + Joint Pain + Muscle Pain + Nausea + Rash,H008,1
+Bleeding + Fever + Headache + Joint Pain + Muscle Pain + Nausea + Rash + Retro-orbital Pain,H001,3
+Bleeding + Fever + Headache + Joint Pain + Muscle Pain + Nausea + Rash + Retro-orbital Pain,H003,1
+Bleeding + Fever + Headache + Joint Pain + Muscle Pain + Nausea + Rash + Retro-orbital Pain,H004,1
+Bleeding + Fever + Headache + Joint Pain + Muscle Pain + Nausea + Rash + Retro-orbital Pain,H005,1
+Bleeding + Fever + Headache + Joint Pain + Muscle Pain + Nausea + Rash + Retro-orbital Pain,H010,2
+Bleeding + Fever + Headache + Joint Pain + Muscle Pain + Nausea + Rash + Retro-orbital Pain + Vomiting,H001,1
+Bleeding + Fever + Headache + Joint Pain + Muscle Pain + Nausea + Rash + Retro-orbital Pain + Vomiting,H002,1
+Bleeding + Fever + Headache + Joint Pain + Muscle Pain + Nausea + Rash + Retro-orbital Pain + Vomiting,H003,1
+Bleeding + Fever + Headache + Joint Pain + Muscle Pain + Nausea + Rash + Retro-orbital Pain + Vomiting,H005,2
+Bleeding + Fever + Headache + Joint Pain + Muscle Pain + Nausea + Rash + Retro-orbital Pain + Vomiting,H009,1
+Bleeding + Fever + Headache + Joint Pain + Muscle Pain + Nausea + Rash + Retro-orbital Pain + Vomiting,H010,1
+Bleeding + Fever + Headache + Joint Pain + Muscle Pain + Rash + Retro-orbital Pain,H002,1
+Bleeding + Fever + Headache + Joint Pain + Muscle Pain + Rash + Retro-orbital Pain,H003,1
+Bleeding + Fever + Headache + Joint Pain + Muscle Pain + Rash + Retro-orbital Pain,H004,1
+Bleeding + Fever + Headache + Joint Pain + Muscle Pain + Rash + Retro-orbital Pain + Vomiting,H002,1
+Bleeding + Fever + Headache + Joint Pain + Muscle Pain + Rash + Retro-orbital Pain + Vomiting,H003,1
+Bleeding + Fever + Headache + Joint Pain + Muscle Pain + Rash + Retro-orbital Pain + Vomiting,H004,1
+Bleeding + Fever + Headache + Joint Pain + Muscle Pain + Rash + Retro-orbital Pain + Vomiting,H006,1
+Bleeding + Fever + Headache + Joint Pain + Muscle Pain + Rash + Retro-orbital Pain + Vomiting,H010,1
+Bleeding + Fever + Headache + Joint Pain + Muscle Pain + Rash + Vomiting,H005,1
+Bleeding + Fever + Headache + Joint Pain + Muscle Pain + Retro-orbital Pain + Vomiting,H007,1
+Bleeding + Fever + Headache + Joint Pain + Muscle Pain + Retro-orbital Pain + Vomiting,H008,1
+Bleeding + Fever + Headache + Muscle Pain + Nausea + Rash + Retro-orbital Pain + Vomiting,H005,1
+Bleeding + Fever + Headache + Muscle Pain + Rash + Retro-orbital Pain + Vomiting,H004,1
+Bleeding + Fever + Joint Pain + Muscle Pain + Nausea + Rash + Retro-orbital Pain,H010,2
+Bleeding + Fever + Joint Pain + Muscle Pain + Nausea + Rash + Vomiting,H005,1
+Bleeding + Fever + Joint Pain + Muscle Pain + Rash + Retro-orbital Pain + Vomiting,H005,1
+Breathlessness + Dry Cough + Fatigue + Fever + Loss of Smell + Loss of Taste,H001,1
+Breathlessness + Dry Cough + Fatigue + Fever + Loss of Smell + Loss of Taste,H003,1
+Breathlessness + Dry Cough + Fatigue + Fever + Loss of Smell + Loss of Taste,H006,2
+Breathlessness + Dry Cough + Fatigue + Fever + Loss of Smell + Loss of Taste + Sore Throat,H001,8
+Breathlessness + Dry Cough + Fatigue + Fever + Loss of Smell + Loss of Taste + Sore Throat,H003,9
+Breathlessness + Dry Cough + Fatigue + Fever + Loss of Smell + Loss of Taste + Sore Throat,H004,8
+Breathlessness + Dry Cough + Fatigue + Fever + Loss of Smell + Loss of Taste + Sore Throat,H007,4
+Breathlessness + Dry Cough + Fatigue + Fever + Loss of Smell + Loss of Taste + Sore Throat,H009,5
+Breathlessness + Dry Cough + Fatigue + Fever + Loss of Smell + Loss of Taste + Sore Throat,H010,10
+Breathlessness + Dry Cough + Fatigue + Fever + Loss of Smell + Sore Throat,H001,2
+Breathlessness + Dry Cough + Fatigue + Fever + Loss of Smell + Sore Throat,H004,1
+Breathlessness + Dry Cough + Fatigue + Fever + Loss of Smell + Sore Throat,H008,1
+Breathlessness + Dry Cough + Fatigue + Fever + Loss of Smell + Sore Throat,H010,1
+Breathlessness + Dry Cough + Fatigue + Fever + Loss of Taste + Sore Throat,H003,2
+Breathlessness + Dry Cough + Fatigue + Fever + Loss of Taste + Sore Throat,H004,1
+Breathlessness + Dry Cough + Fatigue + Fever + Loss of Taste + Sore Throat,H009,1
+Breathlessness + Dry Cough + Fever + Loss of Smell + Loss of Taste,H003,1
+Breathlessness + Dry Cough + Fever + Loss of Smell + Loss of Taste + Sore Throat,H003,4
+Breathlessness + Dry Cough + Fever + Loss of Smell + Loss of Taste + Sore Throat,H004,3
+Breathlessness + Dry Cough + Fever + Loss of Smell + Loss of Taste + Sore Throat,H009,1
+Breathlessness + Dry Cough + Fever + Loss of Smell + Loss of Taste + Sore Throat,H010,1
+Breathlessness + Dry Cough + Fever + Loss of Smell + Sore Throat,H003,1
+Breathlessness + Dry Cough + Fever + Sore Throat,H008,1
+Chest Pain + Fatigue + Fever + Night Sweats + Persistent Cough + Weight Loss,H001,3
+Chest Pain + Fatigue + Fever + Night Sweats + Persistent Cough + Weight Loss,H002,4
+Chest Pain + Fatigue + Fever + Night Sweats + Persistent Cough + Weight Loss,H003,1
+Chest Pain + Fatigue + Fever + Night Sweats + Persistent Cough + Weight Loss,H004,5
+Chest Pain + Fatigue + Fever + Night Sweats + Persistent Cough + Weight Loss,H005,3
+Chest Pain + Fatigue + Fever + Night Sweats + Persistent Cough + Weight Loss,H006,3
+Chest Pain + Fatigue + Fever + Night Sweats + Persistent Cough + Weight Loss,H008,1
+Chest Pain + Fatigue + Fever + Night Sweats + Persistent Cough + Weight Loss,H010,7
+Chest Pain + Fatigue + Fever + Persistent Cough + Weight Loss,H003,1
+Chest Pain + Fatigue + Fever + Persistent Cough + Weight Loss,H007,1
+Chest Pain + Fatigue + Night Sweats + Persistent Cough + Weight Loss,H003,1
+Chest Pain + Fatigue + Night Sweats + Persistent Cough + Weight Loss,H006,1
+Chest Pain + Fever + Night Sweats + Persistent Cough + Weight Loss,H003,2
+Dehydration + Diarrhoea + Fever + Nausea + Vomiting,H003,1
+Dehydration + Diarrhoea + Fever + Nausea + Vomiting,H004,1
+Diarrhoea + Fatigue + Fever + Headache + Loss of Appetite,H004,2
+Diarrhoea + Fatigue + Fever + Headache + Loss of Appetite,H006,2
+Diarrhoea + Fatigue + Fever + Headache + Loss of Appetite,H009,2
+Diarrhoea + Fatigue + Fever + Loss of Appetite,H009,1
+Diarrhoea + Fever + Headache + Loss of Appetite,H003,1
+Diarrhoea + Fever + Nausea + Vomiting,H002,1
+Diarrhoea + Fever + Nausea + Vomiting,H007,2
+Dry Cough + Fatigue + Fever + Loss of Smell + Loss of Taste,H001,2
+Dry Cough + Fatigue + Fever + Loss of Smell + Loss of Taste,H003,7
+Dry Cough + Fatigue + Fever + Loss of Smell + Loss of Taste,H010,4
+Dry Cough + Fatigue + Fever + Loss of Smell + Loss of Taste + Sore Throat,H001,10
+Dry Cough + Fatigue + Fever + Loss of Smell + Loss of Taste + Sore Throat,H007,3
+Dry Cough + Fever + Loss of Smell + Loss of Taste,H001,2
+Dry Cough + Fever + Loss of Smell + Loss of Taste,H005,2
+Dry Cough + Fever + Loss of Smell + Loss of Taste,H007,2
+Dry Cough + Fever + Loss of Smell + Loss of Taste + Sore Throat,H003,2
+Dry Cough + Fever + Loss of Smell + Loss of Taste + Sore Throat,H004,4
+Dry Cough + Fever + Loss of Smell + Loss of Taste + Sore Throat,H005,2
+Dry Cough + Fever + Loss of Smell + Loss of Taste + Sore Throat,H006,2
+Dry Cough + Fever + Loss of Smell + Loss of Taste + Sore Throat,H007,1
+Dry Cough + Fever + Loss of Smell + Loss of Taste + Sore Throat,H009,2
+Dry Cough + Fever + Loss of Smell + Loss of Taste + Sore Throat,H010,5
+Dry Cough + Fever + Loss of Taste,H004,1
+Dry Cough + Fever + Loss of Taste,H007,1
+Dry Cough + Fever + Loss of Taste + Sore Throat,H007,2
+Fatigue + Fever + Headache + Joint Pain + Muscle Pain + Rash,H002,2
+Fatigue + Fever + Headache + Joint Pain + Muscle Pain + Rash,H005,5
+Fatigue + Fever + Headache + Joint Pain + Muscle Pain + Rash,H006,3
+Fatigue + Fever + Headache + Joint Pain + Muscle Pain + Rash,H007,3
+Fatigue + Fever + Headache + Joint Pain + Muscle Pain + Rash,H008,2
+Fatigue + Fever + Joint Pain + Muscle Pain,H002,1
+Fatigue + Fever + Joint Pain + Muscle Pain + Rash,H002,1
+Fatigue + Fever + Joint Pain + Muscle Pain + Rash,H005,1
+Fatigue + Fever + Joint Pain + Muscle Pain + Rash,H007,1
+Fatigue + Fever + Joint Pain + Muscle Pain + Rash,H008,1
+Fatigue + Fever + Night Sweats + Persistent Cough,H002,6
+Fatigue + Fever + Night Sweats + Persistent Cough,H004,4
+Fatigue + Fever + Night Sweats + Persistent Cough,H005,4
+Fatigue + Fever + Night Sweats + Persistent Cough,H008,2
+Fatigue + Fever + Night Sweats + Persistent Cough,H009,4
+Fatigue + Fever + Night Sweats + Persistent Cough + Weight Loss,H001,4
+Fatigue + Fever + Night Sweats + Persistent Cough + Weight Loss,H003,2
+Fatigue + Fever + Night Sweats + Persistent Cough + Weight Loss,H004,1
+Fatigue + Fever + Night Sweats + Persistent Cough + Weight Loss,H005,1
+Fatigue + Fever + Night Sweats + Persistent Cough + Weight Loss,H008,1
+Fatigue + Night Sweats + Persistent Cough,H002,1
+Fatigue + Night Sweats + Persistent Cough,H005,1
+Fatigue + Night Sweats + Persistent Cough,H008,1
+Fatigue + Persistent Cough,H002,1
+Fever + Headache + Joint Pain + Muscle Pain + Nausea + Rash,H003,2
+Fever + Headache + Joint Pain + Muscle Pain + Nausea + Rash,H007,2
+Fever + Headache + Joint Pain + Muscle Pain + Nausea + Rash,H008,2
+Fever + Headache + Joint Pain + Muscle Pain + Nausea + Rash,H009,2
+Fever + Headache + Joint Pain + Muscle Pain + Nausea + Rash + Retro-orbital Pain,H002,10
+Fever + Headache + Joint Pain + Muscle Pain + Nausea + Rash + Vomiting,H001,2
+Fever + Headache + Joint Pain + Muscle Pain + Nausea + Rash + Vomiting,H002,1
+Fever + Headache + Joint Pain + Muscle Pain + Nausea + Rash + Vomiting,H005,3
+Fever + Headache + Joint Pain + Muscle Pain + Nausea + Vomiting,H010,1
+Fever + Headache + Joint Pain + Muscle Pain + Rash + Vomiting,H002,1
+Fever + Headache + Joint Pain + Muscle Pain + Rash + Vomiting,H005,1
+Fever + Headache + Muscle Pain + Nausea + Rash,H001,1
+Fever + Headache + Muscle Pain + Nausea + Rash,H003,3
+Fever + Headache + Muscle Pain + Nausea + Rash,H004,1
+Fever + Headache + Muscle Pain + Nausea + Rash,H005,1
+Fever + Headache + Muscle Pain + Nausea + Rash,H007,2
+Fever + Headache + Muscle Pain + Nausea + Rash,H008,1
+Fever + Headache + Muscle Pain + Nausea + Rash + Retro-orbital Pain,H004,2
+Fever + Headache + Muscle Pain + Nausea + Rash + Retro-orbital Pain,H005,5
+Fever + Headache + Muscle Pain + Nausea + Rash + Retro-orbital Pain,H006,2
+Fever + Headache + Muscle Pain + Nausea + Rash + Retro-orbital Pain,H009,1
+Fever + Headache + Muscle Pain + Nausea + Rash + Retro-orbital Pain,H010,3
+Fever + Headache + Muscle Pain + Nausea + Rash + Retro-orbital Pain + Vomiting,H005,1
+Fever + Headache + Muscle Pain + Nausea + Rash + Retro-orbital Pain + Vomiting,H009,1
+Fever + Headache + Muscle Pain + Nausea + Rash + Vomiting,H001,1
+Fever + Headache + Muscle Pain + Nausea + Rash + Vomiting,H005,1
+Fever + Headache + Muscle Pain + Nausea + Retro-orbital Pain,H008,1
+Fever + Headache + Muscle Pain + Nausea + Vomiting,H007,1
+Fever + Headache + Muscle Pain + Rash + Retro-orbital Pain,H002,1
+Fever + Headache + Muscle Pain + Rash + Retro-orbital Pain,H008,1
+Fever + Headache + Muscle Pain + Rash + Retro-orbital Pain + Vomiting,H001,1
+Fever + Headache + Muscle Pain + Rash + Retro-orbital Pain + Vomiting,H005,1
+Fever + Headache + Muscle Pain + Rash + Retro-orbital Pain + Vomiting,H006,1
+Fever + Headache + Muscle Pain + Rash + Retro-orbital Pain + Vomiting,H007,1
+Fever + Headache + Muscle Pain + Rash + Retro-orbital Pain + Vomiting,H008,2
+Fever + Headache + Muscle Pain + Rash + Retro-orbital Pain + Vomiting,H010,2
+Fever + Headache + Muscle Pain + Rash + Vomiting,H003,1
+Fever + Headache + Muscle Pain + Rash + Vomiting,H004,2
+Fever + Headache + Muscle Pain + Rash + Vomiting,H006,1
+Fever + Joint Pain + Muscle Pain + Nausea,H007,1
+Fever + Joint Pain + Muscle Pain + Nausea,H008,1
+Fever + Joint Pain + Muscle Pain + Nausea + Rash,H003,1
+Fever + Joint Pain + Muscle Pain + Nausea + Rash + Retro-orbital Pain,H002,4
+Fever + Joint Pain + Muscle Pain + Nausea + Rash + Vomiting,H008,2
+Fever + Muscle Pain + Nausea + Rash + Retro-orbital Pain,H004,1
+Fever + Muscle Pain + Nausea + Rash + Retro-orbital Pain + Vomiting,H006,2
+Fever + Muscle Pain + Nausea + Rash + Vomiting,H004,1
+Fever + Muscle Pain + Nausea + Retro-orbital Pain + Vomiting,H002,1
+Fever + Muscle Pain + Rash + Retro-orbital Pain,H002,2
+Fever + Muscle Pain + Rash + Retro-orbital Pain,H005,1
+Fever + Muscle Pain + Rash + Retro-orbital Pain,H007,1
+Fever + Muscle Pain + Rash + Retro-orbital Pain + Vomiting,H002,1
+Fever + Muscle Pain + Rash + Retro-orbital Pain + Vomiting,H003,1
+Fever + Muscle Pain + Rash + Vomiting,H003,2
+Fever + Night Sweats + Persistent Cough,H001,2
+Fever + Night Sweats + Persistent Cough,H002,1
+Fever + Night Sweats + Persistent Cough,H008,1
+Fever + Night Sweats + Persistent Cough,H009,1
+Fever + Night Sweats + Persistent Cough + Weight Loss,H010,1
+Fever + Persistent Cough,H008,1
+Persistent Cough,H008,9

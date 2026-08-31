@@ -1,0 +1,17 @@
+field,category,B_surveillance,C_federated_learning,D_anomaly_detection,E_treatment_advisor,privacy_action
+patient_id,DIRECT_IDENTIFIER,NOT_REQUIRED,NOT_REQUIRED,NOT_REQUIRED,NOT_REQUIRED,Keep for local clinical record linkage only
+encounter_id,LINKABLE_IDENTIFIER,LOCAL_ONLY,LOCAL_ONLY,LOCAL_ONLY,LOCAL_ONLY,Use only for local record linkage
+hospital_id,QUASI_IDENTIFIER,REQUIRED,LOCAL_ONLY,LOCAL_ONLY,NOT_REQUIRED,Use for hospital-level aggregation
+visit_timestamp,QUASI_IDENTIFIER,REQUIRED,NOT_REQUIRED,LOCAL_ONLY,NOT_REQUIRED,Use locally/for temporal aggregation
+age,QUASI_IDENTIFIER,OPTIONAL,REQUIRED,REQUIRED,REQUIRED,Use only where clinically relevant
+gender,QUASI_IDENTIFIER,OPTIONAL,REQUIRED,REQUIRED,REQUIRED,Use only where analytically required
+occupation,QUASI_IDENTIFIER,NOT_REQUIRED,OPTIONAL,NOT_REQUIRED,NOT_REQUIRED,Avoid unnecessary use
+district,QUASI_IDENTIFIER,OPTIONAL,NOT_REQUIRED,NOT_REQUIRED,NOT_REQUIRED,Use only for required geographic aggregation
+state,QUASI_IDENTIFIER,OPTIONAL,NOT_REQUIRED,NOT_REQUIRED,NOT_REQUIRED,Use only for required geographic aggregation
+clinical_vitals,SENSITIVE_CLINICAL,AGGREGATED,REQUIRED,REQUIRED,REQUIRED,Keep patient-level values local
+disease_id,SENSITIVE_CLINICAL,AGGREGATED,REQUIRED,REQUIRED,REQUIRED,Use locally; aggregate for surveillance
+severity_id,SENSITIVE_CLINICAL,AGGREGATED,REQUIRED,REQUIRED,REQUIRED,Use locally
+symptoms,SENSITIVE_CLINICAL,AGGREGATED,REQUIRED,REQUIRED,REQUIRED,Keep patient-level symptoms local
+treatment,SENSITIVE_CLINICAL,NOT_REQUIRED,REQUIRED,NOT_REQUIRED,REQUIRED,Keep treatment records local
+recovery_days,SENSITIVE_CLINICAL,NOT_REQUIRED,TRAINING_ONLY,NOT_REQUIRED,REQUIRED,Use only for outcome estimation
+complications,SENSITIVE_CLINICAL,AGGREGATED,OPTIONAL,NOT_REQUIRED,REQUIRED,Keep patient-level complication records local

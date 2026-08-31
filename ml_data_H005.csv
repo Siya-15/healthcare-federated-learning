@@ -1,0 +1,970 @@
+encounter_id,hospital_id,age,gender,occupation,temperature,heart_rate,respiratory_rate,systolic_bp,diastolic_bp,spo2,disease_id,severity_id,admission_status,visit_type,symptom_onset_days,travel_history,vaccination_status,discharge_status,recovery_days,Abdominal Pain,Anaemia,Bleeding,Breathlessness,Chest Pain,Chills,Dehydration,Diarrhoea,Dry Cough,Fatigue,Fever,Headache,Joint Pain,Loss of Appetite,Loss of Smell,Loss of Taste,Muscle Pain,Nausea,Night Sweats,Persistent Cough,Rash,Retro-orbital Pain,Runny Nose,Sore Throat,Sweating,Vomiting,Weight Loss
+ENC-F96A581F8F,H005,30,Female,Homemaker,39.4,97,21,115,74,100,D002,SV001,OPD,New,1,False,Vaccinated,Recovered,4,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-BA8C554FA6,H005,4,Male,Student,37.6,76,18,115,80,100,D004,SV001,OPD,New,4,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-F8E8668E01,H005,43,Male,Factory Worker,38.5,83,20,122,69,97,D005,SV001,OPD,New,1,True,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-94F2BCF130,H005,34,Male,Driver,38.3,87,20,109,70,100,D001,SV001,OPD,New,2,True,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-14E18501C2,H005,57,Male,Farmer,37.6,93,20,120,65,98,D005,SV001,OPD,New,4,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-17CFDB60B1,H005,45,Male,Office Worker,39.4,85,19,101,76,97,D002,SV001,OPD,New,1,False,Vaccinated,Recovered,7,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-6A2D418292,H005,39,Female,Electrician,39.5,129,29,93,69,98,D001,SV003,Admitted,New,8,False,Vaccinated,Recovered,26,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,1,1,0,0,0,1,0
+ENC-89A6945605,H005,52,Male,Farmer,39.8,129,24,103,64,96,D002,SV003,Admitted,New,5,False,Vaccinated,Recovered,22,0,1,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-7E6C02276B,H005,28,Male,Office Worker,38.3,75,19,120,79,98,D005,SV001,OPD,New,2,False,Not Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-33249616C0,H005,8,Male,Student,38.0,88,19,109,65,97,D004,SV001,OPD,New,4,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-9740F79CC0,H005,25,Female,Pharmacist,37.6,81,17,122,76,99,D005,SV001,OPD,New,2,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-A75893D0AF,H005,25,Female,Police Officer,37.7,84,19,107,69,98,D004,SV001,OPD,New,2,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-CCF7295755,H005,15,Male,Student,38.8,102,19,120,72,100,D002,SV001,OPD,New,3,False,Vaccinated,Recovered,4,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-77ABA0C386,H005,15,Female,Student,39.1,105,20,105,73,96,D002,SV002,Admitted,New,3,True,Vaccinated,Recovered,9,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0
+ENC-711105DB0A,H005,13,Male,Student,38.9,129,27,86,57,90,D005,SV003,Admitted,New,10,False,Vaccinated,Referred,14,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0
+ENC-DB90DACF62,H005,24,Female,Teacher,38.6,91,16,120,80,97,D001,SV001,OPD,New,3,True,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-703EB1AD42,H005,25,Female,Doctor,39.0,91,21,101,65,98,D002,SV001,OPD,New,1,False,Vaccinated,Recovered,4,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-90FAFE61B6,H005,7,Male,Student,37.9,85,17,105,68,98,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-8629F2DA17,H005,50,Female,Office Worker,39.3,99,20,96,67,96,D002,SV002,Admitted,New,4,True,Vaccinated,Recovered,10,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+ENC-F82A7A6623,H005,25,Female,Doctor,38.4,91,19,114,76,97,D004,SV001,OPD,New,1,True,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-E52F3DCA2D,H005,29,Male,Lab Technician,38.1,94,19,120,64,100,D001,SV001,OPD,New,2,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-21CAD98D10,H005,15,Female,Student,38.2,92,22,95,64,99,D008,SV002,Admitted,New,6,True,Vaccinated,Recovered,10,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-E7772C8A52,H005,78,Male,Retired Teacher,39.2,112,23,98,63,97,D001,SV002,Admitted,New,3,False,Vaccinated,Recovered,10,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0
+ENC-895E8DB624,H005,8,Male,Student,38.7,113,22,97,70,98,D001,SV002,OPD,New,2,False,Vaccinated,Recovered,13,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,1,0
+ENC-2B8BD5153F,H005,52,Male,Pharmacist,38.1,85,19,111,72,97,D008,SV001,OPD,New,1,True,Not Vaccinated,Recovered,3,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-B85C0398AD,H005,19,Male,Office Worker,38.4,88,19,111,74,98,D001,SV001,OPD,New,1,False,Not Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-573F17B3AF,H005,11,Female,Student,38.0,94,23,97,62,94,D004,SV002,OPD,New,6,False,Vaccinated,Recovered,11,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-0737B52C26,H005,25,Female,Homemaker,38.5,96,17,117,61,100,D001,SV001,OPD,New,4,True,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-2424EF854F,H005,56,Male,Business Owner,38.8,109,18,107,66,96,D001,SV002,Admitted,New,2,False,Vaccinated,Recovered,14,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+ENC-CEB10A22CF,H005,56,Female,Software Engineer,37.6,87,19,103,69,98,D008,SV001,OPD,New,3,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-559705C02D,H005,14,Male,Student,38.0,94,26,106,69,92,D005,SV002,OPD,New,6,False,Vaccinated,Recovered,14,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-23862D7E94,H005,11,Male,Student,38.5,105,25,96,50,94,D008,SV003,Admitted,New,4,False,Vaccinated,Stable,27,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-7970FF65C4,H005,30,Female,Software Engineer,38.1,88,16,124,70,99,D005,SV001,OPD,New,1,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-BCD0AC220E,H005,59,Male,Nurse,38.2,83,17,103,61,97,D001,SV001,OPD,New,3,True,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-830E54B888,H005,33,Female,Homemaker,38.9,100,19,111,63,98,D001,SV002,Admitted,New,2,False,Vaccinated,Recovered,11,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,1,0
+ENC-0432ECEF24,H005,9,Female,Student,38.3,92,20,118,68,97,D004,SV001,OPD,New,4,True,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-E42BA1D024,H005,6,Female,Student,37.9,77,16,110,78,98,D005,SV001,OPD,New,3,True,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-89F1486BBE,H005,7,Female,Student,38.6,93,20,110,79,100,D007,SV001,OPD,New,3,False,Not Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-3637BEB269,H005,35,Female,Police Officer,38.3,84,18,111,69,97,D001,SV001,OPD,New,2,False,Not Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-B54BD8239D,H005,58,Male,Factory Worker,38.4,87,20,107,79,99,D001,SV001,OPD,New,3,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-B3C6986E45,H005,27,Female,Office Worker,38.7,113,18,103,60,98,D001,SV002,Admitted,New,3,True,Vaccinated,Recovered,14,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,1,0,0,0,0,1,0
+ENC-710558963D,H005,78,Male,Retired Teacher,37.8,84,20,111,70,98,D005,SV001,OPD,New,4,True,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-1308240C59,H005,36,Male,Business Owner,37.6,85,16,111,65,98,D008,SV001,OPD,New,2,True,Vaccinated,Stable,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-349564D112,H005,1,Male,Student,37.5,78,17,112,73,98,D005,SV001,OPD,New,1,True,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-BBFEDD155F,H005,58,Male,Sales Executive,38.9,94,24,99,67,98,D008,SV002,Admitted,New,6,False,Vaccinated,Referred,7,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-5E18730B82,H005,55,Female,Office Worker,39.2,100,18,110,71,97,D002,SV001,OPD,New,3,False,Vaccinated,Recovered,6,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-3D45CF3803,H005,22,Male,Driver,37.7,89,19,113,77,98,D005,SV001,OPD,New,3,True,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-49F290AAB2,H005,16,Female,Student,38.9,84,18,105,73,99,D001,SV001,OPD,New,1,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-981BC116B9,H005,29,Male,Electrician,38.1,82,20,112,72,99,D001,SV001,OPD,New,2,True,Vaccinated,Stable,4,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-D4BCA17F34,H005,40,Female,Pharmacist,38.5,89,16,109,74,100,D001,SV001,OPD,New,1,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-D95887309B,H005,30,Male,Police Officer,39.0,101,22,117,72,100,D002,SV001,OPD,New,2,False,Not Vaccinated,Recovered,7,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-9554E2328A,H005,20,Male,Software Engineer,37.8,87,16,106,65,97,D005,SV001,OPD,New,3,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-0D5A75604F,H005,40,Female,Nurse,39.7,115,26,97,62,88,D005,SV003,Admitted,New,8,True,Vaccinated,Referred,16,0,0,0,1,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-CAD71173BA,H005,30,Female,Mechanic,38.0,84,17,109,69,100,D007,SV001,OPD,New,2,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-9A28C76514,H005,5,Male,Student,38.5,84,20,121,73,99,D004,SV001,OPD,New,4,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-8FBD8F1674,H005,16,Female,Student,38.4,92,19,104,76,97,D001,SV001,OPD,New,1,True,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-8C4DDD3B62,H005,30,Female,Electrician,38.4,81,20,120,71,98,D004,SV001,OPD,New,1,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-5087779B9F,H005,46,Female,Police Officer,40.0,101,28,92,60,83,D005,SV003,Admitted,New,8,False,Not Vaccinated,Recovered,26,0,0,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0
+ENC-E0175A9B29,H005,17,Female,Student,38.0,91,17,109,66,100,D007,SV001,OPD,New,4,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-1EC4B9208C,H005,57,Male,Nurse,39.6,114,21,114,73,99,D002,SV002,Admitted,New,2,False,Vaccinated,Recovered,9,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+ENC-6AD991FDA2,H005,10,Male,Student,38.4,93,18,110,76,100,D004,SV001,OPD,New,3,True,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-640685C360,H005,89,Male,Retired Teacher,38.4,90,20,123,70,99,D004,SV001,OPD,New,1,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+ENC-3A18ED0BD4,H005,22,Female,Lab Technician,38.3,95,17,111,73,96,D005,SV001,OPD,New,4,False,Not Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-066735D9A2,H005,35,Male,Farmer,38.4,82,17,107,65,99,D005,SV001,OPD,New,3,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-E865B545F2,H005,11,Male,Student,38.8,86,16,115,72,98,D007,SV001,OPD,New,4,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-EB8FB193FA,H005,21,Female,Nurse,38.1,84,19,110,80,98,D007,SV001,OPD,New,2,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-12574C5A55,H005,23,Female,Homemaker,37.6,95,16,110,80,97,D004,SV001,OPD,New,1,True,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-348E35BD29,H005,53,Male,Shopkeeper,38.5,93,19,115,63,97,D001,SV001,OPD,New,4,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-39A754E46F,H005,24,Male,Homemaker,38.1,107,21,101,65,94,D005,SV002,Admitted,New,2,False,Not Vaccinated,Stable,12,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-E96513A16D,H005,10,Male,Student,38.6,102,21,118,80,98,D002,SV001,OPD,New,4,True,Not Vaccinated,Recovered,6,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-6D6E1B319F,H005,50,Female,Software Engineer,38.4,96,22,113,74,92,D005,SV002,Admitted,New,2,False,Vaccinated,Recovered,13,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+ENC-E69A26D4F6,H005,55,Male,Doctor,37.6,84,19,108,69,97,D005,SV001,OPD,New,2,True,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-38775C53AB,H005,60,Male,Retired Farmer,38.2,88,20,107,67,97,D007,SV001,OPD,New,4,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-D76C3B09E9,H005,30,Female,Teacher,39.2,93,20,114,76,97,D002,SV001,OPD,New,2,False,Not Vaccinated,Recovered,3,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-F3A00129B4,H005,38,Female,Homemaker,39.6,115,21,100,65,96,D002,SV002,Admitted,New,6,False,Vaccinated,Recovered,8,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+ENC-D1DFBCC677,H005,61,Female,Retired Teacher,37.8,93,19,124,79,100,D004,SV001,OPD,New,2,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-DBC4D56444,H005,13,Male,Student,37.9,83,18,118,65,97,D008,SV001,OPD,New,3,False,Not Vaccinated,Recovered,4,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-C560FEF139,H005,43,Male,Police Officer,38.3,88,18,113,76,98,D008,SV001,OPD,New,4,False,Vaccinated,Recovered,5,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-8CB6F29F28,H005,2,Female,Student,37.9,86,20,121,76,97,D004,SV001,OPD,New,1,True,Not Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-5E989E1A2A,H005,53,Female,Farmer,38.0,81,20,117,68,97,D005,SV001,OPD,New,2,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-C9ED43B4BF,H005,39,Female,Factory Worker,38.3,91,16,103,72,100,D008,SV001,OPD,New,3,True,Vaccinated,Stable,7,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-C8142BF542,H005,35,Male,Driver,39.4,103,18,100,75,98,D002,SV001,OPD,New,3,False,Vaccinated,Recovered,7,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-FE4CF0D48F,H005,72,Female,Homemaker,38.9,91,19,113,75,98,D007,SV001,OPD,New,2,False,Not Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-C50BE4AA96,H005,43,Female,Police Officer,38.6,99,24,110,60,90,D005,SV002,Admitted,New,2,False,Vaccinated,Recovered,11,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0
+ENC-8C188DE3BC,H005,59,Female,Business Owner,37.8,91,16,113,76,97,D005,SV001,OPD,New,2,False,Not Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-4353379866,H005,18,Male,Teacher,38.3,83,17,115,78,99,D004,SV001,OPD,New,3,True,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-E9001EDE16,H005,10,Female,Student,38.6,90,17,116,72,100,D007,SV001,OPD,New,1,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-64FBA6C43F,H005,6,Male,Student,39.0,85,19,109,74,97,D002,SV001,OPD,New,2,False,Vaccinated,Recovered,6,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-966BDE80BA,H005,5,Female,Student,38.9,96,26,100,69,92,D005,SV002,Admitted,New,6,False,Not Vaccinated,Recovered,14,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0
+ENC-F107515284,H005,10,Male,Student,38.9,107,22,92,65,96,D008,SV002,Admitted,New,6,False,Vaccinated,Recovered,12,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-CAAC256FE4,H005,18,Male,Pharmacist,38.7,90,21,114,67,90,D005,SV002,Admitted,New,4,False,Vaccinated,Recovered,11,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0
+ENC-4BC5A07ED5,H005,65,Female,Retired Teacher,37.7,75,18,112,73,98,D004,SV001,OPD,New,4,True,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-EF1C3EFA9B,H005,41,Male,Office Worker,38.3,89,18,118,80,97,D008,SV001,OPD,New,4,True,Vaccinated,Recovered,5,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-FB8026DE42,H005,25,Male,Pharmacist,38.3,99,18,113,70,100,D003,SV001,OPD,New,2,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-381E5BB512,H005,13,Female,Student,39.0,101,19,103,61,98,D008,SV002,OPD,New,5,False,Not Vaccinated,Recovered,10,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-937A1FF48A,H005,59,Female,Electrician,38.5,100,19,106,72,100,D007,SV001,OPD,New,4,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-3D8A1E37B8,H005,51,Female,Sales Executive,38.5,100,31,100,60,92,D006,SV003,Admitted,New,10,False,Vaccinated,Recovered,15,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+ENC-D6A6331513,H005,5,Female,Student,38.1,91,19,108,70,97,D004,SV001,OPD,New,2,False,Not Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-64AAB994B8,H005,72,Female,Homemaker,39.3,95,22,110,65,99,D002,SV001,OPD,New,1,False,Vaccinated,Recovered,7,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-763623C2B3,H005,34,Male,Doctor,37.8,90,16,110,74,99,D008,SV001,OPD,New,1,False,Not Vaccinated,Recovered,7,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-6F371A77DA,H005,62,Female,Homemaker,38.6,95,23,102,63,97,D001,SV002,Admitted,New,6,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0
+ENC-0672CA9F9E,H005,56,Male,Office Worker,38.1,99,18,113,60,93,D006,SV002,Admitted,New,5,False,Vaccinated,Recovered,12,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+ENC-C8AF48A3BB,H005,8,Male,Student,37.8,82,19,119,78,99,D006,SV001,OPD,New,4,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+ENC-949634AFCA,H005,49,Male,Nurse,37.6,92,19,116,79,99,D005,SV001,OPD,New,1,False,Not Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-3F585F0583,H005,22,Female,Electrician,38.0,90,20,121,72,100,D004,SV001,OPD,New,4,True,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-86E6A32F4F,H005,70,Female,Retired,39.7,114,24,99,75,98,D002,SV002,Admitted,New,7,False,Vaccinated,Recovered,14,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0
+ENC-88F88730A3,H005,32,Female,Teacher,38.9,95,18,96,63,97,D007,SV002,OPD,New,2,False,Vaccinated,Recovered,14,1,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-E4A817946D,H005,34,Female,Teacher,37.7,81,18,108,68,99,D005,SV001,OPD,New,3,False,Not Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-B8FBEDBB57,H005,51,Male,Government Employee,39.0,128,27,96,56,96,D001,SV003,Admitted,New,8,False,Vaccinated,Recovered,22,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,1,1,0,0,0,1,0
+ENC-B1BFD553DC,H005,54,Female,Shopkeeper,38.9,95,22,96,67,93,D005,SV002,Admitted,New,5,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0
+ENC-A4790D0F69,H005,31,Male,Software Engineer,39.2,98,20,105,75,98,D002,SV002,Admitted,New,3,False,Vaccinated,Recovered,7,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+ENC-B3187833E2,H005,20,Male,Pharmacist,38.3,86,16,108,76,96,D005,SV001,OPD,New,4,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-A0CBA09A15,H005,4,Female,Student,38.0,81,20,112,69,99,D001,SV001,OPD,New,1,True,Not Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-C8684A665A,H005,32,Female,Shopkeeper,39.0,95,20,100,71,94,D004,SV002,Admitted,New,5,False,Vaccinated,Recovered,9,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-703E4537EA,H005,27,Female,Mechanic,38.0,90,20,117,65,98,D008,SV001,OPD,New,3,False,Vaccinated,Recovered,6,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-778F94381B,H005,32,Male,Office Worker,38.8,100,19,107,66,98,D007,SV001,OPD,New,2,False,Not Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-943FDB2D62,H005,50,Male,Office Worker,38.7,93,18,108,72,97,D002,SV001,OPD,New,3,True,Vaccinated,Recovered,5,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-B9F9D0E602,H005,40,Male,Driver,38.6,102,25,96,73,94,D005,SV002,Admitted,New,6,False,Not Vaccinated,Recovered,8,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+ENC-AA80D0B8DB,H005,17,Male,Student,38.7,89,20,116,71,98,D002,SV001,OPD,New,1,True,Vaccinated,Recovered,3,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-D33EADDA5B,H005,21,Female,Doctor,39.4,98,18,102,74,100,D002,SV001,OPD,New,2,False,Vaccinated,Recovered,5,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-6D9343F46E,H005,55,Male,Doctor,38.4,82,19,119,72,100,D008,SV001,OPD,New,2,False,Vaccinated,Recovered,6,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-726CC2A167,H005,25,Male,Government Employee,38.3,94,18,110,77,98,D008,SV001,OPD,New,3,False,Vaccinated,Stable,3,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-10BCBADDC7,H005,69,Female,Retired Government Employee,37.9,81,18,111,70,97,D008,SV001,OPD,New,2,True,Vaccinated,Recovered,3,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-8DC6A670E4,H005,29,Male,Doctor,38.3,86,20,118,68,100,D008,SV001,OPD,New,3,False,Vaccinated,Recovered,7,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-41338AE2F0,H005,14,Female,Student,38.9,85,17,101,70,98,D007,SV001,OPD,New,2,False,Not Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-8905281060,H005,52,Male,Police Officer,38.6,88,19,113,74,98,D002,SV001,OPD,New,3,False,Vaccinated,Recovered,7,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-A5E99F4960,H005,73,Male,Retired Army Officer,39.0,92,19,115,62,98,D001,SV001,OPD,New,3,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-49E1403BBA,H005,26,Female,Homemaker,38.0,75,17,106,75,96,D005,SV001,OPD,New,1,False,Not Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-5B964A1781,H005,49,Male,Sales Executive,38.8,106,21,110,75,99,D001,SV002,Admitted,New,6,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0
+ENC-9347EA3945,H005,10,Male,Student,37.8,94,19,116,66,99,D008,SV001,OPD,New,3,False,Vaccinated,Recovered,4,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-81E7A85970,H005,47,Male,Doctor,39.7,116,29,98,57,94,D007,SV003,Admitted,New,7,False,Vaccinated,Recovered,21,1,0,0,0,0,0,0,1,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-C5ADF8B3F2,H005,26,Female,Government Employee,38.9,84,20,100,78,100,D001,SV001,OPD,New,3,True,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-54BA4ABB9B,H005,46,Female,Software Engineer,37.6,85,18,116,79,98,D005,SV001,OPD,New,3,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-08C4ED1103,H005,48,Male,Mechanic,37.6,80,16,124,73,98,D004,SV001,OPD,New,3,False,Vaccinated,Stable,6,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-FB7381F8FD,H005,50,Male,Office Worker,39.0,117,30,96,67,97,D001,SV003,Admitted,New,10,False,Vaccinated,Recovered,20,0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0
+ENC-B55F79D200,H005,44,Female,Nurse,39.5,88,22,100,72,98,D002,SV001,OPD,New,4,False,Vaccinated,Recovered,6,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-12EC8128D8,H005,2,Male,Student,39.4,105,20,111,69,99,D002,SV001,OPD,New,1,False,Vaccinated,Recovered,6,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-13EDB3CF87,H005,53,Male,Nurse,38.2,84,18,124,69,98,D004,SV001,OPD,New,1,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-50778F5DBA,H005,69,Male,Retired,37.7,84,20,107,78,98,D005,SV001,OPD,New,4,True,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-627FF1E59B,H005,34,Male,Farmer,37.7,90,20,108,79,99,D008,SV001,OPD,New,1,True,Vaccinated,Recovered,5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-4DD7A47CFF,H005,57,Female,Doctor,39.6,125,23,101,60,97,D007,SV003,Admitted,New,4,True,Vaccinated,Stable,28,1,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-E47E5A1811,H005,41,Female,Nurse,38.2,87,18,109,67,100,D004,SV001,OPD,New,4,False,Vaccinated,Stable,3,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-942A78816C,H005,51,Male,Shopkeeper,38.3,100,18,114,70,99,D007,SV001,OPD,New,2,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-5331F0EE2B,H005,6,Female,Student,37.5,87,19,122,72,97,D005,SV001,OPD,New,1,False,Not Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-0C683FE69E,H005,37,Female,Homemaker,38.3,76,19,112,71,97,D004,SV001,OPD,New,2,False,Not Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-D9CA73FF23,H005,3,Female,Student,38.3,84,17,120,74,98,D008,SV001,OPD,New,2,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-E1AB7311A4,H005,11,Male,Student,37.8,81,17,112,66,98,D006,SV001,OPD,New,1,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+ENC-B5B4FA901F,H005,52,Female,Software Engineer,38.5,95,20,109,68,97,D004,SV002,Admitted,New,2,True,Vaccinated,Recovered,12,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-2B0E5C5EEA,H005,41,Male,Doctor,38.0,86,16,110,77,98,D008,SV001,OPD,New,4,True,Vaccinated,Recovered,7,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-C057B8A9E9,H005,8,Female,Student,39.3,99,23,96,60,96,D001,SV002,Admitted,New,6,False,Not Vaccinated,Recovered,9,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,1,1,0,0,0,0,0
+ENC-9ED740A0A1,H005,12,Female,Student,38.2,100,16,100,73,97,D001,SV001,OPD,New,1,True,Not Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-F6D59F590F,H005,35,Female,Pharmacist,38.5,94,20,107,65,96,D005,SV001,OPD,New,1,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-0152BE5D87,H005,4,Male,Student,38.0,76,19,109,75,97,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-3C2ECEEEB3,H005,41,Female,Farmer,38.6,96,22,114,73,99,D001,SV002,OPD,New,7,False,Vaccinated,Recovered,14,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,1,1,0,0,0,1,0
+ENC-B0C7CE7DB3,H005,37,Male,Police Officer,37.8,94,16,122,79,98,D004,SV001,OPD,New,2,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-B77A719CA1,H005,43,Male,Software Engineer,39.1,94,22,101,75,98,D003,SV002,Admitted,New,5,False,Vaccinated,Recovered,9,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+ENC-2F7E00276F,H005,25,Female,Driver,39.2,115,22,109,70,96,D001,SV002,Admitted,New,7,False,Vaccinated,Recovered,14,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+ENC-317FA5ACCE,H005,17,Female,Student,38.9,107,22,106,70,97,D007,SV002,OPD,New,2,False,Vaccinated,Recovered,13,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-B0EAF444A7,H005,28,Male,Mechanic,39.0,96,24,112,60,98,D001,SV002,Admitted,New,7,True,Not Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+ENC-26F41E7FCC,H005,63,Female,Retired Army Officer,39.3,110,18,95,60,97,D001,SV002,Admitted,New,5,False,Vaccinated,Recovered,11,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-7EC4EE79FA,H005,10,Female,Student,39.2,115,23,97,74,98,D001,SV002,OPD,New,5,False,Vaccinated,Recovered,8,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-2854B35E96,H005,16,Female,Student,38.2,109,20,113,74,95,D004,SV002,Admitted,New,7,False,Vaccinated,Stable,13,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-8D1C225C90,H005,40,Male,Pharmacist,38.0,91,18,121,68,99,D004,SV001,OPD,New,4,True,Not Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-346BAD78BF,H005,54,Female,Shopkeeper,37.6,76,19,120,78,98,D005,SV001,OPD,New,3,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-E731B5EA60,H005,64,Male,Retired Teacher,39.3,96,21,96,74,99,D003,SV002,Admitted,New,7,False,Vaccinated,Recovered,11,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-48997748A3,H005,36,Male,Farmer,37.5,91,18,119,65,98,D004,SV001,OPD,New,1,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-520ACAA1FC,H005,55,Female,Mechanic,38.5,99,18,100,68,98,D002,SV001,OPD,New,4,True,Vaccinated,Recovered,5,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-465C7C5DB6,H005,30,Male,Farmer,38.7,100,18,99,69,96,D003,SV002,Admitted,New,2,False,Vaccinated,Recovered,10,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+ENC-75DC6800A7,H005,51,Male,Lab Technician,38.2,82,20,114,67,97,D004,SV001,OPD,New,1,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-E388A4FD8E,H005,25,Male,Pharmacist,39.0,115,28,93,65,94,D007,SV003,Admitted,New,6,False,Not Vaccinated,Recovered,28,1,0,0,0,0,0,0,1,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-C669628E33,H005,24,Male,Farmer,38.4,80,20,110,70,98,D008,SV001,OPD,New,4,False,Not Vaccinated,Recovered,6,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-C20AC2A85C,H005,59,Male,Farmer,38.5,95,22,109,73,96,D001,SV002,Admitted,New,2,False,Not Vaccinated,Recovered,14,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+ENC-F47144659A,H005,15,Female,Student,37.7,94,19,110,78,99,D004,SV001,OPD,New,4,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-E1AA824F91,H005,25,Male,Mechanic,37.9,75,18,124,76,99,D005,SV001,OPD,New,2,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-D3CF3CE981,H005,6,Male,Student,37.9,91,19,115,80,98,D004,SV001,OPD,New,1,True,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-21E013B434,H005,33,Male,Factory Worker,37.7,88,17,115,71,97,D004,SV001,OPD,New,4,False,Vaccinated,Stable,6,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-4DF24ACB44,H005,3,Male,Student,37.6,79,17,121,71,100,D004,SV001,OPD,New,2,True,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-0DEFE240F7,H005,1,Female,Student,39.6,98,22,100,60,99,D002,SV002,Admitted,New,4,False,Vaccinated,Recovered,9,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0
+ENC-93EB780557,H005,36,Male,Factory Worker,37.6,80,20,118,68,99,D006,SV001,OPD,New,4,True,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+ENC-4338944AAE,H005,33,Male,Government Employee,38.2,81,16,112,73,96,D005,SV001,OPD,New,4,False,Vaccinated,Stable,7,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-2D76EB0B00,H005,20,Female,Farmer,38.7,99,18,109,75,98,D003,SV002,Admitted,New,7,False,Vaccinated,Recovered,11,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+ENC-93A25B4DE2,H005,20,Male,Homemaker,38.4,88,20,117,77,100,D008,SV001,OPD,New,4,True,Vaccinated,Recovered,7,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-7BBDC3B8B7,H005,69,Male,Retired,38.1,92,17,111,72,98,D005,SV001,OPD,New,1,False,Not Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-99127AF575,H005,46,Female,Nurse,38.4,91,19,94,56,97,D008,SV002,Admitted,New,6,False,Vaccinated,Recovered,14,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-E14CBD6F59,H005,43,Female,Business Owner,39.0,89,18,110,77,97,D007,SV001,OPD,New,2,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-9D5911CA05,H005,53,Female,Lab Technician,37.5,88,17,104,75,99,D008,SV001,OPD,New,3,False,Not Vaccinated,Recovered,6,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-9F1C2628B8,H005,1,Female,Student,38.2,78,20,124,75,99,D004,SV001,OPD,New,4,True,Vaccinated,Stable,4,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-E38B8B4A6F,H005,7,Female,Student,38.7,101,19,96,66,96,D001,SV002,Admitted,New,5,True,Vaccinated,Recovered,11,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,1,1,0,0,0,0,0
+ENC-49852CE503,H005,87,Male,Retired Army Officer,39.9,103,24,106,64,99,D002,SV002,Admitted,New,6,False,Not Vaccinated,Recovered,10,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+ENC-27D6DEBDCC,H005,79,Male,Retired Teacher,38.2,81,19,112,66,99,D001,SV001,OPD,New,1,True,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-85D47C6090,H005,6,Female,Student,38.4,110,21,97,67,94,D005,SV002,Admitted,New,3,False,Vaccinated,Recovered,9,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+ENC-CEEB67AF5D,H005,36,Female,Driver,38.3,83,16,116,65,98,D001,SV001,OPD,New,2,False,Not Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-F9E563E558,H005,9,Female,Student,38.4,84,16,101,76,98,D007,SV001,OPD,New,3,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-54F688C493,H005,37,Female,Office Worker,37.5,76,20,120,75,99,D004,SV001,OPD,New,4,True,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-1D1C158A29,H005,56,Female,Doctor,38.1,85,16,109,69,97,D007,SV001,OPD,New,2,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-60617EFDD6,H005,29,Male,Business Owner,39.6,128,26,102,70,94,D001,SV003,Admitted,New,4,False,Vaccinated,Referred,21,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,1,1,0,0,0,1,0
+ENC-41A061534E,H005,78,Female,Retired Farmer,38.0,82,19,100,69,98,D008,SV001,OPD,New,4,False,Vaccinated,Recovered,6,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-69347AEE52,H005,52,Male,Doctor,37.5,86,20,117,68,97,D008,SV001,OPD,New,4,False,Vaccinated,Recovered,5,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-C6A41E9A8C,H005,20,Female,Sales Executive,38.5,80,19,111,79,97,D004,SV001,OPD,New,4,False,Not Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-93B355FF07,H005,30,Female,Doctor,37.7,80,19,115,67,97,D008,SV001,OPD,New,3,True,Vaccinated,Recovered,6,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-013BA44DB7,H005,44,Male,Teacher,38.5,91,17,116,78,99,D005,SV001,OPD,New,1,True,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-A32336531D,H005,54,Female,Teacher,39.3,113,21,105,60,99,D002,SV002,Admitted,New,3,False,Vaccinated,Recovered,8,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0
+ENC-BE42DBEF03,H005,62,Female,Retired Farmer,38.4,84,19,105,80,97,D005,SV001,OPD,New,4,True,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-4C6C9779C5,H005,35,Female,Office Worker,38.1,97,19,109,60,99,D001,SV001,OPD,New,4,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-F286E4C07D,H005,52,Female,Nurse,38.4,75,16,109,70,99,D004,SV001,OPD,New,4,True,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-F69201BB6D,H005,51,Female,Nurse,38.8,102,20,105,70,98,D003,SV002,Admitted,New,5,False,Vaccinated,Recovered,11,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+ENC-AB2886DBBE,H005,38,Male,Business Owner,38.0,94,16,113,65,99,D004,SV001,OPD,New,1,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-A11F09B200,H005,52,Male,Sales Executive,38.6,100,19,115,73,100,D002,SV001,OPD,New,3,False,Vaccinated,Recovered,5,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-42E58BD6AB,H005,20,Female,Nurse,38.3,84,17,110,79,98,D008,SV001,OPD,New,4,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-1698AB1E7B,H005,83,Male,Retired Farmer,38.1,93,20,117,80,98,D001,SV001,OPD,New,3,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-1F839A380F,H005,74,Male,Retired,37.7,84,19,118,66,100,D008,SV001,OPD,New,1,False,Vaccinated,Recovered,5,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-145CCD706A,H005,26,Female,Office Worker,37.7,91,16,107,79,100,D004,SV001,OPD,New,1,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-AB9DA712C4,H005,3,Male,Student,39.3,106,23,95,67,98,D002,SV002,Admitted,New,3,True,Vaccinated,Recovered,11,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+ENC-A9C1A7B84D,H005,26,Female,Software Engineer,39.0,100,19,115,76,100,D002,SV001,OPD,New,2,False,Vaccinated,Recovered,6,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-5F8AC645B1,H005,59,Female,Teacher,38.4,81,18,118,75,100,D008,SV001,OPD,New,1,True,Vaccinated,Recovered,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-7B3CD176AE,H005,48,Female,Driver,38.4,95,16,125,79,100,D004,SV001,OPD,New,2,True,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+ENC-45F74C73DF,H005,77,Male,Retired Farmer,37.8,87,18,120,70,99,D004,SV001,OPD,New,1,True,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-D12D436CDB,H005,4,Male,Student,39.3,105,22,100,79,97,D002,SV001,OPD,New,3,False,Vaccinated,Recovered,7,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-E1A38F17F0,H005,48,Male,Pharmacist,37.6,80,16,123,74,100,D004,SV001,OPD,New,2,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+ENC-D00BBA91E6,H005,89,Female,Retired Farmer,39.4,111,24,105,72,97,D001,SV002,Admitted,New,3,False,Vaccinated,Recovered,8,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,1,0,0,0,0,1,0
+ENC-4E345C7492,H005,24,Female,Mechanic,37.0,85,16,108,68,99,D006,SV001,OPD,New,1,True,Not Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+ENC-1E14171AC3,H005,8,Male,Student,37.9,83,16,122,73,96,D005,SV001,OPD,New,2,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-7835C07A42,H005,82,Female,Homemaker,37.9,75,19,105,65,99,D005,SV001,OPD,New,1,False,Not Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-E3D43C2F13,H005,39,Female,Mechanic,38.3,91,18,111,68,100,D008,SV001,OPD,New,1,True,Vaccinated,Recovered,4,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-C7FAB3ED03,H005,46,Female,Government Employee,37.8,85,18,111,76,99,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-1713E815E6,H005,8,Female,Student,37.9,95,16,108,74,98,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-E337317899,H005,65,Female,Retired,37.8,79,16,113,79,96,D005,SV001,OPD,New,1,False,Not Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-A6E1E3B3B1,H005,59,Female,Electrician,39.0,92,21,107,78,97,D002,SV001,OPD,New,1,False,Vaccinated,Recovered,5,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-30BC3E9BA6,H005,32,Female,Office Worker,39.3,86,22,102,75,100,D002,SV001,OPD,New,3,False,Vaccinated,Recovered,5,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-AAC6CFFBD7,H005,9,Male,Student,38.7,113,28,91,55,94,D004,SV003,Admitted,New,6,True,Vaccinated,Stable,19,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-788B6299F4,H005,28,Female,Doctor,39.2,102,22,104,73,97,D002,SV001,OPD,New,2,False,Vaccinated,Recovered,3,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-E09FE3417A,H005,90,Female,Retired Teacher,39.3,101,23,110,70,98,D001,SV002,Admitted,New,7,False,Vaccinated,Recovered,12,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-3A1B3682DF,H005,64,Male,Retired,38.2,95,18,111,77,97,D005,SV001,OPD,New,2,True,Not Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-80BA362ABD,H005,24,Female,Business Owner,38.5,98,21,98,67,97,D004,SV002,Admitted,New,4,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-D9AB2359F2,H005,48,Male,Farmer,38.2,88,19,123,77,98,D005,SV001,OPD,New,1,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-ACDBF29E25,H005,34,Male,Driver,37.8,86,19,103,76,97,D008,SV001,OPD,New,3,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-74000B89EE,H005,43,Female,Software Engineer,38.8,100,17,109,71,99,D007,SV001,OPD,New,4,True,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-0A5AF9078A,H005,85,Female,Retired Teacher,38.6,100,18,107,78,98,D002,SV001,OPD,New,3,False,Vaccinated,Recovered,5,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-4B7340366C,H005,70,Male,Retired Teacher,38.1,93,19,124,68,100,D004,SV001,OPD,New,2,True,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-E6D11E7EBE,H005,73,Female,Retired Teacher,37.6,91,20,105,66,100,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-74B0CF9816,H005,57,Male,Factory Worker,38.5,92,17,114,65,97,D004,SV001,OPD,New,1,False,Not Vaccinated,Stable,3,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-568E435B00,H005,59,Male,Nurse,38.9,84,20,118,62,100,D001,SV001,OPD,New,2,False,Not Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-2D358F135F,H005,75,Female,Retired Teacher,37.8,88,16,116,75,100,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-33533EF284,H005,31,Male,Farmer,38.0,75,19,113,70,100,D004,SV001,OPD,New,4,False,Vaccinated,Stable,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-E2A48D67B1,H005,29,Female,Nurse,38.6,93,18,114,74,97,D007,SV002,Admitted,New,4,False,Vaccinated,Recovered,14,1,0,0,0,0,0,0,1,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-A58E58C887,H005,12,Female,Student,38.5,81,19,103,68,99,D008,SV001,OPD,New,2,False,Vaccinated,Recovered,7,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-1FDB811845,H005,49,Male,Nurse,38.4,88,19,103,68,100,D008,SV001,OPD,New,4,False,Not Vaccinated,Recovered,7,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-717D600E76,H005,7,Male,Student,38.6,100,20,104,62,99,D001,SV001,OPD,New,2,True,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-C5EAB10022,H005,44,Male,Government Employee,38.1,82,17,121,66,97,D005,SV001,OPD,New,4,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-D055D66CA5,H005,64,Female,Retired Farmer,37.7,93,18,122,74,99,D005,SV001,OPD,New,1,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-122D5510D5,H005,32,Female,Shopkeeper,38.7,100,20,108,76,97,D007,SV001,OPD,New,3,False,Not Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-C0C5D19F9B,H005,29,Female,Software Engineer,39.2,100,22,115,69,98,D002,SV002,Admitted,New,2,False,Vaccinated,Recovered,11,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-9C88E460EE,H005,22,Male,Farmer,40.0,109,21,102,63,98,D002,SV002,Admitted,New,2,False,Vaccinated,Referred,14,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0
+ENC-E74EB73888,H005,46,Female,Lab Technician,37.7,87,16,107,78,98,D005,SV001,OPD,New,3,True,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-27A25D4EBF,H005,11,Male,Student,38.4,83,18,119,79,97,D007,SV001,OPD,New,4,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-114BF718CA,H005,59,Female,Homemaker,38.6,92,21,112,66,94,D004,SV002,OPD,New,6,True,Vaccinated,Recovered,12,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-8F1CA1822A,H005,42,Female,Software Engineer,37.5,91,20,112,76,96,D005,SV001,OPD,New,2,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-68038B41DF,H005,6,Male,Student,39.3,104,20,105,71,97,D002,SV001,OPD,New,1,False,Vaccinated,Recovered,7,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-31009ED24E,H005,75,Male,Retired Government Employee,38.3,78,18,122,76,100,D004,SV001,OPD,New,2,False,Not Vaccinated,Stable,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-A94EB70438,H005,49,Male,Pharmacist,38.6,80,17,116,79,100,D001,SV001,OPD,New,3,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-169DDFF163,H005,48,Male,Electrician,38.1,92,20,109,62,94,D004,SV002,Admitted,New,6,True,Vaccinated,Recovered,11,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-C5DCB3E1E0,H005,19,Female,Homemaker,38.0,92,16,119,69,100,D008,SV001,OPD,New,2,False,Vaccinated,Recovered,3,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-C9E7BD8750,H005,32,Female,Government Employee,37.6,86,20,105,76,97,D005,SV001,OPD,New,2,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-FA8807E506,H005,59,Female,Doctor,37.9,99,23,95,73,94,D006,SV002,Admitted,New,4,True,Vaccinated,Recovered,8,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+ENC-3AF59E48B0,H005,44,Female,Software Engineer,37.9,86,18,112,77,97,D008,SV001,OPD,New,4,False,Vaccinated,Recovered,7,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-54364602EB,H005,30,Male,Teacher,39.6,117,32,88,58,84,D005,SV003,Admitted,New,10,False,Not Vaccinated,Stable,14,0,0,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0
+ENC-AADB9D608C,H005,34,Female,Pharmacist,38.0,98,21,112,61,94,D004,SV002,Admitted,New,6,True,Not Vaccinated,Referred,12,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-442E59BDA9,H005,29,Female,Lab Technician,38.1,89,20,114,80,99,D001,SV001,OPD,New,1,True,Not Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-9163414DC2,H005,44,Female,Nurse,38.6,100,19,108,69,99,D001,SV001,OPD,New,3,False,Not Vaccinated,Stable,4,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-EA0CAC8FA5,H005,86,Female,Retired,38.4,94,21,111,65,94,D004,SV002,Admitted,New,3,False,Vaccinated,Stable,12,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-02BBC35224,H005,58,Female,Shopkeeper,38.5,93,18,112,75,96,D005,SV001,OPD,New,2,False,Not Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-12D40EB882,H005,48,Male,Nurse,38.4,89,18,116,77,97,D004,SV001,OPD,New,4,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-C9DE78A0E5,H005,60,Male,Retired Teacher,39.5,111,23,103,69,97,D002,SV002,Admitted,New,3,False,Vaccinated,Recovered,13,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+ENC-34469279FE,H005,55,Female,Business Owner,40.4,112,30,103,64,95,D002,SV003,Admitted,New,8,False,Vaccinated,Recovered,15,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-152A4A826D,H005,23,Male,Police Officer,39.7,118,29,97,56,94,D001,SV003,Admitted,New,7,True,Vaccinated,Recovered,25,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1,0,0,1,0,0,0,0,1,0
+ENC-8B9A9C8D6C,H005,20,Male,Mechanic,39.1,91,20,119,72,98,D002,SV001,OPD,New,1,False,Vaccinated,Recovered,3,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-65CA88C289,H005,31,Male,Sales Executive,38.4,81,18,125,76,100,D004,SV001,OPD,New,1,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-501C460E5E,H005,26,Male,Driver,38.1,95,19,108,80,98,D008,SV001,OPD,New,3,True,Vaccinated,Recovered,6,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-FAB9C3DF60,H005,23,Female,Farmer,37.8,81,18,105,75,99,D005,SV001,OPD,New,3,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-6B51B3A87F,H005,38,Male,Shopkeeper,38.0,93,19,117,75,98,D008,SV001,OPD,New,2,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-5902B25070,H005,48,Male,Pharmacist,38.4,85,20,115,79,97,D004,SV001,OPD,New,3,False,Not Vaccinated,Stable,4,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-FCEB420666,H005,67,Female,Retired,38.0,87,20,113,65,99,D008,SV001,OPD,New,3,False,Vaccinated,Recovered,4,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-E04D7C42A7,H005,16,Male,Student,38.6,101,18,113,70,97,D002,SV001,OPD,New,2,False,Vaccinated,Recovered,6,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-CE3E91A647,H005,21,Female,Electrician,38.2,92,16,115,75,97,D005,SV001,OPD,New,4,False,Not Vaccinated,Stable,7,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-4AE09F09AB,H005,21,Male,Homemaker,39.6,118,22,86,57,97,D001,SV003,Admitted,New,5,True,Vaccinated,Recovered,24,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,1,1,0,0,0,0,0
+ENC-E511CC7982,H005,50,Male,Government Employee,38.8,103,22,109,66,97,D002,SV001,OPD,New,2,False,Vaccinated,Stable,6,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-66065EA7E6,H005,19,Male,Police Officer,38.4,79,17,122,71,99,D004,SV001,OPD,New,3,False,Not Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-442DD0D723,H005,1,Female,Student,38.7,88,16,108,61,98,D001,SV001,OPD,New,3,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-66CD8D2B93,H005,56,Male,Lab Technician,38.2,85,17,121,72,98,D004,SV001,OPD,New,4,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-B990196D8D,H005,57,Female,Homemaker,38.2,80,19,111,80,100,D004,SV001,OPD,New,1,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-705E606FA7,H005,25,Male,Office Worker,38.0,84,17,121,67,97,D005,SV001,OPD,New,1,False,Not Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-C197A5B1B4,H005,50,Male,Police Officer,38.4,83,18,108,72,97,D001,SV001,OPD,New,4,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-C741B8A2B8,H005,44,Male,Sales Executive,38.5,85,20,118,71,100,D008,SV001,OPD,New,2,False,Vaccinated,Recovered,4,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-D14A1DC806,H005,53,Female,Factory Worker,37.7,84,17,109,76,98,D008,SV001,OPD,New,4,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-606B732B9F,H005,76,Male,Retired Farmer,39.3,86,21,104,74,98,D002,SV001,OPD,New,2,False,Vaccinated,Recovered,7,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-AE1DCFE0A4,H005,35,Female,Lab Technician,38.8,96,20,104,74,96,D001,SV002,Admitted,New,4,True,Vaccinated,Recovered,9,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+ENC-C913B57583,H005,73,Female,Retired Teacher,37.6,83,20,107,69,98,D008,SV001,OPD,New,2,True,Vaccinated,Recovered,5,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-6608E93A57,H005,42,Male,Shopkeeper,38.2,88,16,113,67,99,D003,SV001,OPD,New,3,True,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-A86F10057E,H005,30,Male,Doctor,38.7,99,18,105,71,98,D001,SV002,Admitted,New,5,False,Not Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,1,1,0,0,0,0,0
+ENC-C0C76B03FC,H005,7,Male,Student,37.6,84,20,104,65,100,D008,SV001,OPD,New,4,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-7E9E1D3B5B,H005,88,Female,Homemaker,38.8,90,24,99,64,96,D004,SV002,Admitted,New,5,False,Vaccinated,Referred,12,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-DF0CCD66A2,H005,49,Male,Business Owner,38.3,96,19,104,74,97,D003,SV001,OPD,New,1,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-CD31243FE6,H005,18,Male,Lab Technician,37.7,77,19,112,79,96,D005,SV001,OPD,New,4,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-B3DE8B2A7F,H005,22,Male,Nurse,38.4,87,17,103,65,100,D008,SV001,OPD,New,3,False,Not Vaccinated,Recovered,5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-AB22AC7947,H005,23,Male,Shopkeeper,38.3,89,17,118,62,97,D001,SV001,OPD,New,1,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-59B4E9DE60,H005,60,Female,Homemaker,38.5,93,18,91,65,96,D008,SV002,Admitted,New,3,False,Vaccinated,Recovered,13,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-D60211D71D,H005,61,Male,Retired Farmer,37.6,75,20,105,72,99,D005,SV001,OPD,New,1,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-78BA8613CE,H005,46,Male,Farmer,38.4,99,17,103,65,97,D001,SV001,OPD,New,4,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-0011A94E62,H005,51,Female,Factory Worker,37.9,92,17,105,72,97,D004,SV001,OPD,New,2,True,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+ENC-1AF3247D59,H005,54,Female,Electrician,38.7,99,23,103,70,96,D007,SV002,Admitted,New,7,False,Vaccinated,Recovered,11,1,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-0E9D4E515E,H005,58,Male,Lab Technician,38.1,90,19,125,71,98,D004,SV001,OPD,New,1,True,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-FB8F3A19BE,H005,25,Female,Police Officer,38.2,76,18,112,80,96,D005,SV001,OPD,New,3,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-4B9432DA8E,H005,64,Male,Retired Teacher,38.8,80,17,119,77,100,D001,SV001,OPD,New,1,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-CE4108B557,H005,48,Male,Lab Technician,38.4,89,17,115,65,99,D004,SV001,OPD,New,1,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-2A6A27BC96,H005,21,Male,Teacher,39.7,102,24,99,66,97,D002,SV002,Admitted,New,6,True,Vaccinated,Recovered,10,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-C48D2B6423,H005,85,Male,Retired Farmer,37.6,81,19,124,80,98,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-72A11B66FF,H005,5,Male,Student,37.7,93,20,106,73,98,D004,SV001,OPD,New,3,False,Not Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-2804513571,H005,54,Male,Doctor,38.1,98,16,108,78,100,D007,SV001,OPD,New,2,True,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-B6F3BE1CAF,H005,49,Male,Business Owner,39.2,96,18,102,72,99,D001,SV002,Admitted,New,6,False,Vaccinated,Recovered,14,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0
+ENC-C722916ECC,H005,45,Female,Driver,37.9,83,20,107,72,100,D008,SV001,OPD,New,4,True,Vaccinated,Stable,5,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-EC87B3B690,H005,22,Female,Driver,37.6,75,20,121,71,96,D005,SV001,OPD,New,3,True,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-167593ED2B,H005,50,Male,Police Officer,39.0,100,23,115,60,96,D001,SV002,OPD,New,6,False,Vaccinated,Recovered,12,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,1,0,0,0,0,1,0
+ENC-16936EAEE2,H005,66,Female,Retired Teacher,38.2,92,20,121,68,100,D004,SV001,OPD,New,3,False,Not Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+ENC-96B6321437,H005,16,Female,Student,39.1,96,20,115,67,97,D001,SV002,Admitted,New,4,False,Vaccinated,Recovered,11,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,1,1,0,0,0,1,0
+ENC-D2CA91DFD4,H005,77,Female,Retired Army Officer,39.9,104,21,95,63,98,D002,SV002,OPD,New,5,False,Vaccinated,Recovered,8,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+ENC-1F55306AE9,H005,30,Female,Software Engineer,38.7,89,19,103,68,98,D002,SV001,OPD,New,1,True,Vaccinated,Recovered,4,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-C3BB0490BF,H005,2,Female,Student,37.8,94,17,116,68,98,D008,SV001,OPD,New,4,False,Vaccinated,Recovered,3,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-7692A4A610,H005,13,Male,Student,38.5,82,19,116,68,100,D004,SV001,OPD,New,4,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-07A9119182,H005,73,Male,Retired,37.7,85,18,117,67,98,D005,SV001,OPD,New,1,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-E89410AB68,H005,48,Male,Factory Worker,39.0,99,18,104,73,98,D002,SV001,OPD,New,4,False,Vaccinated,Recovered,3,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-6E8E004E18,H005,16,Female,Student,37.9,86,20,121,69,99,D005,SV001,OPD,New,2,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-6E213BD7ED,H005,51,Female,Homemaker,38.3,81,19,111,79,100,D008,SV001,OPD,New,3,True,Vaccinated,Recovered,4,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-E1C39BADFF,H005,58,Male,Electrician,39.4,119,22,86,50,97,D008,SV003,Admitted,New,4,False,Vaccinated,Recovered,18,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-0D9146A783,H005,60,Female,Retired Farmer,37.8,83,17,120,67,97,D005,SV001,OPD,New,1,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-DDAFE7A1F8,H005,18,Female,Shopkeeper,38.8,100,20,100,78,100,D002,SV001,OPD,New,3,True,Vaccinated,Recovered,4,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-C19FA87DAD,H005,13,Male,Student,39.0,94,24,109,60,97,D004,SV002,Admitted,New,5,False,Vaccinated,Referred,10,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-3ADB11B8C2,H005,13,Male,Student,38.3,81,17,100,78,97,D008,SV001,OPD,New,3,False,Not Vaccinated,Recovered,4,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-8489DD3929,H005,88,Female,Homemaker,37.5,93,20,106,78,99,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-C33485A90E,H005,34,Male,Pharmacist,38.8,85,18,113,77,99,D001,SV001,OPD,New,4,False,Not Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-8C857129E6,H005,62,Female,Retired Teacher,37.8,87,18,118,79,98,D004,SV001,OPD,New,1,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-E657A1F082,H005,52,Female,Shopkeeper,40.0,106,20,95,61,98,D002,SV002,Admitted,New,2,False,Not Vaccinated,Recovered,14,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-0EA6E58097,H005,47,Female,Mechanic,38.8,92,20,104,68,100,D003,SV001,OPD,New,1,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-F3C3F138F7,H005,60,Male,Homemaker,37.6,90,20,106,67,98,D004,SV001,OPD,New,1,True,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-9AF2FB17AE,H005,33,Male,Shopkeeper,39.3,105,34,89,70,84,D005,SV003,Admitted,New,8,False,Vaccinated,Recovered,28,0,0,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0
+ENC-B6C076E9C8,H005,34,Male,Pharmacist,38.6,97,19,112,65,100,D002,SV001,OPD,New,4,True,Not Vaccinated,Recovered,5,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-26C0C80836,H005,19,Female,Driver,39.4,96,21,110,70,96,D001,SV002,Admitted,New,2,True,Not Vaccinated,Recovered,13,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,1,1,0,0,0,1,0
+ENC-CB13C40B1C,H005,77,Male,Homemaker,38.6,115,21,113,65,99,D001,SV002,OPD,New,5,False,Not Vaccinated,Recovered,13,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,1,1,0,0,0,0,0
+ENC-6F0DBAC7D6,H005,71,Male,Retired Teacher,39.2,101,24,97,63,96,D002,SV002,Admitted,New,4,False,Vaccinated,Recovered,9,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+ENC-E7BC2EBDCF,H005,34,Male,Office Worker,39.0,104,18,112,73,100,D002,SV001,OPD,New,3,False,Vaccinated,Recovered,3,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-9C87A25FE0,H005,18,Male,Business Owner,38.4,82,18,106,68,99,D003,SV001,OPD,New,2,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-2B646178B4,H005,57,Female,Nurse,38.0,75,20,119,79,99,D005,SV001,OPD,New,3,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-3D1E1A380B,H005,60,Female,Retired Army Officer,39.0,87,16,109,78,100,D001,SV001,OPD,New,3,True,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-BADBF0F375,H005,60,Female,Retired Army Officer,38.7,113,18,97,71,97,D001,SV002,Admitted,New,5,False,Not Vaccinated,Stable,7,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0
+ENC-6704361E99,H005,84,Male,Retired Teacher,37.6,90,16,114,71,96,D006,SV001,OPD,New,1,True,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+ENC-F69FE8577F,H005,87,Male,Retired Teacher,39.4,126,29,96,62,94,D001,SV003,Admitted,New,9,False,Vaccinated,Recovered,19,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,1,1,0,0,0,1,0
+ENC-9AE4637CDF,H005,44,Male,Mechanic,37.7,94,17,110,69,99,D008,SV001,OPD,New,3,False,Vaccinated,Recovered,6,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-ACE2CEF23F,H005,45,Male,Doctor,38.6,86,16,103,71,100,D007,SV001,OPD,New,4,True,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-9B9DD1DC08,H005,8,Female,Student,38.2,92,16,116,70,99,D004,SV001,OPD,New,2,True,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+ENC-2536A7742F,H005,85,Female,Retired Teacher,38.6,110,22,108,60,95,D005,SV002,Admitted,New,7,False,Vaccinated,Recovered,12,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-E964DE492A,H005,27,Male,Electrician,38.7,96,19,108,75,100,D001,SV001,OPD,New,1,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-F54A80D4EF,H005,19,Male,Farmer,37.8,92,17,119,75,98,D004,SV001,OPD,New,2,True,Vaccinated,Stable,7,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-FAF9F18222,H005,8,Female,Student,37.9,75,16,108,68,97,D004,SV001,OPD,New,2,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-313F67E2C4,H005,48,Male,Farmer,39.8,112,24,106,69,98,D002,SV002,Admitted,New,2,True,Vaccinated,Recovered,12,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+ENC-A6D71376A7,H005,88,Female,Retired Government Employee,37.0,86,17,112,80,97,D006,SV001,OPD,New,2,False,Not Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+ENC-D1FC3D68C6,H005,36,Male,Electrician,38.0,82,18,105,65,97,D008,SV001,OPD,New,2,True,Not Vaccinated,Recovered,4,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-6C2AB48B52,H005,7,Female,Student,37.6,94,17,108,74,99,D004,SV001,OPD,New,1,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-DE709FE4B6,H005,37,Female,Sales Executive,37.8,88,16,125,75,97,D004,SV001,OPD,New,3,True,Not Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-B53BB1B663,H005,11,Female,Student,38.1,95,19,109,77,96,D005,SV001,OPD,New,2,True,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-8BD86029CF,H005,6,Female,Student,37.6,80,17,120,69,98,D008,SV001,OPD,New,4,True,Vaccinated,Recovered,5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-AE4F444939,H005,29,Male,Driver,39.1,88,19,119,80,97,D002,SV001,OPD,New,4,False,Vaccinated,Recovered,7,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-A16B9BE58A,H005,16,Female,Student,39.3,91,22,113,65,98,D007,SV002,Admitted,New,2,False,Vaccinated,Recovered,9,1,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-5B3F3E8F7C,H005,79,Female,Retired Army Officer,38.7,80,18,101,72,97,D001,SV001,OPD,New,2,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-4D5CE764EE,H005,46,Male,Shopkeeper,38.0,98,17,108,79,100,D007,SV001,OPD,New,1,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-38304B9C8B,H005,46,Female,Factory Worker,37.6,93,19,110,71,99,D004,SV001,OPD,New,3,True,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-63A60887D6,H005,20,Male,Software Engineer,37.7,86,19,114,78,100,D008,SV001,OPD,New,3,False,Vaccinated,Recovered,4,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-66D4858147,H005,70,Male,Retired Farmer,37.7,92,19,108,69,98,D004,SV001,OPD,New,1,True,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-C70D799C58,H005,59,Male,Office Worker,38.7,90,20,115,66,100,D001,SV001,OPD,New,4,True,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-FB6494FCA4,H005,65,Female,Retired Army Officer,38.8,107,32,104,69,84,D005,SV003,Admitted,New,5,False,Not Vaccinated,Recovered,22,0,0,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0
+ENC-8953D8E365,H005,21,Male,Electrician,38.2,90,19,103,74,100,D008,SV001,OPD,New,3,False,Not Vaccinated,Recovered,5,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-4F28DD6762,H005,7,Male,Student,38.0,94,19,117,66,98,D004,SV001,OPD,New,2,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-359EF04794,H005,72,Male,Retired Army Officer,38.1,96,20,99,69,94,D004,SV002,OPD,New,4,False,Vaccinated,Recovered,8,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-516B9AD712,H005,10,Male,Student,38.8,93,23,95,55,97,D008,SV002,Admitted,New,2,False,Vaccinated,Recovered,14,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-15644CE7C9,H005,7,Female,Student,37.9,89,20,100,68,98,D008,SV001,OPD,New,2,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-B0E2FE9B9D,H005,51,Male,Teacher,38.1,84,17,103,63,100,D001,SV001,OPD,New,1,True,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-2B260D1BE8,H005,2,Female,Student,39.6,118,28,103,56,98,D003,SV003,Admitted,New,8,True,Vaccinated,Recovered,24,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+ENC-E7DE720E19,H005,17,Female,Student,38.4,87,18,109,62,97,D006,SV002,Admitted,New,3,False,Vaccinated,Recovered,11,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+ENC-14B4632A87,H005,46,Female,Shopkeeper,38.9,97,18,101,60,99,D001,SV001,OPD,New,4,False,Not Vaccinated,Stable,5,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-9BE5786798,H005,42,Female,Farmer,39.9,120,22,88,67,95,D007,SV003,Admitted,New,6,False,Vaccinated,Recovered,26,1,0,0,0,0,0,0,1,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-D3B81CD9BF,H005,17,Male,Student,38.1,77,20,106,72,98,D004,SV001,OPD,New,1,False,Not Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-65263D09E4,H005,44,Male,Pharmacist,38.5,106,22,104,62,90,D005,SV002,Admitted,New,2,False,Vaccinated,Recovered,9,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0
+ENC-64BB74B1F2,H005,5,Male,Student,37.8,85,16,109,68,97,D006,SV001,OPD,New,3,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+ENC-5DDFB72B24,H005,48,Male,Farmer,39.0,104,18,112,65,96,D007,SV002,Admitted,New,3,False,Vaccinated,Recovered,12,0,0,0,0,0,0,0,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-C10626C218,H005,81,Male,Retired Government Employee,39.7,107,24,102,57,98,D007,SV003,Admitted,New,5,False,Vaccinated,Stable,25,1,0,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-91B0769546,H005,38,Female,Driver,37.9,91,19,108,74,99,D005,SV001,OPD,New,2,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-BF1875DEDA,H005,52,Male,Office Worker,37.6,91,20,104,78,99,D008,SV001,OPD,New,1,True,Not Vaccinated,Recovered,5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-8D2D24B5F0,H005,51,Female,Shopkeeper,38.1,98,24,105,65,95,D004,SV002,Admitted,New,5,False,Vaccinated,Recovered,9,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-7861EF127D,H005,58,Female,Business Owner,38.5,93,19,105,75,99,D005,SV001,OPD,New,4,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-A1D1C86116,H005,75,Female,Retired,37.7,92,17,115,65,97,D004,SV001,OPD,New,1,False,Not Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-EB4259DC29,H005,5,Female,Student,39.1,93,20,111,75,100,D002,SV001,OPD,New,4,False,Vaccinated,Recovered,6,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-BA42659B10,H005,22,Female,Electrician,39.6,110,22,85,64,96,D001,SV003,Admitted,New,4,False,Vaccinated,Recovered,21,0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,1,1,0,0,0,0,0
+ENC-AED288FC3E,H005,47,Female,Software Engineer,39.2,105,20,108,66,98,D002,SV002,Admitted,New,4,False,Vaccinated,Recovered,13,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-33FF7B2C00,H005,14,Female,Student,38.5,101,20,113,72,97,D001,SV002,Admitted,New,7,False,Vaccinated,Recovered,14,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+ENC-FB3BCDA950,H005,48,Male,Homemaker,38.6,92,16,119,78,98,D003,SV001,OPD,New,3,True,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-9DF7D29938,H005,54,Male,Farmer,38.5,92,20,115,65,90,D005,SV002,Admitted,New,3,False,Vaccinated,Recovered,8,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0
+ENC-4D7C9B2700,H005,15,Male,Student,38.6,90,19,107,68,97,D001,SV001,OPD,New,3,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-7BA0665D82,H005,57,Female,Electrician,38.0,85,20,121,68,100,D004,SV001,OPD,New,2,True,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-0ABB6954A7,H005,57,Female,Business Owner,38.1,81,20,110,71,99,D003,SV001,OPD,New,3,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-1F9078D548,H005,13,Male,Student,38.7,81,20,114,65,100,D003,SV001,OPD,New,4,True,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-7BB95F191E,H005,24,Female,Homemaker,38.8,100,22,114,69,97,D004,SV002,Admitted,New,6,False,Vaccinated,Recovered,13,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-E5BAB1B3D0,H005,17,Male,Student,39.5,86,21,107,70,97,D002,SV001,OPD,New,2,False,Not Vaccinated,Recovered,6,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-593C6B67B3,H005,60,Male,Homemaker,38.4,115,30,86,56,91,D006,SV003,Admitted,New,6,False,Vaccinated,Recovered,14,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+ENC-827BFEEA99,H005,59,Female,Mechanic,38.5,80,18,119,71,99,D001,SV001,OPD,New,3,False,Not Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-2842846146,H005,50,Male,Electrician,38.7,94,19,110,63,100,D001,SV001,OPD,New,2,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-45589A2F5C,H005,9,Female,Student,38.6,83,16,106,80,98,D001,SV001,OPD,New,1,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-537153DEEF,H005,16,Male,Student,40.3,126,26,103,59,97,D002,SV003,Admitted,New,5,False,Vaccinated,Recovered,19,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+ENC-3E1B07FF87,H005,22,Female,Teacher,38.6,93,18,106,75,98,D001,SV001,OPD,New,2,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-3E3E9A4291,H005,30,Male,Pharmacist,39.7,105,23,102,61,98,D002,SV002,Admitted,New,6,False,Vaccinated,Recovered,11,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-8264E80DA4,H005,89,Female,Retired Government Employee,38.9,104,23,103,65,98,D008,SV002,Admitted,New,4,False,Vaccinated,Recovered,11,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-2D5ED862DF,H005,30,Male,Doctor,38.9,98,18,101,79,100,D002,SV001,OPD,New,1,True,Vaccinated,Recovered,7,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-76E0C5893F,H005,59,Female,Sales Executive,38.2,87,18,121,68,99,D004,SV001,OPD,New,2,False,Not Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-BF586AE292,H005,32,Male,Government Employee,38.8,99,21,104,72,96,D004,SV002,Admitted,New,2,False,Vaccinated,Recovered,10,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-675A7C2437,H005,56,Male,Mechanic,37.6,94,17,102,75,97,D008,SV001,OPD,New,4,False,Vaccinated,Recovered,4,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-5C472A6A85,H005,36,Male,Factory Worker,38.2,102,21,96,75,97,D004,SV002,Admitted,New,6,False,Vaccinated,Referred,11,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-5A713ADAC5,H005,43,Male,Software Engineer,38.3,98,16,115,64,97,D001,SV001,OPD,New,1,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-35B9627498,H005,67,Male,Retired Farmer,38.7,93,20,91,65,96,D008,SV002,Admitted,New,7,False,Vaccinated,Recovered,7,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-F744D025BE,H005,39,Male,Electrician,39.8,112,26,104,67,96,D001,SV003,Admitted,New,4,False,Vaccinated,Stable,17,0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,1,1,0,0,0,1,0
+ENC-67389E7F09,H005,34,Male,Police Officer,40.1,121,26,86,58,97,D002,SV003,Admitted,New,8,False,Vaccinated,Referred,23,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+ENC-968DCFB4B8,H005,57,Male,Teacher,37.8,88,20,99,75,97,D006,SV002,OPD,New,5,False,Vaccinated,Recovered,9,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+ENC-730FBD7140,H005,59,Female,Sales Executive,37.8,94,16,102,67,98,D008,SV001,OPD,New,3,True,Vaccinated,Recovered,4,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-1AFDD6A1E3,H005,19,Male,Nurse,38.3,85,20,112,67,98,D008,SV001,OPD,New,4,True,Vaccinated,Recovered,7,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-A9ABD4B4EC,H005,59,Female,Lab Technician,39.3,124,23,81,60,94,D008,SV003,Admitted,New,6,True,Vaccinated,Recovered,18,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-0F41EFE2CC,H005,14,Male,Student,38.0,91,18,101,79,100,D008,SV001,OPD,New,3,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-A1BC86C5A3,H005,60,Male,Retired Farmer,38.0,87,16,103,69,100,D008,SV001,OPD,New,4,False,Vaccinated,Recovered,4,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-3C092804BB,H005,70,Male,Retired Army Officer,38.0,83,18,115,79,98,D007,SV001,OPD,New,3,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-CF4403BEDB,H005,15,Female,Student,38.9,103,21,98,62,99,D007,SV002,Admitted,New,6,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,1,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-79F0966BFE,H005,88,Male,Retired,38.0,92,18,114,67,100,D001,SV001,OPD,New,2,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-9366C26028,H005,18,Female,Sales Executive,37.6,95,19,106,71,97,D004,SV001,OPD,New,2,True,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-652C5CA343,H005,27,Female,Nurse,38.4,84,16,104,68,100,D003,SV001,OPD,New,4,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-4F0C4393A1,H005,57,Female,Electrician,37.7,79,19,105,75,97,D004,SV001,OPD,New,4,True,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-4F5CB027D7,H005,52,Female,Lab Technician,38.5,107,22,110,72,97,D004,SV002,Admitted,New,6,False,Vaccinated,Recovered,10,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-DF19F9B30B,H005,38,Female,Business Owner,38.2,94,18,100,66,98,D008,SV001,OPD,New,3,True,Vaccinated,Recovered,5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-986EB72408,H005,51,Male,Nurse,39.6,124,26,93,66,97,D001,SV003,Admitted,New,9,True,Not Vaccinated,Referred,25,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+ENC-E49854BD9D,H005,74,Female,Retired Farmer,37.7,91,19,124,79,96,D005,SV001,OPD,New,2,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-2607E62306,H005,54,Female,Business Owner,38.8,105,24,105,75,93,D005,SV002,OPD,New,4,False,Vaccinated,Recovered,13,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-382F151002,H005,38,Male,Factory Worker,38.2,75,20,112,74,97,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-562D8351BE,H005,43,Male,Shopkeeper,38.5,90,16,110,74,100,D007,SV001,OPD,New,1,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-82F0F90755,H005,58,Male,Farmer,38.9,88,18,100,73,99,D001,SV001,OPD,New,2,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-127CF35E87,H005,19,Female,Doctor,38.5,84,16,110,71,99,D007,SV001,OPD,New,2,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-D13A3B746D,H005,53,Male,Lab Technician,37.6,88,19,119,80,100,D008,SV001,OPD,New,3,False,Vaccinated,Recovered,5,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-0C32C0D3D2,H005,55,Male,Sales Executive,37.9,84,17,108,65,99,D004,SV001,OPD,New,1,False,Not Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-CD5CEB08AA,H005,53,Male,Sales Executive,39.3,101,22,99,71,98,D003,SV002,Admitted,New,5,False,Vaccinated,Recovered,12,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+ENC-19FBC7A10A,H005,43,Male,Factory Worker,38.6,92,19,106,78,99,D007,SV001,OPD,New,3,True,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-AC982E3120,H005,29,Male,Factory Worker,39.7,106,21,107,69,98,D002,SV002,Admitted,New,4,False,Vaccinated,Stable,8,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+ENC-7B553F94BE,H005,60,Male,Retired Teacher,38.3,81,19,107,71,98,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+ENC-BB16F8B986,H005,43,Female,Shopkeeper,37.9,94,18,105,71,97,D005,SV001,OPD,New,1,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-011720DB20,H005,44,Male,Driver,38.2,89,17,117,75,100,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-46CEE07766,H005,5,Female,Student,38.0,106,24,96,73,90,D005,SV002,Admitted,New,4,False,Vaccinated,Recovered,11,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-87DC00CCE2,H005,2,Female,Student,39.0,93,18,109,66,99,D001,SV001,OPD,New,2,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-603DACE2BC,H005,4,Female,Student,38.5,95,18,106,69,97,D007,SV002,Admitted,New,7,False,Vaccinated,Stable,9,1,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-AD2310B3EB,H005,7,Female,Student,38.7,105,24,100,67,97,D001,SV002,OPD,New,6,False,Vaccinated,Recovered,10,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0
+ENC-97B8CB808A,H005,29,Female,Electrician,38.5,76,16,124,67,99,D004,SV001,OPD,New,4,True,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-DD246AD3C1,H005,53,Female,Doctor,39.5,106,25,104,67,97,D007,SV003,Admitted,New,4,False,Vaccinated,Recovered,21,1,0,0,0,0,0,0,1,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-8532CE74B2,H005,8,Male,Student,38.0,88,17,106,65,98,D006,SV001,OPD,New,2,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+ENC-523BA02365,H005,1,Female,Student,38.7,92,23,113,75,93,D005,SV002,Admitted,New,7,False,Not Vaccinated,Recovered,12,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-2E26F3FC5C,H005,22,Male,Pharmacist,38.8,82,17,116,74,97,D007,SV001,OPD,New,4,False,Not Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-B9C2A88581,H005,82,Male,Retired Farmer,38.8,104,18,108,75,99,D002,SV001,OPD,New,1,False,Vaccinated,Recovered,7,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-0637C3582E,H005,82,Male,Retired Government Employee,38.8,88,20,115,77,100,D002,SV001,OPD,New,1,False,Not Vaccinated,Recovered,4,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-4710C548D1,H005,43,Female,Pharmacist,38.7,115,19,95,62,97,D001,SV002,OPD,New,4,False,Vaccinated,Recovered,12,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1,0,0,1,1,0,0,0,0,0
+ENC-32DC13920F,H005,1,Female,Student,39.1,90,22,98,72,98,D003,SV002,Admitted,New,5,True,Vaccinated,Recovered,14,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+ENC-F08C4C1C69,H005,45,Female,Mechanic,38.4,97,22,107,55,96,D008,SV002,Admitted,New,6,False,Not Vaccinated,Referred,11,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-AE412CA6DB,H005,61,Female,Homemaker,37.9,85,17,114,76,99,D004,SV001,OPD,New,4,True,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-10F4887524,H005,23,Male,Nurse,38.2,79,16,114,76,99,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-455C283F2F,H005,17,Male,Student,38.9,87,18,106,68,99,D001,SV001,OPD,New,3,True,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-207518D356,H005,34,Female,Driver,38.0,77,16,116,74,98,D005,SV001,OPD,New,2,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-04A011AB17,H005,17,Male,Student,38.5,81,18,109,72,100,D001,SV001,OPD,New,4,False,Not Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-CF48E3E587,H005,30,Female,Police Officer,38.5,104,20,103,67,96,D001,SV002,Admitted,New,3,False,Vaccinated,Recovered,12,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+ENC-BA80194DAC,H005,31,Male,Government Employee,38.4,79,20,121,74,97,D005,SV001,OPD,New,4,False,Not Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-655B8DE2BD,H005,22,Male,Doctor,38.7,95,20,98,73,97,D001,SV002,Admitted,New,2,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0
+ENC-DA88A70404,H005,16,Male,Student,39.5,104,20,100,71,97,D003,SV002,Admitted,New,4,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-A02EC1F924,H005,48,Female,Driver,38.3,81,18,117,77,99,D004,SV001,OPD,New,2,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-41AF48762E,H005,68,Male,Retired Farmer,38.0,90,16,106,76,99,D001,SV001,OPD,New,2,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-87AD943577,H005,6,Male,Student,38.1,80,16,118,63,99,D001,SV001,OPD,New,3,False,Not Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-90F07A774C,H005,36,Female,Software Engineer,38.3,83,20,119,71,96,D005,SV001,OPD,New,1,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-CFD43F8C8F,H005,42,Female,Homemaker,38.1,107,18,106,64,97,D008,SV002,Admitted,New,3,False,Vaccinated,Recovered,13,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-5AA027A271,H005,59,Male,Shopkeeper,38.5,93,22,120,78,98,D002,SV001,OPD,New,1,True,Vaccinated,Recovered,4,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-FEC2507612,H005,24,Female,Factory Worker,38.2,97,24,108,70,99,D008,SV002,Admitted,New,7,True,Vaccinated,Recovered,11,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-79A64E0934,H005,32,Female,Factory Worker,37.7,89,18,105,73,98,D008,SV001,OPD,New,3,False,Not Vaccinated,Recovered,6,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-A786818EBF,H005,51,Female,Teacher,38.4,99,19,113,77,98,D001,SV001,OPD,New,2,True,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-EED5E1C252,H005,55,Female,Office Worker,38.3,97,16,107,77,98,D003,SV001,OPD,New,1,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-2D22208FF7,H005,36,Male,Office Worker,39.1,89,21,106,79,100,D002,SV001,OPD,New,1,False,Vaccinated,Recovered,4,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-A69EDBC298,H005,40,Male,Police Officer,38.2,83,17,112,66,98,D004,SV001,OPD,New,3,False,Not Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-0DD8E6260F,H005,57,Male,Farmer,38.3,78,17,110,72,96,D005,SV001,OPD,New,3,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-AD9D6EDAA2,H005,60,Female,Homemaker,38.2,95,18,119,72,100,D004,SV001,OPD,New,4,True,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-A75E8396B0,H005,32,Male,Office Worker,39.4,90,20,116,71,97,D002,SV001,OPD,New,4,False,Vaccinated,Recovered,7,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-8AE757FDBA,H005,78,Female,Homemaker,39.6,121,26,86,60,97,D002,SV003,Admitted,New,4,False,Vaccinated,Recovered,27,0,1,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0
+ENC-A022D1F0A8,H005,43,Female,Lab Technician,39.9,130,24,104,64,93,D002,SV003,Admitted,New,4,True,Vaccinated,Recovered,19,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+ENC-08D719680B,H005,84,Female,Retired Farmer,38.0,86,16,123,76,97,D004,SV001,OPD,New,2,True,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-4E8B82284B,H005,17,Male,Student,37.5,77,16,106,78,98,D004,SV001,OPD,New,3,True,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-33D9D02017,H005,14,Male,Student,37.6,80,16,105,77,99,D008,SV001,OPD,New,2,True,Vaccinated,Recovered,7,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-09D169A126,H005,59,Female,Mechanic,38.0,77,19,124,76,98,D004,SV001,OPD,New,1,True,Vaccinated,Stable,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-628B34B7E5,H005,79,Male,Homemaker,37.9,91,16,111,80,97,D004,SV001,OPD,New,4,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-2C20AEB0A7,H005,55,Female,Homemaker,38.6,88,21,118,78,100,D002,SV001,OPD,New,4,False,Vaccinated,Recovered,3,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-64CEC69E23,H005,29,Male,Driver,39.3,104,24,105,70,98,D001,SV002,Admitted,New,6,False,Vaccinated,Recovered,12,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+ENC-FF87E2CC41,H005,12,Female,Student,37.5,89,19,115,69,97,D008,SV001,OPD,New,2,True,Vaccinated,Recovered,3,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-8EC2B80557,H005,48,Female,Business Owner,38.3,90,17,117,63,97,D001,SV001,OPD,New,2,True,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-4CD4220C18,H005,6,Male,Student,38.5,93,19,110,75,98,D007,SV001,OPD,New,3,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-C824F5859C,H005,55,Female,Sales Executive,37.9,85,19,112,72,97,D004,SV001,OPD,New,2,False,Not Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-EF2BEE2E28,H005,5,Female,Student,39.4,106,30,85,70,96,D007,SV003,Admitted,New,4,False,Vaccinated,Recovered,27,1,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-25FD1691A3,H005,56,Male,Homemaker,38.9,92,21,113,74,100,D002,SV001,OPD,New,1,True,Not Vaccinated,Recovered,6,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-1CC779CAC5,H005,7,Male,Student,38.7,104,23,111,62,96,D004,SV002,OPD,New,6,False,Vaccinated,Recovered,11,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-4EA489F4F5,H005,12,Female,Student,38.2,100,20,109,74,97,D001,SV001,OPD,New,3,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-BEA448285D,H005,85,Female,Retired,38.4,81,18,113,71,97,D005,SV001,OPD,New,4,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-8D51D21925,H005,57,Female,Police Officer,38.7,95,22,112,67,99,D001,SV002,Admitted,New,5,False,Vaccinated,Recovered,14,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,1,1,0,0,0,1,0
+ENC-BEF3385C61,H005,37,Male,Sales Executive,38.1,81,16,122,77,98,D004,SV001,OPD,New,4,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-8931FCADFF,H005,32,Female,Police Officer,39.6,119,24,87,64,95,D008,SV003,Admitted,New,9,False,Vaccinated,Recovered,26,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-B880392E20,H005,38,Male,Software Engineer,39.3,113,30,104,60,97,D007,SV003,Admitted,New,6,False,Vaccinated,Recovered,14,1,0,0,0,0,0,0,1,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-A28A5171F2,H005,41,Male,Farmer,39.0,104,24,108,62,97,D001,SV002,Admitted,New,2,False,Not Vaccinated,Recovered,11,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,1,1,0,0,0,1,0
+ENC-A65E3DF365,H005,50,Female,Lab Technician,37.2,75,19,118,79,99,D006,SV001,OPD,New,1,True,Not Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+ENC-DD2CA78747,H005,68,Male,Retired,38.1,87,20,105,69,99,D005,SV001,OPD,New,3,True,Not Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-FA4EFD9502,H005,43,Female,Doctor,38.8,99,18,120,66,100,D002,SV001,OPD,New,2,True,Vaccinated,Stable,5,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-0264AC2284,H005,9,Female,Student,38.5,97,18,106,68,98,D001,SV001,OPD,New,2,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-80C929528A,H005,15,Female,Student,38.0,85,17,123,74,97,D004,SV001,OPD,New,2,False,Not Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-9DF0981BCA,H005,55,Female,Doctor,38.0,87,17,117,66,97,D004,SV001,OPD,New,2,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-76EFA6E875,H005,67,Male,Retired Teacher,38.3,86,16,118,72,97,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-754CFEFE77,H005,84,Female,Retired,38.9,100,18,105,76,100,D002,SV001,OPD,New,1,False,Vaccinated,Recovered,7,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-5371CAA22B,H005,66,Male,Retired,38.6,97,21,107,69,99,D007,SV002,Admitted,New,6,False,Not Vaccinated,Recovered,13,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-674901B18C,H005,22,Female,Government Employee,38.9,97,21,104,78,99,D002,SV001,OPD,New,4,False,Vaccinated,Recovered,3,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-C3F7A9DE85,H005,18,Female,Police Officer,38.5,105,19,119,66,99,D002,SV001,OPD,New,1,False,Vaccinated,Recovered,6,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-46BD58B3BD,H005,41,Female,Business Owner,38.8,95,17,117,63,100,D001,SV001,OPD,New,4,False,Not Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-86742C899E,H005,1,Female,Student,39.0,89,21,101,76,98,D002,SV001,OPD,New,2,True,Vaccinated,Recovered,5,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-7F9CD27620,H005,76,Male,Retired Teacher,38.5,97,21,96,70,97,D004,SV002,Admitted,New,2,False,Vaccinated,Recovered,10,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-9AE78617B5,H005,22,Female,Farmer,38.3,79,20,124,68,98,D004,SV001,OPD,New,4,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-BE48541E37,H005,23,Male,Business Owner,38.5,95,17,101,68,98,D001,SV001,OPD,New,1,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-A859B8A470,H005,9,Female,Student,38.0,86,20,113,79,98,D008,SV001,OPD,New,1,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-A060CCC3B3,H005,56,Female,Driver,38.0,95,18,102,63,100,D001,SV001,OPD,New,1,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-D792A31E66,H005,4,Male,Student,38.9,83,18,120,73,97,D007,SV001,OPD,New,3,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-E667303099,H005,52,Male,Police Officer,38.0,81,20,112,71,96,D005,SV001,OPD,New,4,True,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-645523045E,H005,76,Male,Homemaker,38.4,84,18,120,76,99,D004,SV001,OPD,New,3,True,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-953E2C2EF1,H005,54,Female,Factory Worker,38.2,81,19,101,80,97,D001,SV001,OPD,New,3,False,Vaccinated,Stable,7,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-BD3CA57A5B,H005,10,Male,Student,38.0,80,18,105,70,100,D008,SV001,OPD,New,2,False,Vaccinated,Recovered,3,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-B89BD7AEDD,H005,36,Male,Business Owner,37.9,82,18,104,65,97,D008,SV001,OPD,New,4,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-C7CE3DAC0B,H005,49,Female,Factory Worker,38.2,93,18,109,74,100,D004,SV001,OPD,New,1,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-53798283C9,H005,1,Female,Student,37.9,80,17,115,71,99,D005,SV001,OPD,New,1,True,Vaccinated,Stable,6,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-3D3343917D,H005,7,Male,Student,38.1,81,16,115,61,97,D001,SV001,OPD,New,2,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-C7BA0BDCBF,H005,54,Male,Doctor,37.7,79,16,105,77,100,D004,SV001,OPD,New,4,False,Not Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-BED163800F,H005,32,Female,Government Employee,38.3,92,16,116,78,99,D003,SV001,OPD,New,4,True,Vaccinated,Stable,6,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-2060537FD4,H005,83,Female,Retired Teacher,39.1,113,23,111,65,98,D002,SV002,Admitted,New,4,False,Vaccinated,Recovered,8,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-53C34F43F3,H005,29,Female,Mechanic,38.5,84,20,100,72,97,D007,SV001,OPD,New,4,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-BB57CF7E8A,H005,32,Male,Factory Worker,38.4,97,16,114,77,98,D001,SV001,OPD,New,2,False,Not Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-8646D00B04,H005,82,Male,Homemaker,38.4,94,20,118,75,97,D008,SV001,OPD,New,2,True,Vaccinated,Recovered,4,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-23ED024D04,H005,30,Female,Factory Worker,38.7,99,17,104,69,99,D001,SV001,OPD,New,1,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-9DE7921536,H005,38,Male,Factory Worker,38.8,102,22,108,69,93,D005,SV002,Admitted,New,7,False,Vaccinated,Recovered,10,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+ENC-A5E9F1E8C0,H005,19,Male,Pharmacist,38.4,90,19,102,74,99,D008,SV001,OPD,New,2,False,Vaccinated,Stable,7,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-2EAE8D06CE,H005,51,Female,Office Worker,38.4,91,19,119,75,100,D004,SV001,OPD,New,1,False,Not Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+ENC-46A577E9A8,H005,87,Male,Retired Army Officer,37.7,80,17,110,67,98,D005,SV001,OPD,New,3,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-F7A6B4B020,H005,6,Female,Student,38.4,83,20,122,71,100,D004,SV001,OPD,New,1,True,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-FF08A73A07,H005,72,Female,Retired,38.4,92,20,112,78,97,D007,SV001,OPD,New,4,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-5357D13280,H005,18,Male,Farmer,38.1,80,16,125,65,99,D004,SV001,OPD,New,1,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-89D8D6DD67,H005,33,Female,Teacher,38.2,90,17,117,77,97,D005,SV001,OPD,New,4,False,Not Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-84A78B2773,H005,71,Female,Retired,38.0,102,21,115,65,97,D004,SV002,Admitted,New,2,False,Vaccinated,Recovered,10,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-118FA613A7,H005,80,Female,Retired,38.2,90,17,111,68,100,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-54EB13B278,H005,7,Male,Student,38.2,89,20,103,80,99,D003,SV001,OPD,New,2,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-7D655941EE,H005,26,Male,Lab Technician,38.3,94,17,102,80,100,D008,SV001,OPD,New,3,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-28EFDC7E51,H005,4,Male,Student,37.6,94,18,117,73,97,D004,SV001,OPD,New,3,True,Vaccinated,Stable,3,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+ENC-A38DFE2C1A,H005,21,Female,Mechanic,37.9,80,19,123,76,98,D004,SV001,OPD,New,4,True,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+ENC-8C3DB97350,H005,19,Female,Office Worker,39.8,114,22,114,70,97,D002,SV002,Admitted,New,4,False,Vaccinated,Recovered,10,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0
+ENC-52EC630194,H005,89,Male,Retired Army Officer,38.8,89,20,107,60,98,D001,SV001,OPD,New,1,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-F3579AC850,H005,67,Female,Retired Army Officer,38.5,109,20,115,73,96,D004,SV002,Admitted,New,5,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-006366E7EB,H005,24,Male,Police Officer,39.7,103,31,85,67,88,D004,SV003,Admitted,New,8,False,Vaccinated,Recovered,14,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-CB2A2497EE,H005,78,Female,Retired Teacher,37.8,75,20,118,80,98,D004,SV001,OPD,New,2,True,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-22E5C9EE38,H005,3,Male,Student,37.7,79,18,115,75,99,D004,SV001,OPD,New,1,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-1EC44A6447,H005,86,Female,Retired Teacher,39.3,89,20,118,70,99,D002,SV001,OPD,New,1,False,Vaccinated,Recovered,6,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-40857D3D7D,H005,16,Male,Student,38.0,86,16,101,67,100,D008,SV001,OPD,New,4,False,Not Vaccinated,Recovered,7,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-FB897429A3,H005,64,Male,Retired Government Employee,38.6,90,18,113,74,97,D007,SV001,OPD,New,1,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-8AC063FF86,H005,66,Male,Retired Government Employee,38.5,93,18,113,67,98,D001,SV001,OPD,New,3,False,Not Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-1DDA654A32,H005,33,Female,Lab Technician,37.5,87,20,117,79,100,D004,SV001,OPD,New,4,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-4713D9D687,H005,26,Female,Factory Worker,39.3,102,32,102,67,93,D004,SV003,Admitted,New,6,False,Vaccinated,Recovered,21,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-8825245E75,H005,36,Male,Software Engineer,37.8,79,17,117,65,98,D005,SV001,OPD,New,1,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-490E70918E,H005,71,Female,Retired Army Officer,38.0,77,18,119,80,97,D004,SV001,OPD,New,1,False,Not Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-B491981F33,H005,30,Male,Teacher,38.8,111,22,111,75,97,D001,SV002,OPD,New,4,False,Vaccinated,Referred,13,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,1,0,0,0,0,1,0
+ENC-EB158D86A2,H005,56,Male,Lab Technician,38.7,101,23,106,62,96,D004,SV002,OPD,New,6,False,Vaccinated,Recovered,13,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-B8199D40F0,H005,59,Female,Teacher,38.1,77,16,124,69,98,D004,SV001,OPD,New,4,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+ENC-FC30E83711,H005,53,Male,Business Owner,38.9,100,17,102,67,99,D007,SV001,OPD,New,3,False,Not Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-08283ED737,H005,67,Male,Homemaker,38.9,80,20,116,71,99,D007,SV001,OPD,New,2,True,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-BDCE64E99A,H005,35,Male,Office Worker,38.0,84,20,110,71,98,D007,SV001,OPD,New,1,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-D395290290,H005,26,Female,Teacher,38.3,91,16,106,74,97,D005,SV001,OPD,New,4,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-5FAE7C6ED9,H005,54,Female,Software Engineer,40.0,118,28,93,50,97,D008,SV003,Admitted,New,8,False,Vaccinated,Stable,15,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-0489A6D09F,H005,38,Male,Teacher,38.8,87,20,111,80,97,D001,SV001,OPD,New,4,False,Not Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-0EBB3E0825,H005,30,Female,Shopkeeper,38.0,87,19,109,70,99,D004,SV001,OPD,New,4,True,Not Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-50956FA970,H005,85,Male,Retired Farmer,38.6,103,21,99,73,97,D004,SV002,Admitted,New,2,False,Vaccinated,Recovered,12,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-55AACB444C,H005,80,Male,Retired Farmer,38.5,80,20,105,80,99,D005,SV001,OPD,New,1,False,Not Vaccinated,Stable,7,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-D76CED3A54,H005,46,Female,Sales Executive,38.7,81,17,107,68,97,D003,SV001,OPD,New,4,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-767D671025,H005,50,Female,Sales Executive,39.3,114,27,88,55,97,D001,SV003,Admitted,New,8,True,Vaccinated,Recovered,19,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0
+ENC-6098525D33,H005,1,Male,Student,38.6,102,19,109,77,99,D002,SV001,OPD,New,1,False,Vaccinated,Recovered,7,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-6BC82FF9AE,H005,85,Male,Retired Army Officer,38.1,87,20,118,64,98,D001,SV001,OPD,New,2,False,Not Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-CCB19E5505,H005,33,Male,Factory Worker,39.0,97,19,112,76,98,D007,SV001,OPD,New,2,False,Not Vaccinated,Stable,4,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-AA308DC0F1,H005,65,Male,Retired,38.7,94,18,107,63,97,D001,SV001,OPD,New,3,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-BB91B97489,H005,63,Male,Retired Teacher,37.9,94,17,112,76,98,D004,SV001,OPD,New,4,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-99FE144B41,H005,63,Female,Homemaker,37.7,78,20,107,80,97,D006,SV001,OPD,New,2,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+ENC-E8B9ACC3BC,H005,23,Female,Office Worker,39.4,120,30,85,58,96,D001,SV003,Admitted,New,6,False,Vaccinated,Recovered,20,0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-7CF448B455,H005,40,Female,Office Worker,37.8,86,20,115,74,98,D008,SV001,OPD,New,4,True,Vaccinated,Recovered,6,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-EB71B914E6,H005,38,Male,Government Employee,38.0,105,21,101,69,92,D005,SV002,Admitted,New,5,False,Vaccinated,Recovered,14,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0
+ENC-4AB64CAFDA,H005,13,Male,Student,38.5,93,20,118,78,100,D008,SV001,OPD,New,3,False,Vaccinated,Recovered,6,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-8CA84FAD6B,H005,80,Male,Retired,38.8,106,24,107,63,94,D005,SV002,Admitted,New,4,False,Not Vaccinated,Recovered,11,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-553912054D,H005,5,Female,Student,37.5,91,17,106,68,98,D008,SV001,OPD,New,2,True,Not Vaccinated,Recovered,4,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-BE44B81E13,H005,42,Male,Pharmacist,37.9,95,19,114,76,97,D004,SV001,OPD,New,4,False,Vaccinated,Stable,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-7E7C9EEFC4,H005,37,Female,Farmer,38.7,107,19,111,62,96,D001,SV002,OPD,New,4,False,Vaccinated,Stable,12,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,1,1,0,0,0,0,0
+ENC-8BE362BC5A,H005,43,Male,Driver,39.7,106,31,87,56,91,D004,SV003,Admitted,New,7,False,Vaccinated,Recovered,22,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-7DBBE85990,H005,43,Female,Doctor,37.9,84,16,103,76,97,D006,SV001,OPD,New,4,False,Not Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+ENC-55B5F5DAD9,H005,61,Male,Homemaker,38.4,95,20,114,70,99,D004,SV001,OPD,New,2,True,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-25226C7C5F,H005,37,Male,Mechanic,39.3,90,19,101,72,100,D002,SV001,OPD,New,2,False,Vaccinated,Recovered,6,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-6B76D75802,H005,7,Male,Student,38.1,100,17,104,69,98,D007,SV001,OPD,New,1,False,Not Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-72BE2D31D3,H005,26,Male,Factory Worker,38.4,95,17,108,80,98,D005,SV001,OPD,New,4,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-45237AB836,H005,33,Female,Electrician,38.2,76,16,120,75,97,D005,SV001,OPD,New,4,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-3A0AF8CE6D,H005,13,Male,Student,37.6,81,20,112,80,98,D005,SV001,OPD,New,1,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-1F0CAA9B91,H005,20,Female,Software Engineer,38.2,87,17,119,78,100,D007,SV001,OPD,New,3,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-6871755750,H005,59,Male,Police Officer,38.2,85,19,110,62,100,D001,SV001,OPD,New,1,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-368B7CD5DA,H005,45,Female,Business Owner,38.2,80,17,112,77,98,D008,SV001,OPD,New,1,False,Not Vaccinated,Recovered,6,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-1CD0E732F6,H005,14,Female,Student,38.5,84,16,101,66,97,D001,SV001,OPD,New,3,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-8B5C0B0E29,H005,43,Female,Pharmacist,38.1,95,19,114,71,98,D008,SV001,OPD,New,1,False,Vaccinated,Recovered,3,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-B8CF95A243,H005,21,Male,Driver,38.5,93,22,106,67,98,D002,SV001,OPD,New,4,False,Vaccinated,Recovered,4,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-70F79DDF79,H005,85,Male,Retired,38.2,94,20,113,72,98,D004,SV001,OPD,New,2,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-817B3EBC93,H005,81,Female,Retired Government Employee,38.4,81,18,110,72,97,D004,SV001,OPD,New,2,False,Not Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-AAF24580B1,H005,54,Female,Factory Worker,39.5,110,19,103,71,98,D001,SV002,Admitted,New,4,False,Not Vaccinated,Recovered,14,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0
+ENC-1DDB7BB7CD,H005,4,Female,Student,38.0,79,19,113,70,99,D005,SV001,OPD,New,3,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-776F20601B,H005,8,Female,Student,38.4,95,16,110,80,99,D007,SV001,OPD,New,4,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-401E7E273E,H005,25,Female,Government Employee,38.2,97,20,103,68,97,D007,SV001,OPD,New,1,True,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-C04F8D3CC5,H005,13,Female,Student,38.3,90,16,112,76,97,D008,SV001,OPD,New,2,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-275FAD57EB,H005,15,Male,Student,38.0,86,20,123,80,97,D005,SV001,OPD,New,2,False,Not Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-F4FA486FAC,H005,22,Female,Driver,37.5,88,20,120,71,98,D004,SV001,OPD,New,1,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-1E00DA9C8E,H005,40,Female,Pharmacist,37.8,81,18,110,77,99,D006,SV001,OPD,New,4,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+ENC-87C9298CB9,H005,41,Male,Lab Technician,37.6,84,19,121,72,98,D005,SV001,OPD,New,3,False,Not Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-982BBD2437,H005,31,Female,Factory Worker,38.0,81,17,118,68,98,D008,SV001,OPD,New,2,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-46C878A56C,H005,6,Female,Student,37.8,89,16,115,70,100,D004,SV001,OPD,New,2,True,Vaccinated,Stable,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-C13E8CB72A,H005,71,Male,Retired Army Officer,37.6,75,19,125,72,97,D004,SV001,OPD,New,2,True,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-65F86426A3,H005,45,Male,Shopkeeper,38.1,87,20,105,80,97,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-AE74907DEE,H005,40,Male,Factory Worker,39.0,95,22,103,77,99,D002,SV001,OPD,New,1,False,Not Vaccinated,Recovered,3,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-8C7F275D68,H005,87,Female,Retired Farmer,38.6,90,17,112,72,100,D001,SV001,OPD,New,4,False,Not Vaccinated,Stable,6,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-AA9DAC78F7,H005,41,Female,Business Owner,38.0,91,18,113,70,99,D004,SV001,OPD,New,2,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-C81186B858,H005,10,Male,Student,38.4,88,19,108,72,100,D008,SV001,OPD,New,2,False,Vaccinated,Recovered,3,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-BB7534E6AA,H005,14,Female,Student,38.7,97,20,112,64,98,D001,SV001,OPD,New,1,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-CFC040199B,H005,17,Male,Student,39.8,123,29,97,55,94,D001,SV003,Admitted,New,8,False,Vaccinated,Referred,18,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,1,1,0,0,0,0,0
+ENC-5F8AC448D1,H005,5,Female,Student,38.4,92,16,113,67,98,D005,SV001,OPD,New,1,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-BE1C4BE3BF,H005,4,Male,Student,37.7,88,17,122,77,99,D004,SV001,OPD,New,1,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-77AADD651A,H005,34,Male,Lab Technician,37.6,99,21,96,64,95,D006,SV002,Admitted,New,6,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+ENC-65C16B0A23,H005,45,Male,Driver,39.4,102,18,116,69,100,D002,SV001,OPD,New,3,False,Vaccinated,Recovered,6,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-467839362E,H005,26,Male,Software Engineer,38.7,91,16,112,71,97,D001,SV001,OPD,New,2,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-17FDDCDF3D,H005,16,Female,Student,38.3,93,20,115,80,100,D007,SV001,OPD,New,3,False,Not Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-B441FFAAC4,H005,70,Female,Retired Government Employee,39.7,123,31,102,57,86,D005,SV003,Admitted,New,6,True,Not Vaccinated,Recovered,15,0,0,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0
+ENC-E621CDA727,H005,42,Male,Pharmacist,39.4,95,20,105,62,99,D002,SV002,OPD,New,5,False,Vaccinated,Stable,9,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+ENC-2672960278,H005,36,Male,Sales Executive,37.7,79,20,124,68,99,D005,SV001,OPD,New,2,False,Not Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-63BF740BC5,H005,31,Female,Software Engineer,37.9,80,20,111,65,99,D004,SV001,OPD,New,1,True,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-C1BF3D2F7B,H005,45,Male,Office Worker,38.7,97,18,113,68,100,D007,SV001,OPD,New,3,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-734B8FDD22,H005,5,Female,Student,38.0,109,20,113,65,93,D005,SV002,Admitted,New,6,False,Vaccinated,Recovered,8,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0
+ENC-99DBCC5A13,H005,47,Male,Office Worker,38.5,82,20,116,65,98,D005,SV001,OPD,New,3,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-27EC2F6869,H005,14,Female,Student,38.6,83,20,105,79,97,D007,SV001,OPD,New,3,True,Not Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-84384A58C4,H005,53,Female,Business Owner,38.4,93,16,109,69,97,D001,SV001,OPD,New,4,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-493F04F00B,H005,29,Male,Electrician,38.1,89,19,117,71,97,D008,SV001,OPD,New,1,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-5709013FC6,H005,46,Male,Office Worker,38.5,87,17,117,77,97,D001,SV001,OPD,New,4,True,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-1CCD7105DB,H005,13,Female,Student,38.3,78,19,108,79,98,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-C68ACAA20E,H005,50,Male,Mechanic,37.7,91,19,115,71,96,D005,SV001,OPD,New,1,True,Not Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-AF183C72D1,H005,44,Female,Farmer,38.0,77,16,111,77,98,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-80FC5F5096,H005,41,Male,Sales Executive,38.1,93,20,98,57,98,D008,SV002,Admitted,New,2,False,Vaccinated,Recovered,12,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-F30BF6444B,H005,49,Male,Electrician,39.6,107,23,98,65,95,D008,SV003,Admitted,New,8,True,Vaccinated,Referred,24,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-E4DB8E8287,H005,42,Male,Government Employee,37.8,86,20,117,69,97,D008,SV001,OPD,New,1,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-CAF1560BFA,H005,43,Female,Shopkeeper,38.8,92,17,112,69,97,D001,SV001,OPD,New,2,True,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-6266569D66,H005,17,Female,Student,38.3,92,19,112,65,97,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-58EDB6C36F,H005,22,Female,Office Worker,38.2,90,20,120,80,98,D004,SV001,OPD,New,2,True,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-B920B89AED,H005,57,Male,Factory Worker,38.4,95,18,122,68,97,D004,SV001,OPD,New,2,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-6E4CE4D11A,H005,36,Male,Nurse,39.6,107,21,99,67,96,D002,SV002,Admitted,New,7,False,Vaccinated,Recovered,9,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+ENC-651908699F,H005,42,Female,Business Owner,37.7,77,20,113,69,100,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-D270D2DF1A,H005,60,Male,Retired Government Employee,37.5,81,16,114,73,98,D004,SV001,OPD,New,3,False,Not Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-E697951C47,H005,58,Male,Pharmacist,37.9,91,18,115,73,97,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-AAA11F95DC,H005,52,Female,Software Engineer,40.4,115,28,97,61,95,D002,SV003,Admitted,New,8,False,Vaccinated,Recovered,19,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+ENC-571E1E5D34,H005,84,Female,Retired Teacher,39.1,113,24,106,70,96,D001,SV002,Admitted,New,3,False,Vaccinated,Recovered,8,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,1,1,0,0,0,1,0
+ENC-37F39D43E4,H005,2,Female,Student,37.7,86,20,105,77,97,D008,SV001,OPD,New,2,False,Vaccinated,Recovered,4,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-6849A2EAB3,H005,25,Female,Electrician,38.6,91,17,104,80,100,D001,SV001,OPD,New,2,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-9CE7D426A3,H005,41,Male,Mechanic,37.6,94,19,117,66,99,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-FFD08E8643,H005,27,Female,Factory Worker,39.2,112,23,111,62,97,D001,SV002,OPD,New,4,False,Vaccinated,Referred,11,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0
+ENC-7359CB5405,H005,16,Male,Student,38.9,103,18,98,74,96,D001,SV002,Admitted,New,4,False,Vaccinated,Recovered,11,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1,0,0,1,1,0,0,0,0,0
+ENC-A44EA8939E,H005,14,Male,Student,38.9,92,22,118,72,98,D002,SV001,OPD,New,2,False,Vaccinated,Recovered,7,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-D4E532C317,H005,86,Male,Retired,38.8,95,18,103,80,98,D002,SV001,OPD,New,4,False,Vaccinated,Recovered,3,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-A4417A3AF1,H005,83,Male,Retired Farmer,38.2,94,18,115,78,99,D007,SV001,OPD,New,1,True,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-5143ECA849,H005,57,Male,Government Employee,37.9,88,17,120,73,97,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-D32BE7953A,H005,32,Male,Sales Executive,38.0,90,22,95,62,90,D005,SV002,Admitted,New,5,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0
+ENC-3E4B43179B,H005,28,Female,Sales Executive,38.5,77,18,106,74,99,D004,SV001,OPD,New,2,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-EA944803FD,H005,29,Female,Electrician,37.6,79,17,125,73,97,D004,SV001,OPD,New,2,False,Not Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-976ECBD591,H005,33,Male,Office Worker,39.3,100,22,103,72,100,D002,SV001,OPD,New,3,False,Vaccinated,Recovered,7,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-8ADF2ED7C9,H005,48,Female,Mechanic,38.4,92,16,109,72,98,D004,SV001,OPD,New,2,True,Not Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-F184FE2FAF,H005,48,Male,Lab Technician,38.3,83,18,112,73,98,D008,SV001,OPD,New,4,False,Vaccinated,Recovered,4,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-62BA18448F,H005,88,Male,Retired,38.0,83,18,106,73,100,D004,SV001,OPD,New,1,True,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-46E68D313D,H005,60,Male,Retired,37.8,88,20,118,72,97,D005,SV001,OPD,New,3,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-A20244A8B0,H005,12,Male,Student,38.9,97,18,96,70,96,D008,SV002,OPD,New,3,False,Vaccinated,Recovered,9,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-AEBD0ACE9C,H005,56,Female,Homemaker,38.1,88,16,113,72,99,D007,SV001,OPD,New,4,True,Not Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-7F69EDECA7,H005,15,Female,Student,39.0,90,24,97,62,96,D004,SV002,Admitted,New,7,False,Vaccinated,Recovered,9,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-C0DBF8FB0B,H005,77,Female,Retired Army Officer,37.7,82,17,106,65,97,D004,SV001,OPD,New,2,True,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-FF06BE9B37,H005,37,Male,Office Worker,39.1,98,20,111,61,98,D001,SV002,Admitted,New,7,True,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0
+ENC-A15D1404C7,H005,5,Female,Student,37.7,79,20,115,73,97,D004,SV001,OPD,New,4,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-A5C3C56518,H005,51,Female,Driver,39.0,98,18,110,67,99,D001,SV001,OPD,New,4,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-C83C6157D7,H005,90,Male,Retired,38.9,100,18,118,65,97,D007,SV001,OPD,New,1,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-2780781C8F,H005,51,Female,Driver,39.1,93,22,102,77,98,D002,SV001,OPD,New,2,True,Vaccinated,Recovered,3,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-67118C711B,H005,3,Male,Student,39.9,121,23,102,57,96,D001,SV003,Admitted,New,5,False,Vaccinated,Referred,17,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+ENC-0AE102D135,H005,18,Female,Sales Executive,37.7,81,16,100,66,97,D008,SV001,OPD,New,4,True,Vaccinated,Recovered,4,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-EF20D94AE2,H005,34,Female,Nurse,38.0,82,18,120,71,98,D001,SV001,OPD,New,3,False,Vaccinated,Stable,7,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-F012236016,H005,15,Female,Student,38.3,88,18,123,71,98,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-A4026837C1,H005,38,Female,Doctor,38.2,98,18,110,78,98,D001,SV001,OPD,New,2,True,Not Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-D05D41CCEE,H005,16,Female,Student,39.0,102,20,102,66,99,D002,SV001,OPD,New,3,False,Vaccinated,Recovered,3,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-66BA816A9B,H005,20,Male,Nurse,39.4,98,22,109,67,96,D002,SV002,Admitted,New,5,False,Vaccinated,Recovered,8,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-F6A6B23FF2,H005,58,Female,Government Employee,37.9,80,16,100,79,97,D008,SV001,OPD,New,2,True,Vaccinated,Stable,6,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-DDB77F5C60,H005,31,Male,Electrician,38.4,90,16,111,79,97,D004,SV001,OPD,New,2,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-B18F6BC409,H005,75,Male,Retired Teacher,38.2,96,18,110,71,99,D007,SV001,OPD,New,4,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-1B24FFBF2C,H005,8,Female,Student,37.7,82,16,111,67,96,D005,SV001,OPD,New,4,True,Vaccinated,Stable,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-494AB683CC,H005,13,Male,Student,38.1,94,16,109,72,97,D004,SV001,OPD,New,2,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-34CC31ADC2,H005,12,Male,Student,38.4,90,19,112,72,97,D001,SV001,OPD,New,2,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-562C2EDF25,H005,16,Female,Student,37.7,94,18,113,77,99,D004,SV001,OPD,New,2,True,Not Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-E6892311E2,H005,74,Female,Homemaker,38.0,89,18,120,67,99,D004,SV001,OPD,New,2,False,Not Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-0B89D2A74F,H005,37,Male,Shopkeeper,38.3,77,17,115,74,99,D005,SV001,OPD,New,3,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-8C3516B8AF,H005,22,Female,Office Worker,39.9,118,28,93,63,97,D008,SV003,Admitted,New,8,False,Vaccinated,Stable,16,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-15131A6B78,H005,42,Male,Software Engineer,37.8,79,16,121,75,100,D004,SV001,OPD,New,2,True,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-0E844C5CAA,H005,32,Male,Factory Worker,37.9,76,20,100,77,97,D006,SV001,OPD,New,3,True,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+ENC-FC9FF5BF3C,H005,65,Male,Retired,38.8,92,20,111,72,98,D002,SV001,OPD,New,4,False,Vaccinated,Recovered,3,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-7123CCD063,H005,33,Female,Homemaker,38.2,82,18,120,64,99,D001,SV001,OPD,New,4,True,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-DC3E73B0CC,H005,5,Female,Student,39.0,105,21,103,70,97,D001,SV002,Admitted,New,3,False,Vaccinated,Stable,13,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-027BB8CC7C,H005,10,Male,Student,38.1,88,18,109,74,100,D001,SV001,OPD,New,4,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-3F77737F51,H005,37,Female,Driver,38.1,91,17,116,74,100,D001,SV001,OPD,New,3,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-607E51FF66,H005,61,Female,Homemaker,38.1,81,18,115,74,99,D007,SV001,OPD,New,3,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-78A254D784,H005,82,Female,Homemaker,39.6,96,22,100,75,96,D002,SV002,Admitted,New,5,True,Not Vaccinated,Recovered,10,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0
+ENC-5C5D00F8AA,H005,67,Male,Homemaker,37.7,85,20,118,67,99,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-8DE1EFE1A2,H005,75,Male,Retired Farmer,38.9,87,16,104,78,99,D001,SV001,OPD,New,1,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-D064FF6718,H005,76,Male,Retired Army Officer,37.5,80,20,112,67,99,D008,SV001,OPD,New,1,True,Vaccinated,Recovered,4,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-B4C50F4A0A,H005,43,Male,Software Engineer,38.8,87,18,110,67,100,D001,SV001,OPD,New,2,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-EFA09D5AFF,H005,79,Female,Retired Government Employee,37.9,93,17,123,67,98,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-BDA3777FBD,H005,22,Male,Doctor,38.4,94,17,105,67,97,D005,SV001,OPD,New,1,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-D030665C00,H005,40,Male,Driver,38.2,92,20,121,79,98,D004,SV001,OPD,New,2,True,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-CD759C8F7C,H005,36,Female,Teacher,38.0,82,20,108,68,100,D004,SV001,OPD,New,4,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-0921B33C92,H005,33,Male,Teacher,38.3,95,17,107,60,97,D001,SV001,OPD,New,1,True,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-EE27B0A804,H005,55,Female,Sales Executive,38.4,77,16,125,71,99,D004,SV001,OPD,New,4,False,Not Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-6A1D4E4684,H005,70,Male,Retired Government Employee,38.8,87,17,105,73,97,D001,SV001,OPD,New,4,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-9DC97A5EE2,H005,28,Male,Factory Worker,38.2,91,17,125,69,97,D005,SV001,OPD,New,3,False,Not Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-87F0F91959,H005,23,Male,Shopkeeper,37.6,84,20,112,75,99,D006,SV001,OPD,New,4,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+ENC-E64E03E47B,H005,19,Female,Farmer,38.2,98,19,105,61,100,D001,SV001,OPD,New,1,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-22F5A4FB37,H005,28,Male,Government Employee,39.4,102,21,96,70,97,D002,SV002,Admitted,New,4,False,Vaccinated,Stable,12,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+ENC-15ACCA3BAB,H005,74,Male,Homemaker,38.9,101,21,105,70,98,D002,SV001,OPD,New,3,True,Vaccinated,Recovered,5,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-2BA49E286B,H005,46,Male,Business Owner,37.8,88,17,110,79,98,D005,SV001,OPD,New,4,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-CB2776A8C3,H005,3,Female,Student,39.4,105,21,101,72,97,D002,SV001,OPD,New,3,True,Not Vaccinated,Recovered,3,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-80C2480602,H005,42,Male,Homemaker,37.7,79,18,109,66,99,D004,SV001,OPD,New,4,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-2BEDEA1380,H005,44,Male,Software Engineer,39.0,94,20,118,67,99,D001,SV001,OPD,New,3,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-BFECFDB2EC,H005,27,Male,Pharmacist,39.4,104,21,112,62,96,D001,SV002,Admitted,New,5,False,Vaccinated,Recovered,14,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,1,0
+ENC-3A5244CA75,H005,6,Female,Student,38.1,94,19,122,67,98,D004,SV001,OPD,New,3,True,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-75AEF88FF9,H005,44,Female,Electrician,38.8,97,17,119,60,100,D001,SV001,OPD,New,1,True,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-C9919DE5C8,H005,11,Female,Student,38.7,94,20,103,72,98,D001,SV001,OPD,New,1,False,Not Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-8415566585,H005,60,Female,Retired,37.5,78,18,125,74,99,D005,SV001,OPD,New,4,True,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-4A6E15D92A,H005,35,Female,Shopkeeper,39.0,95,19,110,68,98,D001,SV001,OPD,New,2,False,Not Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-FE16C6B61B,H005,70,Female,Retired,39.0,112,24,110,63,99,D002,SV002,OPD,New,2,False,Vaccinated,Recovered,7,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+ENC-07DADAAD5E,H005,33,Female,Farmer,38.6,83,19,106,67,100,D001,SV001,OPD,New,2,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-B77B978247,H005,1,Female,Student,38.3,75,16,105,76,100,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-8553F277D6,H005,70,Female,Retired,37.5,80,19,113,66,100,D004,SV001,OPD,New,1,True,Not Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-FC1BC07328,H005,16,Male,Student,37.9,92,16,121,73,100,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-82EE9F24DF,H005,45,Male,Government Employee,39.5,121,28,91,54,95,D008,SV003,Admitted,New,7,False,Vaccinated,Recovered,18,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-30043F3469,H005,40,Male,Government Employee,37.6,86,16,109,66,99,D008,SV001,OPD,New,4,False,Vaccinated,Recovered,6,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-CC62761711,H005,18,Female,Homemaker,38.6,92,21,100,72,91,D005,SV002,Admitted,New,7,False,Vaccinated,Recovered,13,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0
+ENC-6A929F3CE0,H005,74,Male,Retired Teacher,40.0,125,26,89,64,96,D001,SV003,Admitted,New,8,False,Not Vaccinated,Recovered,18,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,1,1,0,0,0,1,0
+ENC-98A492199F,H005,35,Female,Business Owner,39.2,97,21,98,68,99,D002,SV002,OPD,New,4,False,Vaccinated,Stable,10,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-A895A3D8C0,H005,61,Male,Homemaker,38.4,96,22,102,67,95,D004,SV002,Admitted,New,4,True,Vaccinated,Recovered,12,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-B7C30B3E07,H005,45,Female,Pharmacist,38.4,99,17,120,64,100,D001,SV001,OPD,New,4,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-206DA20C94,H005,34,Female,Shopkeeper,38.4,94,19,103,70,99,D001,SV001,OPD,New,3,True,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-2D27C037AF,H005,35,Male,Lab Technician,38.4,95,20,119,70,98,D004,SV001,OPD,New,2,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-B51F210830,H005,17,Female,Student,38.3,81,16,124,69,97,D004,SV001,OPD,New,4,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-4DB33E44AB,H005,41,Female,Pharmacist,38.6,96,18,99,62,97,D008,SV002,Admitted,New,7,False,Vaccinated,Recovered,13,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-D249A56896,H005,16,Female,Student,38.4,85,19,112,75,98,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-A1035B9B69,H005,33,Female,Farmer,38.1,85,18,116,78,97,D001,SV001,OPD,New,4,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-F9CF333D7A,H005,74,Male,Retired Army Officer,37.9,92,19,116,77,98,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-E694597F9E,H005,37,Male,Software Engineer,38.0,95,20,105,68,95,D004,SV002,Admitted,New,6,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-7D6A744D58,H005,26,Male,Homemaker,38.5,105,22,95,60,96,D008,SV002,OPD,New,7,True,Not Vaccinated,Recovered,13,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-1DA54AA132,H005,81,Male,Retired Farmer,38.9,100,20,120,67,99,D002,SV001,OPD,New,2,False,Vaccinated,Recovered,6,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-757CFFBF20,H005,19,Male,Driver,37.8,79,17,120,79,97,D004,SV001,OPD,New,3,False,Not Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-F7DCD57000,H005,51,Male,Doctor,38.3,81,19,109,65,97,D008,SV001,OPD,New,1,False,Vaccinated,Recovered,5,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-B31A87ED93,H005,55,Male,Homemaker,38.8,102,23,97,61,95,D005,SV002,Admitted,New,3,True,Vaccinated,Recovered,9,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+ENC-3C3C9F177D,H005,43,Female,Nurse,38.5,77,17,115,76,97,D005,SV001,OPD,New,1,True,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-2B9A50207B,H005,32,Female,Office Worker,39.5,130,33,94,57,83,D005,SV003,Admitted,New,10,False,Vaccinated,Stable,16,0,0,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0
+ENC-8D1BF9BF0E,H005,83,Female,Retired Teacher,37.7,86,19,114,78,97,D008,SV001,OPD,New,1,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-B60F2CA036,H005,43,Male,Office Worker,39.0,95,20,100,66,94,D005,SV002,Admitted,New,7,True,Vaccinated,Recovered,11,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0
+ENC-0445B1C7FA,H005,14,Male,Student,38.2,75,19,124,78,97,D004,SV001,OPD,New,4,True,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-2BBFDC45CA,H005,34,Male,Mechanic,38.4,91,17,125,66,100,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-6CEC1E1996,H005,8,Female,Student,39.5,88,20,101,77,98,D002,SV001,OPD,New,4,False,Not Vaccinated,Recovered,4,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-2BF29E3234,H005,61,Male,Retired Government Employee,37.8,78,17,106,76,97,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-63CEE708E1,H005,46,Female,Mechanic,38.0,92,17,110,68,99,D008,SV001,OPD,New,3,False,Vaccinated,Recovered,5,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-351E347651,H005,20,Male,Government Employee,38.0,79,17,124,79,98,D005,SV001,OPD,New,3,True,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-E644ED181F,H005,82,Male,Retired Army Officer,37.6,92,16,108,72,97,D005,SV001,OPD,New,2,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-99BAAAB3D1,H005,16,Female,Student,38.9,97,20,101,60,96,D004,SV002,Admitted,New,6,False,Vaccinated,Recovered,14,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-FE43F2797D,H005,20,Male,Software Engineer,39.4,88,22,118,80,100,D002,SV001,OPD,New,2,False,Vaccinated,Recovered,6,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-F020842F18,H005,58,Female,Police Officer,39.2,90,21,104,80,99,D002,SV001,OPD,New,4,False,Vaccinated,Recovered,3,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-57B1865783,H005,46,Female,Farmer,37.7,89,16,120,77,97,D004,SV001,OPD,New,3,False,Not Vaccinated,Stable,6,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-791704F255,H005,63,Female,Retired Government Employee,37.6,89,18,115,66,98,D005,SV001,OPD,New,4,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-FC7BE89325,H005,59,Female,Sales Executive,39.2,106,18,102,65,99,D007,SV002,Admitted,New,5,False,Not Vaccinated,Recovered,14,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-FA8D4860E9,H005,54,Female,Sales Executive,40.1,112,24,104,63,96,D002,SV003,Admitted,New,6,False,Vaccinated,Recovered,14,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+ENC-CDD79EABC2,H005,56,Female,Police Officer,39.0,86,19,110,74,98,D007,SV001,OPD,New,3,True,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-88F4EF5BC8,H005,43,Male,Government Employee,38.1,82,18,109,70,100,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-00C718C75D,H005,24,Female,Shopkeeper,38.4,88,16,110,79,97,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-C474EA41B7,H005,29,Female,Teacher,38.8,93,19,101,72,97,D002,SV001,OPD,New,2,False,Vaccinated,Recovered,3,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-01CA44C708,H005,16,Male,Student,38.8,83,17,110,78,100,D001,SV001,OPD,New,3,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-90FAB500AF,H005,59,Male,Police Officer,38.8,90,19,108,64,97,D001,SV001,OPD,New,1,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-EC60B7D40E,H005,73,Male,Retired Farmer,37.6,82,17,105,68,97,D004,SV001,OPD,New,1,True,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-5AC7CE4DB5,H005,19,Male,Doctor,39.0,87,16,117,73,98,D003,SV001,OPD,New,3,True,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-C837D58598,H005,23,Female,Driver,39.4,89,22,110,76,99,D002,SV001,OPD,New,2,False,Not Vaccinated,Recovered,7,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-1B0303933C,H005,2,Female,Student,37.6,91,18,101,76,99,D008,SV001,OPD,New,3,True,Not Vaccinated,Recovered,6,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-5089214067,H005,16,Female,Student,39.0,104,19,98,64,97,D007,SV002,Admitted,New,3,True,Not Vaccinated,Stable,7,1,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-0DAE110E8E,H005,38,Female,Office Worker,38.1,93,16,104,66,97,D008,SV001,OPD,New,1,True,Vaccinated,Recovered,4,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-C727474A28,H005,45,Male,Driver,38.2,85,17,108,79,100,D004,SV001,OPD,New,1,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-A778AF0B3D,H005,33,Female,Driver,38.5,88,19,109,79,97,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-713B30C03C,H005,48,Male,Lab Technician,38.4,91,20,115,72,96,D005,SV001,OPD,New,1,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-287A586FD7,H005,49,Female,Teacher,39.1,110,20,106,70,97,D002,SV002,Admitted,New,3,False,Vaccinated,Recovered,13,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+ENC-DA8FCAEAB6,H005,18,Female,Lab Technician,38.1,101,30,87,58,94,D006,SV003,Admitted,New,6,False,Not Vaccinated,Recovered,14,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+ENC-A363D86EE6,H005,3,Female,Student,38.6,107,20,112,75,93,D005,SV002,OPD,New,6,True,Vaccinated,Recovered,8,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+ENC-A370CF9712,H005,30,Male,Business Owner,39.0,94,20,98,62,95,D005,SV002,Admitted,New,3,False,Vaccinated,Recovered,8,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0
+ENC-8BA5C22019,H005,58,Male,Police Officer,38.1,96,18,110,76,99,D001,SV001,OPD,New,1,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-32AE33F0E8,H005,50,Female,Business Owner,38.1,105,21,99,66,94,D004,SV002,Admitted,New,3,False,Not Vaccinated,Recovered,9,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-6460E653C2,H005,43,Male,Homemaker,37.6,87,17,119,79,98,D004,SV001,OPD,New,2,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-DE9B507D3D,H005,18,Male,Mechanic,38.0,89,17,111,79,99,D004,SV001,OPD,New,1,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-643CE0843A,H005,27,Female,Shopkeeper,38.7,102,19,95,69,96,D007,SV002,Admitted,New,7,False,Not Vaccinated,Recovered,10,0,0,0,0,0,0,0,1,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-3C0BE5E21D,H005,79,Female,Retired Farmer,38.3,96,16,118,78,99,D007,SV001,OPD,New,1,False,Not Vaccinated,Stable,6,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-61CDC0E380,H005,30,Male,Teacher,38.7,84,20,120,77,100,D001,SV001,OPD,New,2,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-3C65D9E2AE,H005,5,Male,Student,38.3,94,18,120,74,98,D004,SV001,OPD,New,2,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-A978C1D73B,H005,5,Male,Student,38.4,82,17,106,68,99,D001,SV001,OPD,New,4,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-3A5C85005D,H005,25,Female,Homemaker,38.1,94,20,119,70,98,D004,SV001,OPD,New,1,False,Vaccinated,Stable,6,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-75397B141B,H005,44,Female,Pharmacist,38.9,89,19,114,80,100,D001,SV001,OPD,New,4,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-9D13F50953,H005,54,Male,Doctor,38.3,83,16,104,66,100,D008,SV001,OPD,New,1,False,Vaccinated,Recovered,6,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-D97E3D58E6,H005,32,Female,Driver,39.2,103,20,114,76,98,D002,SV001,OPD,New,3,False,Not Vaccinated,Recovered,6,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-C075A095A3,H005,39,Female,Sales Executive,37.9,87,20,105,74,99,D004,SV001,OPD,New,4,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-19AC9558D5,H005,45,Female,Sales Executive,37.9,81,20,122,76,100,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-5FF5BDFB7E,H005,83,Male,Retired Farmer,38.3,82,18,112,68,96,D005,SV001,OPD,New,2,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-3BE4A364A0,H005,24,Male,Shopkeeper,38.7,91,19,104,71,97,D002,SV001,OPD,New,2,False,Vaccinated,Recovered,3,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-BA044F2CBA,H005,34,Male,Homemaker,40.4,111,28,87,63,93,D002,SV003,Admitted,New,9,False,Vaccinated,Recovered,27,0,1,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+ENC-A3A530075A,H005,20,Female,Pharmacist,38.7,95,22,95,62,95,D004,SV002,Admitted,New,2,True,Vaccinated,Recovered,12,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-C4C9525A9D,H005,43,Male,Pharmacist,38.0,94,17,125,79,98,D005,SV001,OPD,New,1,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-CB22A1DB82,H005,73,Male,Retired Teacher,39.0,84,19,103,73,97,D001,SV001,OPD,New,4,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-C86EBF23F1,H005,3,Female,Student,38.1,80,19,121,69,97,D004,SV001,OPD,New,2,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-D07455C711,H005,50,Male,Electrician,37.8,76,16,105,77,98,D006,SV001,OPD,New,2,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+ENC-2745C9E4CA,H005,42,Female,Government Employee,37.7,87,16,113,78,99,D005,SV001,OPD,New,4,False,Vaccinated,Stable,5,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-A68E7761AA,H005,71,Male,Retired Government Employee,38.8,96,19,107,67,100,D001,SV001,OPD,New,3,False,Not Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-758D1A533B,H005,65,Female,Retired Army Officer,38.3,100,23,102,60,95,D004,SV002,Admitted,New,3,False,Not Vaccinated,Recovered,13,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+ENC-4D68A268BB,H005,32,Female,Nurse,38.3,95,21,106,70,97,D006,SV002,Admitted,New,7,False,Vaccinated,Recovered,12,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+ENC-9DFCA03757,H005,39,Male,Mechanic,39.0,111,35,105,62,87,D005,SV003,Admitted,New,10,True,Vaccinated,Recovered,28,0,0,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0
+ENC-9936965059,H005,18,Female,Police Officer,38.9,101,24,96,72,97,D004,SV002,Admitted,New,3,False,Not Vaccinated,Recovered,14,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-F4C8506B70,H005,47,Female,Pharmacist,38.1,92,20,105,69,99,D001,SV001,OPD,New,2,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-5F14130BCA,H005,10,Female,Student,39.1,115,27,97,50,96,D008,SV003,Admitted,New,10,False,Vaccinated,Referred,14,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-E57CAF461E,H005,6,Male,Student,37.7,82,20,121,78,97,D005,SV001,OPD,New,2,True,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-E1F21B869C,H005,9,Male,Student,38.1,85,20,112,80,100,D004,SV001,OPD,New,2,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-E89A00FE6B,H005,12,Male,Student,39.4,89,18,114,76,99,D002,SV001,OPD,New,2,True,Vaccinated,Recovered,6,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-48A0CBD5DE,H005,51,Female,Sales Executive,38.1,79,17,105,68,97,D005,SV001,OPD,New,3,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-491E3D7FB4,H005,24,Male,Doctor,38.0,90,16,106,75,99,D005,SV001,OPD,New,2,True,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-5E80C2266C,H005,27,Female,Farmer,38.4,89,19,101,75,100,D003,SV001,OPD,New,2,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-2F9D18D484,H005,27,Male,Homemaker,38.8,103,21,107,63,96,D001,SV002,Admitted,New,5,False,Vaccinated,Recovered,14,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,0,1,0,0,0,1,0
+ENC-C520D3F777,H005,37,Male,Homemaker,38.7,85,19,111,74,100,D002,SV001,OPD,New,2,False,Vaccinated,Recovered,5,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-47AA1DCDB7,H005,47,Male,Driver,38.0,92,18,120,77,98,D004,SV001,OPD,New,2,False,Not Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+ENC-DF53C84812,H005,37,Male,Farmer,38.5,102,22,93,69,97,D008,SV002,Admitted,New,3,True,Vaccinated,Recovered,14,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-19B4C6B9F4,H005,18,Female,Driver,37.8,86,16,122,75,99,D004,SV001,OPD,New,1,True,Not Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-203D847907,H005,4,Male,Student,37.9,85,16,113,72,98,D004,SV001,OPD,New,2,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-ED1D626CB5,H005,19,Female,Government Employee,38.7,88,20,120,72,100,D001,SV001,OPD,New,3,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-52CD640F82,H005,2,Female,Student,38.0,77,19,119,75,98,D005,SV001,OPD,New,1,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-2FF00ABEAA,H005,14,Male,Student,38.6,93,20,112,73,98,D002,SV001,OPD,New,3,False,Vaccinated,Recovered,4,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-657CE11D45,H005,10,Male,Student,38.4,75,16,124,78,99,D004,SV001,OPD,New,3,False,Not Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-E1A8FB8A0E,H005,7,Female,Student,38.0,110,24,91,62,99,D008,SV002,Admitted,New,2,False,Not Vaccinated,Recovered,9,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-29C85D36B3,H005,12,Female,Student,37.8,89,17,105,77,98,D006,SV001,OPD,New,4,True,Not Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+ENC-26A8B5DF0B,H005,32,Female,Electrician,37.6,94,19,121,69,99,D004,SV001,OPD,New,1,False,Vaccinated,Stable,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+ENC-6DEFC2875D,H005,55,Female,Pharmacist,37.7,86,18,123,67,99,D004,SV001,OPD,New,4,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-C79FFD0AEC,H005,4,Male,Student,39.3,98,22,113,79,100,D002,SV001,OPD,New,1,True,Vaccinated,Recovered,5,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-D41F6BC15E,H005,11,Female,Student,38.0,77,20,117,69,96,D005,SV001,OPD,New,4,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-0F5D5B7F8E,H005,62,Male,Retired Government Employee,37.5,83,16,103,73,99,D006,SV001,OPD,New,3,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+ENC-EB054B979A,H005,26,Female,Driver,38.4,95,18,125,69,98,D004,SV001,OPD,New,2,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+ENC-CC1F95F94B,H005,7,Male,Student,37.7,87,16,105,78,99,D005,SV001,OPD,New,2,False,Not Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-471E1A20DC,H005,28,Female,Business Owner,38.2,93,19,113,66,99,D004,SV001,OPD,New,4,True,Vaccinated,Stable,7,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-F8FE51AA6E,H005,42,Female,Homemaker,38.2,81,20,119,65,98,D001,SV001,OPD,New,2,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-B670062CF4,H005,38,Female,Doctor,37.8,84,17,117,74,97,D004,SV001,OPD,New,3,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-C75017B616,H005,51,Male,Mechanic,38.7,103,27,89,56,89,D004,SV003,Admitted,New,4,False,Vaccinated,Referred,17,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-E3683C67D1,H005,13,Female,Student,40.0,125,30,81,59,94,D008,SV003,Admitted,New,6,False,Vaccinated,Recovered,23,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-46123D021E,H005,25,Female,Mechanic,38.0,82,16,123,67,98,D005,SV001,OPD,New,1,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-25D30DF80E,H005,56,Female,Shopkeeper,37.9,83,16,106,66,98,D008,SV001,OPD,New,2,True,Vaccinated,Recovered,5,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-77A685BED9,H005,46,Male,Police Officer,37.7,84,19,117,69,98,D004,SV001,OPD,New,4,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-A132EF8A6B,H005,59,Female,Nurse,38.8,98,16,116,77,99,D007,SV001,OPD,New,3,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-199FEDA0DB,H005,45,Female,Homemaker,39.1,102,18,103,78,99,D002,SV001,OPD,New,2,False,Vaccinated,Recovered,6,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-240EBCA753,H005,10,Male,Student,38.3,85,16,111,74,98,D001,SV001,OPD,New,2,True,Not Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-B9131211A1,H005,58,Female,Driver,39.3,91,20,109,70,99,D007,SV002,Admitted,New,5,False,Vaccinated,Recovered,9,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-B5DDC48092,H005,50,Female,Government Employee,39.8,120,28,97,60,97,D001,SV003,Admitted,New,5,False,Not Vaccinated,Recovered,16,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,1,1,0,0,0,1,0
+ENC-3057DC7E05,H005,72,Male,Retired Army Officer,37.9,90,20,107,67,98,D008,SV001,OPD,New,1,False,Vaccinated,Recovered,4,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-E37F57BF93,H005,5,Female,Student,38.6,81,16,105,78,98,D003,SV001,OPD,New,4,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-285565135F,H005,52,Female,Mechanic,37.7,93,17,111,65,96,D005,SV001,OPD,New,3,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-056233EB46,H005,8,Male,Student,38.1,98,20,105,63,98,D001,SV001,OPD,New,2,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-D0408CC5C5,H005,18,Female,Software Engineer,38.6,100,26,97,61,90,D006,SV003,Admitted,New,4,True,Vaccinated,Stable,14,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+ENC-DA513F0B74,H005,74,Female,Retired Farmer,37.8,80,18,122,70,98,D004,SV001,OPD,New,2,True,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-91DD550A2C,H005,47,Male,Farmer,38.6,83,17,120,61,100,D001,SV001,OPD,New,4,False,Not Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-531F3D2431,H005,41,Female,Teacher,38.2,94,20,119,69,99,D005,SV001,OPD,New,4,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-9D1CC8AC97,H005,75,Female,Retired Teacher,39.0,106,22,101,69,96,D004,SV002,Admitted,New,2,False,Vaccinated,Recovered,12,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-8F465896F1,H005,56,Female,Doctor,37.8,91,16,105,73,100,D004,SV001,OPD,New,1,True,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-4836376471,H005,30,Male,Driver,39.1,111,28,94,64,96,D008,SV003,Admitted,New,10,False,Vaccinated,Recovered,19,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-13004DAAEA,H005,26,Female,Shopkeeper,38.2,81,19,111,65,97,D001,SV001,OPD,New,2,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-C5238F11EF,H005,53,Female,Driver,39.4,104,19,100,65,100,D002,SV001,OPD,New,1,False,Vaccinated,Recovered,5,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-90E0F01E70,H005,32,Female,Business Owner,38.5,82,20,100,65,99,D001,SV001,OPD,New,3,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-716A41664F,H005,31,Male,Doctor,38.1,84,19,123,78,100,D004,SV001,OPD,New,1,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-F929A59747,H005,35,Male,Office Worker,38.0,82,17,104,75,99,D001,SV001,OPD,New,1,False,Not Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-B49C6E807B,H005,58,Male,Homemaker,39.2,97,21,99,60,98,D002,SV002,Admitted,New,6,False,Not Vaccinated,Stable,11,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+ENC-ABD8D4DC41,H005,17,Female,Student,38.1,89,20,105,77,99,D001,SV001,OPD,New,4,True,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-20ECFEA8B0,H005,67,Female,Retired Teacher,39.7,95,24,100,72,97,D002,SV002,Admitted,New,4,False,Not Vaccinated,Recovered,14,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-92183FEE41,H005,44,Male,Business Owner,37.8,93,18,112,72,98,D008,SV001,OPD,New,2,False,Vaccinated,Recovered,3,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-C27BF0E138,H005,51,Female,Business Owner,38.2,83,18,116,78,98,D008,SV001,OPD,New,2,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-1D64C115E2,H005,59,Male,Lab Technician,38.9,90,20,115,68,100,D002,SV001,OPD,New,1,False,Vaccinated,Recovered,3,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-5269CAB698,H005,70,Female,Retired Farmer,39.4,92,21,101,68,97,D002,SV001,OPD,New,1,True,Vaccinated,Recovered,4,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-4A6138B51A,H005,14,Female,Student,39.6,112,22,115,63,99,D002,SV002,Admitted,New,2,False,Vaccinated,Referred,7,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-61CFA9EB05,H005,53,Female,Teacher,39.7,102,26,88,61,85,D005,SV003,Admitted,New,7,True,Vaccinated,Recovered,16,0,0,0,1,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0
+ENC-A43A8A0EB0,H005,37,Male,Pharmacist,39.0,93,20,117,67,100,D002,SV001,OPD,New,1,True,Not Vaccinated,Recovered,5,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-BF546A9D06,H005,41,Female,Farmer,37.8,95,17,109,65,99,D008,SV001,OPD,New,4,False,Not Vaccinated,Recovered,6,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-ECEA769788,H005,57,Male,Shopkeeper,39.2,127,26,105,58,95,D001,SV003,Admitted,New,8,True,Vaccinated,Recovered,28,0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,1,1,0,0,0,1,0
+ENC-65825BDF06,H005,74,Female,Retired Teacher,38.1,108,21,101,60,97,D004,SV002,Admitted,New,7,False,Vaccinated,Recovered,13,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-2D8108D7F9,H005,37,Male,Homemaker,37.7,75,16,115,78,97,D005,SV001,OPD,New,1,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-304D1EED71,H005,31,Male,Office Worker,37.9,86,18,123,71,97,D004,SV001,OPD,New,3,True,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-ED31C71F43,H005,42,Female,Factory Worker,37.5,86,19,122,77,98,D004,SV001,OPD,New,1,True,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-F7E051F144,H005,52,Male,Mechanic,38.6,115,19,102,61,96,D001,SV002,Admitted,New,7,False,Not Vaccinated,Recovered,9,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-8D6B1F901E,H005,32,Male,Farmer,38.4,80,20,111,71,98,D001,SV001,OPD,New,4,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-CF025795B6,H005,23,Female,Pharmacist,37.7,85,19,122,75,98,D004,SV001,OPD,New,2,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-300899C013,H005,60,Male,Homemaker,39.0,104,22,113,73,93,D005,SV002,Admitted,New,7,True,Vaccinated,Recovered,13,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-BFF175A293,H005,52,Male,Driver,38.4,77,20,117,67,99,D005,SV001,OPD,New,4,True,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-E4EA0E28E5,H005,22,Female,Lab Technician,38.1,92,16,108,64,100,D001,SV001,OPD,New,4,True,Not Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-484CBA5B2E,H005,49,Female,Software Engineer,38.4,81,19,111,66,98,D008,SV001,OPD,New,3,True,Vaccinated,Recovered,7,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+ENC-29BAF648E6,H005,8,Female,Student,38.4,103,23,104,58,98,D008,SV002,OPD,New,5,False,Vaccinated,Recovered,13,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-AFFA5CAA1C,H005,36,Female,Doctor,38.4,89,17,110,69,99,D008,SV001,OPD,New,2,False,Vaccinated,Recovered,3,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-BFE254073A,H005,10,Female,Student,38.6,83,18,104,64,99,D001,SV001,OPD,New,2,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-3125F49C81,H005,52,Male,Farmer,38.2,85,17,120,79,99,D001,SV001,OPD,New,2,True,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-73EECE5673,H005,3,Male,Student,38.6,88,20,119,76,97,D001,SV001,OPD,New,4,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-1C9AF1592E,H005,17,Male,Student,38.1,85,20,108,73,99,D001,SV001,OPD,New,3,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-C25F866BA4,H005,30,Female,Factory Worker,38.5,106,20,103,64,94,D004,SV002,Admitted,New,6,True,Not Vaccinated,Recovered,12,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-DC488BBA18,H005,53,Male,Sales Executive,37.7,86,17,125,76,96,D005,SV001,OPD,New,3,False,Not Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-505FBB9F77,H005,27,Male,Factory Worker,38.1,110,26,112,75,90,D005,SV002,Admitted,New,7,False,Vaccinated,Recovered,13,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-CEC9C627DF,H005,1,Female,Student,38.4,93,18,120,69,98,D005,SV001,OPD,New,2,True,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-F5E53801EB,H005,43,Male,Homemaker,38.5,92,21,114,66,92,D005,SV002,Admitted,New,5,False,Vaccinated,Recovered,9,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0
+ENC-EE5A27EA04,H005,3,Female,Student,37.9,94,18,124,67,99,D004,SV001,OPD,New,2,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-DE55BD0097,H005,47,Male,Doctor,38.2,82,20,111,76,97,D004,SV001,OPD,New,2,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+ENC-6D4786F4F4,H005,3,Male,Student,39.1,101,18,108,72,99,D002,SV001,OPD,New,1,True,Not Vaccinated,Recovered,5,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-F57D265ED2,H005,47,Female,Pharmacist,37.2,79,16,120,70,99,D006,SV001,OPD,New,3,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+ENC-91222BEF50,H005,11,Female,Student,37.8,82,17,109,71,97,D004,SV001,OPD,New,3,False,Vaccinated,Stable,4,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+ENC-12775FE67A,H005,59,Male,Factory Worker,38.9,92,20,106,80,98,D001,SV001,OPD,New,3,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-E6483F13A8,H005,35,Male,Government Employee,37.7,75,16,105,70,99,D004,SV001,OPD,New,2,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-D12D355D97,H005,24,Male,Lab Technician,38.1,85,17,120,65,98,D004,SV001,OPD,New,1,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-020A179954,H005,30,Male,Shopkeeper,38.6,99,17,114,68,100,D001,SV001,OPD,New,3,False,Not Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-AA60E80BF0,H005,25,Male,Government Employee,38.0,86,19,104,69,98,D008,SV001,OPD,New,4,True,Not Vaccinated,Recovered,3,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-2AB172E474,H005,50,Male,Lab Technician,38.2,84,19,104,75,98,D008,SV001,OPD,New,2,False,Vaccinated,Stable,7,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-C49C69584D,H005,83,Female,Retired Farmer,38.4,86,16,106,66,98,D008,SV001,OPD,New,2,False,Vaccinated,Recovered,3,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-9B29BD83C9,H005,47,Female,Driver,38.2,87,20,102,80,97,D001,SV001,OPD,New,1,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-8AD2E85BBE,H005,38,Male,Business Owner,37.6,92,18,119,76,98,D005,SV001,OPD,New,2,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-5C41740DAF,H005,15,Male,Student,38.5,84,16,114,75,98,D004,SV001,OPD,New,1,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+ENC-EF2FFC8382,H005,28,Male,Factory Worker,38.7,85,16,109,63,99,D001,SV001,OPD,New,1,False,Not Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-3C455E077A,H005,88,Male,Retired Teacher,38.7,106,23,96,63,92,D005,SV002,Admitted,New,2,True,Not Vaccinated,Recovered,9,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0
+ENC-803AD1B865,H005,65,Male,Retired Farmer,37.5,80,19,121,71,99,D004,SV001,OPD,New,4,False,Not Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+ENC-5890926958,H005,83,Male,Retired Teacher,38.1,106,20,101,59,97,D008,SV002,Admitted,New,2,False,Vaccinated,Recovered,11,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-DAB67C153C,H005,36,Male,Office Worker,38.5,98,16,114,74,99,D001,SV001,OPD,New,3,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-F95610837E,H005,20,Female,Homemaker,39.0,98,18,103,76,99,D003,SV001,OPD,New,4,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-5D0C03ABE9,H005,73,Female,Retired Teacher,38.3,97,18,107,66,98,D001,SV001,OPD,New,1,False,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-BC2D80544F,H005,32,Female,Software Engineer,38.8,102,22,103,64,98,D001,SV002,Admitted,New,3,False,Vaccinated,Recovered,9,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,1,1,0,0,0,1,0
+ENC-66621D6722,H005,63,Male,Retired Teacher,39.3,104,21,114,72,98,D001,SV002,Admitted,New,5,False,Not Vaccinated,Recovered,11,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
+ENC-6F853EF0FC,H005,29,Female,Factory Worker,38.4,84,16,104,65,100,D008,SV001,OPD,New,3,False,Vaccinated,Recovered,4,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+ENC-50DE8FB5E4,H005,48,Female,Business Owner,38.7,96,19,110,77,97,D002,SV001,OPD,New,4,False,Vaccinated,Recovered,4,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+ENC-61D6B3D132,H005,49,Female,Police Officer,38.3,80,19,111,69,97,D005,SV001,OPD,New,3,False,Vaccinated,Recovered,5,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-FB8903D1D6,H005,79,Female,Retired Army Officer,38.5,84,17,109,68,100,D001,SV001,OPD,New,1,False,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-0208D938E7,H005,25,Female,Teacher,38.7,89,17,118,68,100,D001,SV001,OPD,New,1,True,Vaccinated,Recovered,4,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+ENC-B9843470F4,H005,34,Male,Farmer,38.9,97,17,113,74,98,D007,SV001,OPD,New,3,False,Vaccinated,Recovered,7,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-BF0ABD748A,H005,60,Female,Retired Government Employee,38.3,93,19,109,65,100,D007,SV001,OPD,New,4,True,Vaccinated,Recovered,3,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+ENC-AD57E72F0A,H005,82,Male,Homemaker,38.4,86,16,116,71,97,D001,SV001,OPD,New,4,True,Vaccinated,Stable,4,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+ENC-53D85AFEAE,H005,1,Male,Student,38.2,80,16,109,76,97,D004,SV001,OPD,New,1,False,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+ENC-6B4035F1B2,H005,11,Male,Student,37.9,78,16,120,70,99,D004,SV001,OPD,New,3,True,Vaccinated,Recovered,6,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+ENC-E7995D4D60,H005,22,Male,Doctor,38.0,110,18,97,65,98,D008,SV002,Admitted,New,7,False,Vaccinated,Stable,7,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0

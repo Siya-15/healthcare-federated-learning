@@ -1,0 +1,56 @@
+symptom_pattern,hospitals_affected,total_occurrences
+Abdominal Pain + Dehydration + Diarrhoea + Fever + Nausea + Vomiting,10,37
+Chest Pain + Fatigue + Fever + Night Sweats + Persistent Cough + Weight Loss,8,27
+Dry Cough + Fever + Loss of Smell + Loss of Taste + Sore Throat,7,18
+Breathlessness + Dry Cough + Fatigue + Fever + Loss of Smell + Loss of Taste + Sore Throat,6,44
+Fever + Headache + Muscle Pain + Nausea + Rash,6,9
+Fever + Headache + Muscle Pain + Rash + Retro-orbital Pain + Vomiting,6,8
+Bleeding + Fever + Headache + Joint Pain + Muscle Pain + Nausea + Rash + Retro-orbital Pain + Vomiting,6,7
+Fatigue + Fever + Night Sweats + Persistent Cough,5,20
+Fatigue + Fever + Headache + Joint Pain + Muscle Pain + Rash,5,15
+Fever + Headache + Muscle Pain + Nausea + Rash + Retro-orbital Pain,5,13
+Fatigue + Fever + Night Sweats + Persistent Cough + Weight Loss,5,9
+Bleeding + Fever + Headache + Joint Pain + Muscle Pain + Nausea + Rash + Retro-orbital Pain,5,8
+Bleeding + Fever + Headache + Joint Pain + Muscle Pain + Rash + Retro-orbital Pain + Vomiting,5,5
+Abdominal Pain + Diarrhoea + Fatigue + Fever + Headache + Loss of Appetite,4,13
+Breathlessness + Dry Cough + Fever + Loss of Smell + Loss of Taste + Sore Throat,4,9
+Fever + Headache + Joint Pain + Muscle Pain + Nausea + Rash,4,8
+Anaemia + Chills + Fatigue + Fever + Headache + Nausea + Sweating + Vomiting,4,5
+Breathlessness + Dry Cough + Fatigue + Fever + Loss of Smell + Sore Throat,4,5
+Fever + Night Sweats + Persistent Cough,4,5
+Anaemia + Chills + Fatigue + Fever + Headache + Sweating + Vomiting,4,4
+Fatigue + Fever + Joint Pain + Muscle Pain + Rash,4,4
+Dry Cough + Fatigue + Fever + Loss of Smell + Loss of Taste,3,13
+Diarrhoea + Fatigue + Fever + Headache + Loss of Appetite,3,6
+Dry Cough + Fever + Loss of Smell + Loss of Taste,3,6
+Fever + Headache + Joint Pain + Muscle Pain + Nausea + Rash + Vomiting,3,6
+Abdominal Pain + Diarrhoea + Fever + Headache + Loss of Appetite,3,4
+Abdominal Pain + Fatigue + Fever + Headache,3,4
+Abdominal Pain + Fatigue + Fever + Loss of Appetite,3,4
+Anaemia + Chills + Fatigue + Fever + Headache + Nausea + Sweating,3,4
+Breathlessness + Dry Cough + Fatigue + Fever + Loss of Smell + Loss of Taste,3,4
+Breathlessness + Dry Cough + Fatigue + Fever + Loss of Taste + Sore Throat,3,4
+Fever + Headache + Muscle Pain + Rash + Vomiting,3,4
+Fever + Muscle Pain + Rash + Retro-orbital Pain,3,4
+Abdominal Pain + Diarrhoea + Fatigue + Fever + Loss of Appetite,3,3
+Bleeding + Fever + Headache + Joint Pain + Muscle Pain + Rash + Retro-orbital Pain,3,3
+Fatigue + Night Sweats + Persistent Cough,3,3
+Dry Cough + Fatigue + Fever + Loss of Smell + Loss of Taste + Sore Throat,2,13
+Abdominal Pain + Fatigue + Fever + Headache + Loss of Appetite,2,8
+Diarrhoea + Fever + Nausea + Vomiting,2,3
+Abdominal Pain + Dehydration + Diarrhoea + Fever + Vomiting,2,2
+Abdominal Pain + Dehydration + Diarrhoea + Nausea + Vomiting,2,2
+Abdominal Pain + Diarrhoea + Fatigue + Fever + Headache,2,2
+Abdominal Pain + Fever + Headache + Loss of Appetite,2,2
+Abdominal Pain + Fever + Loss of Appetite,2,2
+Bleeding + Fever + Headache + Joint Pain + Muscle Pain + Retro-orbital Pain + Vomiting,2,2
+Chest Pain + Fatigue + Fever + Persistent Cough + Weight Loss,2,2
+Chest Pain + Fatigue + Night Sweats + Persistent Cough + Weight Loss,2,2
+Dehydration + Diarrhoea + Fever + Nausea + Vomiting,2,2
+Dry Cough + Fever + Loss of Taste,2,2
+Fever + Headache + Joint Pain + Muscle Pain + Rash + Vomiting,2,2
+Fever + Headache + Muscle Pain + Nausea + Rash + Retro-orbital Pain + Vomiting,2,2
+Fever + Headache + Muscle Pain + Nausea + Rash + Vomiting,2,2
+Fever + Headache + Muscle Pain + Rash + Retro-orbital Pain,2,2
+Fever + Joint Pain + Muscle Pain + Nausea,2,2
+Fever + Muscle Pain + Rash + Retro-orbital Pain + Vomiting,2,2
