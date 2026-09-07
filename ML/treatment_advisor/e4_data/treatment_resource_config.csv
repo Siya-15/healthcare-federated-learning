@@ -1,0 +1,16 @@
+treatment_id,resource_tier,cost_level,configuration_type,cost_note
+T001,LOW,LOW,SYNTHETIC_PROJECT_CONFIGURATION,Prototype relative resource/cost tier; not a real monetary price.
+T002,LOW,LOW,SYNTHETIC_PROJECT_CONFIGURATION,Prototype relative resource/cost tier; not a real monetary price.
+T003,HIGH,HIGH,SYNTHETIC_PROJECT_CONFIGURATION,Prototype relative resource/cost tier; not a real monetary price.
+T004,MEDIUM,MEDIUM,SYNTHETIC_PROJECT_CONFIGURATION,Prototype relative resource/cost tier; not a real monetary price.
+T005,MEDIUM,MEDIUM,SYNTHETIC_PROJECT_CONFIGURATION,Prototype relative resource/cost tier; not a real monetary price.
+T006,MEDIUM,MEDIUM,SYNTHETIC_PROJECT_CONFIGURATION,Prototype relative resource/cost tier; not a real monetary price.
+T007,MEDIUM,MEDIUM,SYNTHETIC_PROJECT_CONFIGURATION,Prototype relative resource/cost tier; not a real monetary price.
+T008,HIGH,HIGH,SYNTHETIC_PROJECT_CONFIGURATION,Prototype relative resource/cost tier; not a real monetary price.
+T009,MEDIUM,MEDIUM,SYNTHETIC_PROJECT_CONFIGURATION,Prototype relative resource/cost tier; not a real monetary price.
+T010,HIGH,HIGH,SYNTHETIC_PROJECT_CONFIGURATION,Prototype relative resource/cost tier; not a real monetary price.
+T011,HIGH,HIGH,SYNTHETIC_PROJECT_CONFIGURATION,Prototype relative resource/cost tier; not a real monetary price.
+T012,MEDIUM,MEDIUM,SYNTHETIC_PROJECT_CONFIGURATION,Prototype relative resource/cost tier; not a real monetary price.
+T013,LOW,LOW,SYNTHETIC_PROJECT_CONFIGURATION,Prototype relative resource/cost tier; not a real monetary price.
+T014,HIGH,HIGH,SYNTHETIC_PROJECT_CONFIGURATION,Prototype relative resource/cost tier; not a real monetary price.
+T015,HIGH,HIGH,SYNTHETIC_PROJECT_CONFIGURATION,Prototype relative resource/cost tier; not a real monetary price.

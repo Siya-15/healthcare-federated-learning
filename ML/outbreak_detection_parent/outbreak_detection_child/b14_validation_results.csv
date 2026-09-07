@@ -1,0 +1,8 @@
+scenario,component,expected_behavior,observed_behavior,passed,evidence,notes
+NORMAL,B10 composite risk,Allow routine/YELLOW surveillance but prevent outbreak escalation,Maximum risk score=40.32; ORANGE/RED=False; outbreak_signal=False,True,40.32,Normal baseline contains existing surveillance-watch signals; validation checks that these do not escalate to ORANGE/RED or an outbreak signal.
+ONE_WEEK_SPIKE,B4 + B5,Detect short-term spike through anomaly or temporal acceleration evidence,"Anomaly=48.18, Risk=40.32",True,48.18,Controlled one-week spike produces measurable anomaly/temporal evidence.
+SUSTAINED_OUTBREAK,B5 + B6,Show temporal and persistence evidence,Persistence=63.84; consecutive abnormal weeks=10; temporal=39.90,True,63.84,Existing surveillance evidence confirms persistence capability.
+MULTI_HOSPITAL_OUTBREAK,B7 spatial propagation,Represent hospital spread / propagation,Affected hospitals=3; coverage=0.38; spatial score=49.25,True,49.25,B7 output provides hospital-level spatial evidence.
+ATYPICAL_PLUS_RISING_INCIDENCE,B8 Objective A → Objective B,Atypical/emerging evidence receives epidemiological support,Objective-A=42.56; epidemiological=29.22; integration=54.25,True,54.25,Validates the existing A→B integration pathway.
+SEVERE_CASE_OUTBREAK,B9 → B10,Severity burden contributes to composite outbreak risk,B9 severity=93.62; severe cases=10; B10 severity evidence=93.62,True,93.61569769811533,Confirms severity evidence reaches the composite risk engine.
+SEASONAL_EXPECTED_INCREASE,B10 false-positive control,Do not automatically escalate to ORANGE/RED,Maximum current risk score=40.32,True,40.32,Moderate expected increases should remain below escalation threshold.

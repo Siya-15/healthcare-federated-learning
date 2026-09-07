@@ -1,12 +1,15 @@
 from sqlalchemy import text
-
+from encounter_validator import EncounterValidator
 
 class DatabaseWriter:
 
-    def __init__(self, engine):
+    def __init__(self, engine,validator=None):
         self.engine = engine
+        self.validator = validator
 
     def save(self, encounter):
+        if self.validator:
+            self.validator.validate(encounter)
 
         """
         Writes one complete encounter into:
@@ -15,6 +18,12 @@ class DatabaseWriter:
         - encounter_symptoms
         - encounter_treatments
         - encounter_complications
+        - encounter_labs
+        - encounter_imaging
+
+        Objective D:
+        Persist the complete Encounter model without losing
+        richer clinical attributes.
         """
 
         with self.engine.begin() as connection:
@@ -29,6 +38,7 @@ class DatabaseWriter:
                         encounter_id,
                         patient_id,
                         hospital_id,
+                        parent_encounter_id,
                         visit_timestamp,
                         age,
                         gender,
@@ -49,12 +59,19 @@ class DatabaseWriter:
                         travel_history,
                         vaccination_status,
                         discharge_status,
-                        recovery_days
+                        recovery_days,
+                        treatment_duration_days,
+                        readmitted_within_30_days,
+                        follow_up_status,
+                        complication_count,
+                        admission_required,
+                        referral_required
                     )
                     VALUES (
                         :encounter_id,
                         :patient_id,
                         :hospital_id,
+                        :parent_encounter_id,
                         :visit_timestamp,
                         :age,
                         :gender,
@@ -75,13 +92,20 @@ class DatabaseWriter:
                         :travel_history,
                         :vaccination_status,
                         :discharge_status,
-                        :recovery_days
+                        :recovery_days,
+                        :treatment_duration_days,
+                        :readmitted_within_30_days,
+                        :follow_up_status,
+                        :complication_count,
+                        :admission_required,
+                        :referral_required
                     )
                 """),
                 {
                     "encounter_id": encounter.encounter_id,
                     "patient_id": encounter.patient_id,
                     "hospital_id": encounter.hospital_id,
+                    "parent_encounter_id": encounter.parent_encounter_id,
                     "visit_timestamp": encounter.visit_timestamp,
 
                     "age": encounter.demographics.age,
@@ -125,6 +149,24 @@ class DatabaseWriter:
                     }.get(encounter.outcome, "Stable"),
 
                     "recovery_days": encounter.recovery_days,
+
+                    "treatment_duration_days":
+                        encounter.treatment_duration_days,
+
+                    "readmitted_within_30_days":
+                        encounter.readmitted_within_30_days,
+
+                    "follow_up_status":
+                        encounter.follow_up_status,
+
+                    "complication_count":
+                        encounter.complication_count,
+
+                    "admission_required":
+                        encounter.admission_required,
+
+                    "referral_required":
+                        encounter.referral_required,
                 }
             )
 
@@ -142,7 +184,12 @@ class DatabaseWriter:
                             symptom_text,
                             symptom_source,
                             is_primary,
-                            onset_stage
+                            onset_stage,
+                            severity,
+                            duration_days,
+                            frequency,
+                            progression,
+                            onset_timestamp
                         )
                         VALUES (
                             :encounter_id,
@@ -150,7 +197,12 @@ class DatabaseWriter:
                             :symptom_text,
                             :symptom_source,
                             :is_primary,
-                            :onset_stage
+                            :onset_stage,
+                            :severity,
+                            :duration_days,
+                            :frequency,
+                            :progression,
+                            :onset_timestamp
                         )
                     """),
                     {
@@ -159,11 +211,21 @@ class DatabaseWriter:
                         "symptom_text": symptom.symptom_name,
                         "symptom_source": "MASTER",
                         "is_primary": index == 0,
+
                         "onset_stage": {
                             "Early": "Initial",
                             "Middle": "Progressive",
                             "Late": "Severe"
-                        }.get(symptom.onset_stage, "Initial"),
+                        }.get(
+                            symptom.onset_stage,
+                            symptom.onset_stage
+                        ),
+
+                        "severity": symptom.severity,
+                        "duration_days": symptom.duration_days,
+                        "frequency": symptom.frequency,
+                        "progression": symptom.progression,
+                        "onset_timestamp": symptom.onset_timestamp,
                     }
                 )
 
@@ -179,6 +241,13 @@ class DatabaseWriter:
                             encounter_id,
                             treatment_id,
                             treatment_sequence,
+                            dose,
+                            dose_unit,
+                            frequency,
+                            duration_days,
+                            start_timestamp,
+                            end_timestamp,
+                            adverse_effect,
                             recommended_by_ai,
                             administered,
                             treatment_notes,
@@ -189,6 +258,13 @@ class DatabaseWriter:
                             :encounter_id,
                             :treatment_id,
                             :treatment_sequence,
+                            :dose,
+                            :dose_unit,
+                            :frequency,
+                            :duration_days,
+                            :start_timestamp,
+                            :end_timestamp,
+                            :adverse_effect,
                             :recommended_by_ai,
                             :administered,
                             :treatment_notes,
@@ -201,8 +277,16 @@ class DatabaseWriter:
                         "treatment_id": treatment.treatment_id,
                         "treatment_sequence": index + 1,
 
-                        # These are historical/generated treatments,
-                        # not AI recommendations.
+                        "dose": treatment.dose,
+                        "dose_unit": treatment.dose_unit,
+                        "frequency": treatment.frequency,
+                        "duration_days": treatment.duration_days,
+                        "start_timestamp": treatment.start_timestamp,
+                        "end_timestamp": treatment.end_timestamp,
+                        "adverse_effect": treatment.adverse_effect,
+
+                        # Historical/generated treatment.
+                        # Not an AI recommendation.
                         "recommended_by_ai": False,
                         "administered": True,
                         "treatment_notes": None,
@@ -224,6 +308,8 @@ class DatabaseWriter:
                             complication_id,
                             identified_timestamp,
                             resolved,
+                            severity_id,
+                            resolution_timestamp,
                             notes
                         )
                         VALUES (
@@ -231,14 +317,121 @@ class DatabaseWriter:
                             :complication_id,
                             :identified_timestamp,
                             :resolved,
+                            :severity_id,
+                            :resolution_timestamp,
                             :notes
                         )
                     """),
                     {
                         "encounter_id": encounter.encounter_id,
                         "complication_id": complication.complication_id,
-                        "identified_timestamp": encounter.visit_timestamp,
-                        "resolved": encounter.outcome == "Recovered",
-                        "notes": None,
+
+                        "identified_timestamp":
+                            complication.identified_timestamp,
+                            
+
+                        "resolved": complication.resolved,
+
+                        "severity_id":
+                            complication.severity_id,
+
+                        "resolution_timestamp":
+                            complication.resolution_timestamp,
+
+                        "notes":
+                            complication.notes,
+                    }
+                )
+
+            # ==================================================
+            # 5. LAB RESULTS
+            # ==================================================
+
+            for lab in encounter.labs:
+
+                connection.execute(
+                    text("""
+                        INSERT INTO encounter_labs (
+                            encounter_id,
+                            test_code,
+                            test_name,
+                            result_value,
+                            unit,
+                            reference_range_low,
+                            reference_range_high,
+                            abnormal_flag,
+                            test_timestamp
+                        )
+                        VALUES (
+                            :encounter_id,
+                            :test_code,
+                            :test_name,
+                            :result_value,
+                            :unit,
+                            :reference_range_low,
+                            :reference_range_high,
+                            :abnormal_flag,
+                            :test_timestamp
+                        )
+                    """),
+                    {
+                        "encounter_id": encounter.encounter_id,
+                        "test_code": lab.test_code,
+                        "test_name": lab.test_name,
+                        "result_value": lab.result_value,
+                        "unit": lab.unit,
+                        "reference_range_low": lab.reference_range_low,
+                        "reference_range_high": lab.reference_range_high,
+
+                        # PostgreSQL currently stores this as VARCHAR(20)
+                        "abnormal_flag": (
+                            str(lab.abnormal_flag)
+                            if lab.abnormal_flag is not None
+                            else None
+                        ),
+
+                        "test_timestamp": lab.test_timestamp,
+                    }
+                )
+
+            # ==================================================
+            # 6. IMAGING RESULTS
+            # ==================================================
+
+            for imaging in encounter.imaging:
+
+                connection.execute(
+                    text("""
+                        INSERT INTO encounter_imaging (
+                            encounter_id,
+                            imaging_id,
+                            imaging_name,
+                            modality,
+                            body_site,
+                            finding,
+                            impression,
+                            performed_timestamp
+                        )
+                        VALUES (
+                            :encounter_id,
+                            :imaging_id,
+                            :imaging_name,
+                            :modality,
+                            :body_site,
+                            :finding,
+                            :impression,
+                            :performed_timestamp
+                        )
+                    """),
+                    {
+                        "encounter_id": encounter.encounter_id,
+                        "imaging_id": imaging.imaging_id,
+                        "imaging_name": imaging.imaging_name,
+                        "modality": imaging.modality,
+                        "body_site": imaging.body_site,
+                        "finding": imaging.finding,
+                        "impression": imaging.impression,
+                        "performed_timestamp":
+                            imaging.performed_timestamp,
                     }
                 )

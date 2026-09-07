@@ -26,9 +26,28 @@ app = ServerApp()
 
 @app.main()
 def main(
+    
     grid,
     context: Context,
 ):
+        # ------------------------------------------------------
+    # C2 DATA ISOLATION BOUNDARY
+    # ------------------------------------------------------
+
+    print(
+        "\n[C2] Local data isolation:"
+        " ENABLED"
+    )
+
+    print(
+        "[C2] Server receives:"
+        " model parameters + aggregate metrics"
+    )
+
+    print(
+        "[C2] Server does NOT receive:"
+        " raw clinical records"
+    )
 
     print("=" * 70)
     print("FEDERATED LEARNING SERVER")

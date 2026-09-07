@@ -215,15 +215,13 @@ class DiseaseGenerator:
 
     def generate(self, encounter, context):
 
-        # ----------------------------------------------
-
         weights = {}
 
         for _, row in self.config.iterrows():
 
             weights[row["disease_id"]] = row["prevalence_weight"]
 
-        # ----------------------------------------------
+        
 
         # ----------------------------------------------
         # APPLY HOSPITAL-SPECIFIC DISTRIBUTION

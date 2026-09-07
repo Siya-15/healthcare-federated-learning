@@ -54,6 +54,7 @@ encounter_query = """
 SELECT
     encounter_id,
     hospital_id,
+    visit_timestamp,
     age,
     gender,
     occupation,
@@ -114,17 +115,36 @@ for symptom in SYMPTOMS:
 # MAP SYMPTOMS TO ENCOUNTERS
 # ==========================================================
 
-for _, row in symptoms_df.iterrows():
 
-    encounter_id = row["encounter_id"]
-    symptom = row["symptom_text"]
+valid_symptoms_df = symptoms_df[
+    symptoms_df["symptom_text"].isin(SYMPTOMS)
+].copy()
 
-    if symptom in SYMPTOMS:
+valid_symptoms_df["value"] = 1
 
-        df.loc[
-            df["encounter_id"] == encounter_id,
-            symptom
-        ] = 1
+symptom_matrix = (
+    valid_symptoms_df
+    .drop_duplicates(
+        subset=["encounter_id", "symptom_text"]
+    )
+    .pivot(
+        index="encounter_id",
+        columns="symptom_text",
+        values="value"
+    )
+    .fillna(0)
+)
+
+df = (
+    df.set_index("encounter_id")
+      .drop(columns=SYMPTOMS)
+      .join(symptom_matrix, how="left")
+      .fillna(0)
+      .reset_index()
+)
+
+for symptom in SYMPTOMS:
+    df[symptom] = df[symptom].astype(int)
 
 
 # ==========================================================

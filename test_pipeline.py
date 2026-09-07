@@ -12,10 +12,13 @@ from generators.disease_generator import DiseaseGenerator
 from generators.severity_generator import SeverityGenerator
 from generators.symptom_generator import SymptomGenerator
 from generators.vitals_generator import VitalGenerator
+from generators.lab_generator import LabGenerator
+from generators.imaging_generator import ImagingGenerator
 from generators.treatment_generator import TreatmentGenerator
 from generators.complication_generator import ComplicationGenerator
 from generators.outcome_generator import OutcomeGenerator
 from generators.symptom_onset_generator import SymptomOnsetGenerator
+
 
 from utils.encounter_printer import print_encounter
 
@@ -38,13 +41,19 @@ engine = SimulationEngine(
 
     vitals_generator=VitalGenerator(tables),
 
+    lab_generator=LabGenerator(tables),
+    imaging_generator = ImagingGenerator(tables),
+
     treatment_generator=TreatmentGenerator(tables),
 
     complication_generator=ComplicationGenerator(tables),
 
     outcome_generator=OutcomeGenerator()
 
+    
 )
+
+
 
 context = SimulationContext(
 

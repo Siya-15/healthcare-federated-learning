@@ -13,6 +13,7 @@ venv/
 env/
 ENV/
 
+
 # ==========================================================
 # ENVIRONMENT / SECRETS
 # ==========================================================
@@ -22,7 +23,9 @@ ENV/
 !.env.example
 
 # Local configuration containing credentials
-config.py
+# Uncomment only if config.py contains secrets:
+# config.py
+
 
 # ==========================================================
 # DATABASE / LOCAL DATA
@@ -32,6 +35,7 @@ config.py
 *.sqlite
 *.sqlite3
 
+
 # ==========================================================
 # IDE / EDITOR
 # ==========================================================
@@ -39,17 +43,20 @@ config.py
 .vscode/
 .idea/
 
+
 # ==========================================================
 # JUPYTER
 # ==========================================================
 
 .ipynb_checkpoints/
 
+
 # ==========================================================
 # LOGS
 # ==========================================================
 
 *.log
+
 
 # ==========================================================
 # OS
@@ -58,20 +65,89 @@ config.py
 .DS_Store
 Thumbs.db
 
+
 # ==========================================================
 # FLOWER / LOCAL RUNTIME
 # ==========================================================
 
 .flwr/
 
+
 # ==========================================================
-# ML GENERATED OUTPUTS
+# NODE / REACT
 # ==========================================================
 
-# Uncomment these if we decide not to version generated datasets:
-# ML/ml_data_*.csv
-# ML/*_patterns.csv
-# ML/weekly_hospital_cases.csv
-# ML/outbreak_surveillance.csv
-# ML/privacy_audit.csv
-# ML/data_minimization_matrix.csv
+node_modules/
+frontend/node_modules/
+
+# React production builds
+frontend/build/
+frontend/dist/
+
+
+# ==========================================================
+# ML MODEL ARTIFACTS
+# ==========================================================
+
+# Trained model artifacts are generated files.
+# Keep these out of Git unless the team explicitly decides
+# to version/share them through Git LFS or another artifact store.
+
+*.pkl
+*.joblib
+
+
+# ==========================================================
+# TEMPORARY ML / VALIDATION WORKSPACES
+# ==========================================================
+
+# Emerging-symptom development/validation workspaces
+ML/emerging_symptoms/a8_1_test_workspace/
+ML/emerging_symptoms/a9_a1_temp/
+ML/emerging_symptoms/a9_a2_temp/
+ML/emerging_symptoms/a9_a3_a8_validation/
+ML/emerging_symptoms/a9_validation/
+
+# Other temporary workspaces
+*_temp/
+*_workspace/
+
+
+# ==========================================================
+# GENERATED ZIP / ARCHIVE FILES
+# ==========================================================
+
+# Development snapshots / packaged intermediate modules
+*.zip
+
+
+# ==========================================================
+# GENERATED ML OUTPUTS
+# ==========================================================
+
+# Uncomment these ONLY if these CSVs are regenerated during
+# every run and should not be version-controlled.
+
+# ML/a2_temporal_patterns_*.csv
+# ML/emerging_symptoms/*_signals.csv
+# ML/emerging_symptoms/*_patterns.csv
+# ML/emerging_symptoms/baseline_state.json
+# ML/emerging_symptoms/baseline_versions/
+
+
+# ==========================================================
+# GENERATED / LOCAL TEST OUTPUTS
+# ==========================================================
+
+# Add project-specific generated output directories here
+# if they are created during testing.
+
+
+# ==========================================================
+# FRONTEND LOCAL ENVIRONMENT
+# ==========================================================
+
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+

@@ -17,6 +17,14 @@ TABLES = [
     "disease_treatment_mapping",
     "disease_complication_mapping",
 
+    # Laboratory
+    "lab_master",
+    "disease_lab_mapping",
+
+    #Imaging
+    "imaging_master",
+    "disease_imaging_mapping",
+
     # Config
     "disease_generation_config",
     "hospital_generation_config",

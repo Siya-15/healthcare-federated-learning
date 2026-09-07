@@ -62,10 +62,14 @@ def print_encounter(encounter, tables, context=None):
 
         for symptom in encounter.symptoms:
 
-            print(
-                f"• {symptom.symptom_name:<25}"
-                f"{symptom.onset_stage}"
-            )
+            print(f"• {symptom.symptom_name}")
+
+            print(f"    Stage       : {symptom.onset_stage}")
+            print(f"    Severity    : {symptom.severity}")
+            print(f"    Duration    : {symptom.duration_days} days")
+            print(f"    Frequency   : {symptom.frequency}")
+            print(f"    Progression : {symptom.progression}")
+            print(f"    Onset       : {symptom.onset_timestamp}")
 
     else:
 
@@ -87,6 +91,22 @@ def print_encounter(encounter, tables, context=None):
         f"{encounter.vitals.systolic_bp}/"
         f"{encounter.vitals.diastolic_bp} mmHg"
     )
+
+    print("\nLAB RESULTS")
+    print("----------------------------------------")
+
+    if not encounter.labs:
+        print("None")
+    else:
+        for lab in encounter.labs:
+            print(
+                f"• {lab.test_name}\n"
+                f"    Test Code   : {lab.test_code}\n"
+                f"    Result      : {lab.result_value} {lab.unit}\n"
+                f"    Reference   : {lab.reference_range_low} - "
+                f"{lab.reference_range_high}\n"
+                f"    Flag        : {lab.abnormal_flag}"
+            )
 
     # =====================================================
     # TREATMENTS
@@ -139,3 +159,26 @@ def print_encounter(encounter, tables, context=None):
         print(f"Referral        : {encounter.referral_required}")
 
     print("=" * 80)
+
+    # ==========================================================
+    # IMAGING RESULTS
+    # ==========================================================
+
+    print("\nIMAGING RESULTS")
+    print("----------------------------------------")
+
+    if encounter.imaging:
+
+        for imaging in encounter.imaging:
+
+            print(f"• {imaging.imaging_name}")
+            print(f"    Imaging ID   : {imaging.imaging_id}")
+            print(f"    Modality     : {imaging.modality}")
+            print(f"    Body Site    : {imaging.body_site}")
+            print(f"    Finding      : {imaging.finding}")
+            print(f"    Impression   : {imaging.impression}")
+            print(f"    Performed    : {imaging.performed_timestamp}")
+
+    else:
+
+        print("None")

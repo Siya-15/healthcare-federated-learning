@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 
-from .task import TARGET_COLUMNS
+from .federated_dataset import FEDERATED_TARGET_COLUMNS
 
 
 # ==========================================================
@@ -41,7 +41,7 @@ class MultiLabelModel:
 
         self.network = MultiLabelNet(
             input_dim=10,
-            output_dim=len(TARGET_COLUMNS),
+            output_dim=len(FEDERATED_TARGET_COLUMNS),
         )
 
     # ------------------------------------------------------

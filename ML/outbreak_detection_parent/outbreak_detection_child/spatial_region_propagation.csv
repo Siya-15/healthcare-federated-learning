@@ -1,0 +1,459 @@
+week,symptom_id,symptom_name,region,affected_hospitals,cases
+2026-06-08,S006,Dry Cough,Karnataka,1,308
+2026-06-08,S006,Dry Cough,Tamil Nadu,1,454
+2026-06-08,S007,Persistent Cough,Delhi,2,60
+2026-06-08,S007,Persistent Cough,Kerala,1,18
+2026-06-08,S007,Persistent Cough,Maharashtra,1,21
+2026-06-08,S007,Persistent Cough,Uttar Pradesh,1,29
+2026-06-08,S008,Sore Throat,Tamil Nadu,1,295
+2026-06-08,S009,Runny Nose,Delhi,1,124
+2026-06-08,S009,Runny Nose,Karnataka,1,109
+2026-06-08,S009,Runny Nose,Puducherry,1,169
+2026-06-08,S009,Runny Nose,Rajasthan,1,180
+2026-06-08,S009,Runny Nose,Tamil Nadu,1,175
+2026-06-08,S010,Breathlessness,Karnataka,1,10
+2026-06-08,S010,Breathlessness,Puducherry,1,12
+2026-06-08,S010,Breathlessness,Rajasthan,1,13
+2026-06-08,S010,Breathlessness,Tamil Nadu,1,11
+2026-06-08,S010,Breathlessness,Uttar Pradesh,1,16
+2026-06-08,S011,Chest Pain,Delhi,1,4
+2026-06-08,S011,Chest Pain,Puducherry,1,3
+2026-06-08,S012,Loss of Taste,Karnataka,1,30
+2026-06-08,S012,Loss of Taste,Puducherry,1,33
+2026-06-08,S012,Loss of Taste,Uttar Pradesh,1,30
+2026-06-08,S013,Loss of Smell,Karnataka,1,31
+2026-06-08,S013,Loss of Smell,Puducherry,1,32
+2026-06-08,S013,Loss of Smell,Uttar Pradesh,1,34
+2026-06-08,S014,Muscle Pain,Delhi,1,270
+2026-06-08,S014,Muscle Pain,Karnataka,1,313
+2026-06-08,S014,Muscle Pain,Kerala,1,268
+2026-06-08,S015,Joint Pain,Chandigarh,1,147
+2026-06-08,S015,Joint Pain,Delhi,1,116
+2026-06-08,S015,Joint Pain,Kerala,1,125
+2026-06-08,S016,Retro-orbital Pain,Chandigarh,1,114
+2026-06-08,S016,Retro-orbital Pain,Kerala,1,92
+2026-06-08,S017,Rash,Kerala,1,42
+2026-06-08,S017,Rash,Rajasthan,1,60
+2026-06-08,S017,Rash,Tamil Nadu,1,57
+2026-06-08,S018,Nausea,Chandigarh,1,110
+2026-06-08,S018,Nausea,Delhi,1,105
+2026-06-08,S018,Nausea,Tamil Nadu,1,157
+2026-06-08,S021,Abdominal Pain,Kerala,1,68
+2026-06-08,S021,Abdominal Pain,Puducherry,1,116
+2026-06-08,S022,Loss of Appetite,Chandigarh,1,41
+2026-06-08,S022,Loss of Appetite,Delhi,1,31
+2026-06-08,S022,Loss of Appetite,Rajasthan,1,38
+2026-06-08,S022,Loss of Appetite,Uttar Pradesh,1,38
+2026-06-08,S023,Weight Loss,Puducherry,1,6
+2026-06-08,S023,Weight Loss,Tamil Nadu,1,9
+2026-06-08,S023,Weight Loss,Uttar Pradesh,1,6
+2026-06-08,S024,Night Sweats,Chandigarh,1,10
+2026-06-08,S024,Night Sweats,Delhi,1,13
+2026-06-08,S024,Night Sweats,Puducherry,1,11
+2026-06-08,S024,Night Sweats,Tamil Nadu,1,14
+2026-06-08,S025,Bleeding,Chandigarh,1,5
+2026-06-08,S025,Bleeding,Delhi,1,5
+2026-06-08,S025,Bleeding,Kerala,1,4
+2026-06-08,S025,Bleeding,Puducherry,1,3
+2026-06-08,S025,Bleeding,Rajasthan,1,4
+2026-06-08,S025,Bleeding,Tamil Nadu,1,4
+2026-06-08,S026,Anaemia,Delhi,2,6
+2026-06-08,S026,Anaemia,Puducherry,1,3
+2026-06-08,S026,Anaemia,Rajasthan,1,5
+2026-06-08,S026,Anaemia,Tamil Nadu,1,3
+2026-06-08,S027,Dehydration,Chandigarh,1,4
+2026-06-08,S027,Dehydration,Delhi,1,7
+2026-06-08,S027,Dehydration,Karnataka,1,8
+2026-06-08,S027,Dehydration,Kerala,1,3
+2026-06-08,S027,Dehydration,Puducherry,1,10
+2026-06-08,S027,Dehydration,Rajasthan,1,7
+2026-06-08,S027,Dehydration,Tamil Nadu,1,7
+2026-06-15,S003,Fatigue,Maharashtra,1,182
+2026-06-15,S003,Fatigue,Uttar Pradesh,1,201
+2026-06-15,S004,Chills,Chandigarh,1,114
+2026-06-15,S005,Sweating,Chandigarh,1,114
+2026-06-15,S007,Persistent Cough,Chandigarh,1,34
+2026-06-15,S007,Persistent Cough,Kerala,1,22
+2026-06-15,S007,Persistent Cough,Maharashtra,1,27
+2026-06-15,S007,Persistent Cough,Rajasthan,1,41
+2026-06-15,S007,Persistent Cough,Uttar Pradesh,1,33
+2026-06-15,S011,Chest Pain,Puducherry,1,4
+2026-06-15,S011,Chest Pain,Rajasthan,1,6
+2026-06-15,S011,Chest Pain,Uttar Pradesh,1,3
+2026-06-15,S012,Loss of Taste,Delhi,1,44
+2026-06-15,S013,Loss of Smell,Delhi,1,44
+2026-06-15,S016,Retro-orbital Pain,Puducherry,1,178
+2026-06-15,S017,Rash,Chandigarh,1,56
+2026-06-15,S017,Rash,Maharashtra,1,54
+2026-06-15,S018,Nausea,Chandigarh,1,136
+2026-06-15,S018,Nausea,Tamil Nadu,1,169
+2026-06-15,S019,Vomiting,Chandigarh,1,174
+2026-06-15,S019,Vomiting,Kerala,1,138
+2026-06-15,S020,Diarrhoea,Chandigarh,1,135
+2026-06-15,S020,Diarrhoea,Kerala,1,110
+2026-06-15,S020,Diarrhoea,Maharashtra,1,113
+2026-06-15,S020,Diarrhoea,Tamil Nadu,1,174
+2026-06-15,S021,Abdominal Pain,Chandigarh,1,94
+2026-06-15,S021,Abdominal Pain,Karnataka,1,84
+2026-06-15,S021,Abdominal Pain,Kerala,1,84
+2026-06-15,S021,Abdominal Pain,Maharashtra,1,82
+2026-06-15,S021,Abdominal Pain,Tamil Nadu,1,129
+2026-06-15,S021,Abdominal Pain,Uttar Pradesh,1,114
+2026-06-15,S022,Loss of Appetite,Karnataka,1,30
+2026-06-15,S022,Loss of Appetite,Kerala,1,33
+2026-06-15,S022,Loss of Appetite,Tamil Nadu,1,41
+2026-06-15,S022,Loss of Appetite,Uttar Pradesh,1,44
+2026-06-15,S023,Weight Loss,Chandigarh,1,9
+2026-06-15,S023,Weight Loss,Maharashtra,1,4
+2026-06-15,S023,Weight Loss,Puducherry,1,8
+2026-06-15,S023,Weight Loss,Rajasthan,1,9
+2026-06-15,S024,Night Sweats,Chandigarh,1,14
+2026-06-15,S024,Night Sweats,Delhi,1,13
+2026-06-15,S024,Night Sweats,Kerala,1,8
+2026-06-15,S024,Night Sweats,Maharashtra,1,6
+2026-06-15,S024,Night Sweats,Puducherry,1,15
+2026-06-15,S025,Bleeding,Karnataka,1,4
+2026-06-15,S025,Bleeding,Puducherry,1,5
+2026-06-15,S025,Bleeding,Rajasthan,1,5
+2026-06-15,S026,Anaemia,Puducherry,1,5
+2026-06-15,S026,Anaemia,Tamil Nadu,1,5
+2026-06-15,S026,Anaemia,Uttar Pradesh,1,4
+2026-06-15,S027,Dehydration,Kerala,1,4
+2026-06-15,S027,Dehydration,Uttar Pradesh,1,12
+2026-06-22,S001,Fever,Kerala,1,577
+2026-06-22,S003,Fatigue,Rajasthan,1,204
+2026-06-22,S004,Chills,Puducherry,1,163
+2026-06-22,S004,Chills,Rajasthan,1,142
+2026-06-22,S005,Sweating,Puducherry,1,163
+2026-06-22,S005,Sweating,Rajasthan,1,142
+2026-06-22,S006,Dry Cough,Kerala,1,251
+2026-06-22,S006,Dry Cough,Uttar Pradesh,1,398
+2026-06-22,S007,Persistent Cough,Delhi,1,30
+2026-06-22,S007,Persistent Cough,Maharashtra,1,35
+2026-06-22,S008,Sore Throat,Kerala,1,162
+2026-06-22,S009,Runny Nose,Chandigarh,1,170
+2026-06-22,S009,Runny Nose,Delhi,1,197
+2026-06-22,S009,Runny Nose,Karnataka,1,116
+2026-06-22,S009,Runny Nose,Kerala,1,89
+2026-06-22,S010,Breathlessness,Chandigarh,1,17
+2026-06-22,S010,Breathlessness,Delhi,1,11
+2026-06-22,S010,Breathlessness,Kerala,1,8
+2026-06-22,S011,Chest Pain,Maharashtra,1,5
+2026-06-22,S011,Chest Pain,Uttar Pradesh,1,3
+2026-06-22,S012,Loss of Taste,Delhi,1,26
+2026-06-22,S012,Loss of Taste,Kerala,1,23
+2026-06-22,S012,Loss of Taste,Puducherry,1,36
+2026-06-22,S012,Loss of Taste,Tamil Nadu,1,40
+2026-06-22,S013,Loss of Smell,Delhi,1,29
+2026-06-22,S013,Loss of Smell,Puducherry,1,38
+2026-06-22,S014,Muscle Pain,Chandigarh,1,383
+2026-06-22,S014,Muscle Pain,Kerala,1,281
+2026-06-22,S015,Joint Pain,Puducherry,1,229
+2026-06-22,S015,Joint Pain,Tamil Nadu,1,184
+2026-06-22,S016,Retro-orbital Pain,Delhi,2,220
+2026-06-22,S016,Retro-orbital Pain,Kerala,1,103
+2026-06-22,S017,Rash,Delhi,1,46
+2026-06-22,S017,Rash,Kerala,1,45
+2026-06-22,S017,Rash,Tamil Nadu,1,66
+2026-06-22,S018,Nausea,Karnataka,1,108
+2026-06-22,S018,Nausea,Kerala,1,111
+2026-06-22,S019,Vomiting,Karnataka,1,153
+2026-06-22,S019,Vomiting,Kerala,1,140
+2026-06-22,S020,Diarrhoea,Karnataka,1,119
+2026-06-22,S020,Diarrhoea,Rajasthan,1,173
+2026-06-22,S021,Abdominal Pain,Karnataka,1,89
+2026-06-22,S021,Abdominal Pain,Rajasthan,1,128
+2026-06-22,S022,Loss of Appetite,Maharashtra,1,31
+2026-06-22,S022,Loss of Appetite,Rajasthan,1,49
+2026-06-22,S023,Weight Loss,Delhi,2,15
+2026-06-22,S023,Weight Loss,Kerala,1,3
+2026-06-22,S023,Weight Loss,Maharashtra,1,8
+2026-06-22,S024,Night Sweats,Delhi,1,15
+2026-06-22,S024,Night Sweats,Kerala,1,9
+2026-06-22,S024,Night Sweats,Maharashtra,1,11
+2026-06-22,S025,Bleeding,Karnataka,1,5
+2026-06-22,S025,Bleeding,Maharashtra,1,4
+2026-06-22,S025,Bleeding,Puducherry,1,7
+2026-06-22,S025,Bleeding,Tamil Nadu,1,4
+2026-06-22,S026,Anaemia,Delhi,1,6
+2026-06-22,S026,Anaemia,Karnataka,1,6
+2026-06-22,S027,Dehydration,Chandigarh,1,4
+2026-06-22,S027,Dehydration,Karnataka,1,9
+2026-06-22,S027,Dehydration,Kerala,1,5
+2026-06-22,S027,Dehydration,Rajasthan,1,8
+2026-06-22,S027,Dehydration,Tamil Nadu,1,11
+2026-06-29,S003,Fatigue,Kerala,1,146
+2026-06-29,S007,Persistent Cough,Chandigarh,1,35
+2026-06-29,S007,Persistent Cough,Karnataka,1,41
+2026-06-29,S007,Persistent Cough,Kerala,1,23
+2026-06-29,S008,Sore Throat,Kerala,1,168
+2026-06-29,S009,Runny Nose,Kerala,1,94
+2026-06-29,S010,Breathlessness,Delhi,1,11
+2026-06-29,S010,Breathlessness,Karnataka,1,14
+2026-06-29,S010,Breathlessness,Kerala,1,11
+2026-06-29,S011,Chest Pain,Chandigarh,1,3
+2026-06-29,S011,Chest Pain,Delhi,1,4
+2026-06-29,S011,Chest Pain,Kerala,1,4
+2026-06-29,S012,Loss of Taste,Karnataka,1,31
+2026-06-29,S012,Loss of Taste,Kerala,1,27
+2026-06-29,S015,Joint Pain,Maharashtra,1,153
+2026-06-29,S017,Rash,Chandigarh,1,55
+2026-06-29,S017,Rash,Delhi,1,56
+2026-06-29,S022,Loss of Appetite,Delhi,1,56
+2026-06-29,S022,Loss of Appetite,Puducherry,1,47
+2026-06-29,S022,Loss of Appetite,Tamil Nadu,1,45
+2026-06-29,S023,Weight Loss,Chandigarh,1,8
+2026-06-29,S023,Weight Loss,Delhi,1,6
+2026-06-29,S023,Weight Loss,Kerala,1,5
+2026-06-29,S024,Night Sweats,Chandigarh,1,14
+2026-06-29,S024,Night Sweats,Delhi,1,12
+2026-06-29,S024,Night Sweats,Maharashtra,1,12
+2026-06-29,S024,Night Sweats,Uttar Pradesh,1,13
+2026-06-29,S025,Bleeding,Delhi,1,6
+2026-06-29,S025,Bleeding,Uttar Pradesh,1,8
+2026-06-29,S026,Anaemia,Kerala,1,3
+2026-06-29,S026,Anaemia,Rajasthan,1,5
+2026-06-29,S027,Dehydration,Rajasthan,1,11
+2026-07-06,S004,Chills,Chandigarh,1,115
+2026-07-06,S004,Chills,Maharashtra,1,115
+2026-07-06,S004,Chills,Tamil Nadu,1,136
+2026-07-06,S005,Sweating,Chandigarh,1,115
+2026-07-06,S005,Sweating,Maharashtra,1,115
+2026-07-06,S005,Sweating,Tamil Nadu,1,136
+2026-07-06,S007,Persistent Cough,Delhi,1,45
+2026-07-06,S009,Runny Nose,Karnataka,1,119
+2026-07-06,S009,Runny Nose,Uttar Pradesh,1,174
+2026-07-06,S010,Breathlessness,Puducherry,1,13
+2026-07-06,S010,Breathlessness,Rajasthan,1,14
+2026-07-06,S010,Breathlessness,Tamil Nadu,1,11
+2026-07-06,S011,Chest Pain,Chandigarh,1,4
+2026-07-06,S011,Chest Pain,Karnataka,1,4
+2026-07-06,S011,Chest Pain,Uttar Pradesh,1,4
+2026-07-06,S012,Loss of Taste,Puducherry,1,44
+2026-07-06,S012,Loss of Taste,Rajasthan,1,36
+2026-07-06,S012,Loss of Taste,Tamil Nadu,1,38
+2026-07-06,S013,Loss of Smell,Puducherry,1,39
+2026-07-06,S013,Loss of Smell,Tamil Nadu,1,42
+2026-07-06,S015,Joint Pain,Rajasthan,1,183
+2026-07-06,S018,Nausea,Karnataka,1,109
+2026-07-06,S022,Loss of Appetite,Rajasthan,1,47
+2026-07-06,S023,Weight Loss,Karnataka,1,6
+2026-07-06,S024,Night Sweats,Delhi,1,14
+2026-07-06,S024,Night Sweats,Karnataka,1,14
+2026-07-06,S025,Bleeding,Chandigarh,1,5
+2026-07-06,S025,Bleeding,Delhi,1,6
+2026-07-06,S025,Bleeding,Maharashtra,1,8
+2026-07-06,S025,Bleeding,Tamil Nadu,1,5
+2026-07-13,S004,Chills,Puducherry,1,167
+2026-07-13,S005,Sweating,Puducherry,1,167
+2026-07-13,S009,Runny Nose,Chandigarh,1,175
+2026-07-13,S009,Runny Nose,Delhi,1,210
+2026-07-13,S010,Breathlessness,Tamil Nadu,1,12
+2026-07-13,S012,Loss of Taste,Delhi,1,26
+2026-07-13,S012,Loss of Taste,Kerala,1,25
+2026-07-13,S013,Loss of Smell,Kerala,1,25
+2026-07-13,S015,Joint Pain,Karnataka,1,147
+2026-07-13,S015,Joint Pain,Uttar Pradesh,1,173
+2026-07-13,S016,Retro-orbital Pain,Delhi,1,128
+2026-07-13,S016,Retro-orbital Pain,Karnataka,1,117
+2026-07-13,S016,Retro-orbital Pain,Rajasthan,1,152
+2026-07-13,S016,Retro-orbital Pain,Uttar Pradesh,1,147
+2026-07-13,S017,Rash,Maharashtra,1,53
+2026-07-13,S017,Rash,Rajasthan,1,58
+2026-07-13,S018,Nausea,Karnataka,1,116
+2026-07-13,S018,Nausea,Maharashtra,1,111
+2026-07-13,S018,Nausea,Rajasthan,1,164
+2026-07-13,S020,Diarrhoea,Tamil Nadu,1,170
+2026-07-13,S021,Abdominal Pain,Tamil Nadu,1,131
+2026-07-13,S022,Loss of Appetite,Karnataka,1,34
+2026-07-13,S022,Loss of Appetite,Maharashtra,1,40
+2026-07-13,S022,Loss of Appetite,Tamil Nadu,1,48
+2026-07-13,S024,Night Sweats,Karnataka,1,13
+2026-07-13,S025,Bleeding,Kerala,1,4
+2026-07-13,S025,Bleeding,Rajasthan,1,5
+2026-07-13,S026,Anaemia,Delhi,1,3
+2026-07-13,S026,Anaemia,Kerala,1,4
+2026-07-13,S026,Anaemia,Puducherry,1,5
+2026-07-13,S026,Anaemia,Rajasthan,1,5
+2026-07-13,S027,Dehydration,Chandigarh,1,7
+2026-07-20,S003,Fatigue,Delhi,1,259
+2026-07-20,S003,Fatigue,Uttar Pradesh,1,210
+2026-07-20,S004,Chills,Karnataka,1,116
+2026-07-20,S004,Chills,Tamil Nadu,1,146
+2026-07-20,S005,Sweating,Karnataka,1,116
+2026-07-20,S005,Sweating,Tamil Nadu,1,146
+2026-07-20,S006,Dry Cough,Kerala,1,263
+2026-07-20,S007,Persistent Cough,Delhi,1,51
+2026-07-20,S007,Persistent Cough,Maharashtra,1,33
+2026-07-20,S007,Persistent Cough,Rajasthan,1,39
+2026-07-20,S007,Persistent Cough,Tamil Nadu,1,33
+2026-07-20,S007,Persistent Cough,Uttar Pradesh,1,36
+2026-07-20,S008,Sore Throat,Kerala,1,175
+2026-07-20,S008,Sore Throat,Rajasthan,1,275
+2026-07-20,S009,Runny Nose,Kerala,1,105
+2026-07-20,S011,Chest Pain,Karnataka,1,4
+2026-07-20,S012,Loss of Taste,Uttar Pradesh,1,39
+2026-07-20,S013,Loss of Smell,Maharashtra,1,37
+2026-07-20,S013,Loss of Smell,Uttar Pradesh,1,40
+2026-07-20,S014,Muscle Pain,Kerala,1,274
+2026-07-20,S015,Joint Pain,Puducherry,1,236
+2026-07-20,S016,Retro-orbital Pain,Kerala,1,102
+2026-07-20,S017,Rash,Chandigarh,1,53
+2026-07-20,S017,Rash,Karnataka,1,48
+2026-07-20,S017,Rash,Maharashtra,1,59
+2026-07-20,S018,Nausea,Delhi,1,142
+2026-07-20,S019,Vomiting,Delhi,1,203
+2026-07-20,S020,Diarrhoea,Delhi,1,157
+2026-07-20,S020,Diarrhoea,Puducherry,1,160
+2026-07-20,S020,Diarrhoea,Rajasthan,1,176
+2026-07-20,S021,Abdominal Pain,Delhi,1,73
+2026-07-20,S021,Abdominal Pain,Maharashtra,1,78
+2026-07-20,S022,Loss of Appetite,Delhi,1,29
+2026-07-20,S022,Loss of Appetite,Puducherry,1,49
+2026-07-20,S023,Weight Loss,Delhi,1,10
+2026-07-20,S024,Night Sweats,Delhi,1,21
+2026-07-20,S024,Night Sweats,Uttar Pradesh,1,13
+2026-07-20,S025,Bleeding,Chandigarh,1,7
+2026-07-20,S025,Bleeding,Puducherry,1,7
+2026-07-20,S026,Anaemia,Uttar Pradesh,1,7
+2026-07-20,S027,Dehydration,Delhi,1,4
+2026-07-20,S027,Dehydration,Maharashtra,1,8
+2026-07-27,S003,Fatigue,Chandigarh,1,198
+2026-07-27,S003,Fatigue,Uttar Pradesh,1,206
+2026-07-27,S004,Chills,Uttar Pradesh,1,134
+2026-07-27,S005,Sweating,Uttar Pradesh,1,134
+2026-07-27,S007,Persistent Cough,Puducherry,1,40
+2026-07-27,S007,Persistent Cough,Tamil Nadu,1,35
+2026-07-27,S009,Runny Nose,Delhi,1,213
+2026-07-27,S009,Runny Nose,Maharashtra,1,131
+2026-07-27,S011,Chest Pain,Chandigarh,1,5
+2026-07-27,S011,Chest Pain,Delhi,1,5
+2026-07-27,S012,Loss of Taste,Delhi,1,41
+2026-07-27,S012,Loss of Taste,Uttar Pradesh,1,39
+2026-07-27,S015,Joint Pain,Chandigarh,1,159
+2026-07-27,S016,Retro-orbital Pain,Chandigarh,1,123
+2026-07-27,S017,Rash,Chandigarh,1,54
+2026-07-27,S018,Nausea,Delhi,1,96
+2026-07-27,S018,Nausea,Karnataka,1,124
+2026-07-27,S019,Vomiting,Delhi,1,126
+2026-07-27,S019,Vomiting,Karnataka,1,163
+2026-07-27,S020,Diarrhoea,Delhi,1,99
+2026-07-27,S020,Diarrhoea,Karnataka,1,135
+2026-07-27,S021,Abdominal Pain,Chandigarh,1,104
+2026-07-27,S021,Abdominal Pain,Karnataka,1,96
+2026-07-27,S021,Abdominal Pain,Kerala,1,85
+2026-07-27,S022,Loss of Appetite,Chandigarh,1,41
+2026-07-27,S022,Loss of Appetite,Uttar Pradesh,1,43
+2026-07-27,S024,Night Sweats,Chandigarh,1,17
+2026-07-27,S024,Night Sweats,Maharashtra,1,11
+2026-07-27,S025,Bleeding,Chandigarh,1,7
+2026-07-27,S025,Bleeding,Kerala,1,4
+2026-07-27,S025,Bleeding,Puducherry,1,7
+2026-07-27,S025,Bleeding,Rajasthan,1,6
+2026-07-27,S026,Anaemia,Chandigarh,1,3
+2026-07-27,S027,Dehydration,Chandigarh,1,6
+2026-07-27,S027,Dehydration,Delhi,1,5
+2026-07-27,S027,Dehydration,Kerala,1,5
+2026-08-03,S003,Fatigue,Delhi,2,415
+2026-08-03,S003,Fatigue,Kerala,1,144
+2026-08-03,S004,Chills,Delhi,1,155
+2026-08-03,S005,Sweating,Delhi,1,155
+2026-08-03,S007,Persistent Cough,Maharashtra,1,34
+2026-08-03,S007,Persistent Cough,Puducherry,1,37
+2026-08-03,S007,Persistent Cough,Uttar Pradesh,1,34
+2026-08-03,S009,Runny Nose,Kerala,1,97
+2026-08-03,S009,Runny Nose,Maharashtra,1,131
+2026-08-03,S010,Breathlessness,Delhi,1,21
+2026-08-03,S010,Breathlessness,Tamil Nadu,1,13
+2026-08-03,S011,Chest Pain,Karnataka,1,5
+2026-08-03,S012,Loss of Taste,Delhi,1,43
+2026-08-03,S012,Loss of Taste,Kerala,1,29
+2026-08-03,S013,Loss of Smell,Delhi,1,53
+2026-08-03,S013,Loss of Smell,Kerala,1,25
+2026-08-03,S015,Joint Pain,Rajasthan,1,186
+2026-08-03,S015,Joint Pain,Tamil Nadu,1,181
+2026-08-03,S016,Retro-orbital Pain,Delhi,1,132
+2026-08-03,S016,Retro-orbital Pain,Rajasthan,1,161
+2026-08-03,S017,Rash,Delhi,1,62
+2026-08-03,S017,Rash,Tamil Nadu,1,71
+2026-08-03,S018,Nausea,Karnataka,1,121
+2026-08-03,S018,Nausea,Maharashtra,1,112
+2026-08-03,S018,Nausea,Rajasthan,1,160
+2026-08-03,S018,Nausea,Uttar Pradesh,1,157
+2026-08-03,S019,Vomiting,Delhi,1,198
+2026-08-03,S019,Vomiting,Karnataka,1,175
+2026-08-03,S019,Vomiting,Maharashtra,1,153
+2026-08-03,S019,Vomiting,Rajasthan,1,228
+2026-08-03,S019,Vomiting,Uttar Pradesh,1,231
+2026-08-03,S020,Diarrhoea,Karnataka,1,123
+2026-08-03,S020,Diarrhoea,Maharashtra,1,130
+2026-08-03,S020,Diarrhoea,Rajasthan,1,178
+2026-08-03,S020,Diarrhoea,Uttar Pradesh,1,194
+2026-08-03,S021,Abdominal Pain,Maharashtra,1,87
+2026-08-03,S021,Abdominal Pain,Uttar Pradesh,1,138
+2026-08-03,S022,Loss of Appetite,Delhi,1,29
+2026-08-03,S022,Loss of Appetite,Karnataka,1,34
+2026-08-03,S022,Loss of Appetite,Puducherry,1,53
+2026-08-03,S022,Loss of Appetite,Uttar Pradesh,1,51
+2026-08-03,S023,Weight Loss,Karnataka,1,7
+2026-08-03,S025,Bleeding,Rajasthan,1,8
+2026-08-03,S025,Bleeding,Tamil Nadu,1,6
+2026-08-03,S026,Anaemia,Chandigarh,1,3
+2026-08-03,S027,Dehydration,Delhi,1,7
+2026-08-10,S004,Chills,Delhi,1,89
+2026-08-10,S004,Chills,Kerala,1,99
+2026-08-10,S005,Sweating,Delhi,1,89
+2026-08-10,S005,Sweating,Kerala,1,99
+2026-08-10,S007,Persistent Cough,Delhi,1,33
+2026-08-10,S007,Persistent Cough,Tamil Nadu,1,37
+2026-08-10,S007,Persistent Cough,Uttar Pradesh,1,36
+2026-08-10,S009,Runny Nose,Rajasthan,1,175
+2026-08-10,S009,Runny Nose,Uttar Pradesh,1,171
+2026-08-10,S010,Breathlessness,Chandigarh,1,15
+2026-08-10,S010,Breathlessness,Puducherry,1,15
+2026-08-10,S010,Breathlessness,Tamil Nadu,1,17
+2026-08-10,S011,Chest Pain,Tamil Nadu,1,4
+2026-08-10,S012,Loss of Taste,Delhi,1,26
+2026-08-10,S012,Loss of Taste,Karnataka,1,32
+2026-08-10,S013,Loss of Smell,Karnataka,1,30
+2026-08-10,S013,Loss of Smell,Tamil Nadu,1,37
+2026-08-10,S014,Muscle Pain,Uttar Pradesh,1,408
+2026-08-10,S015,Joint Pain,Chandigarh,1,166
+2026-08-10,S016,Retro-orbital Pain,Chandigarh,1,136
+2026-08-10,S017,Rash,Chandigarh,1,55
+2026-08-10,S019,Vomiting,Kerala,1,140
+2026-08-10,S020,Diarrhoea,Kerala,1,111
+2026-08-10,S022,Loss of Appetite,Chandigarh,1,49
+2026-08-10,S024,Night Sweats,Tamil Nadu,1,12
+2026-08-10,S025,Bleeding,Delhi,1,6
+2026-08-10,S026,Anaemia,Delhi,1,4
+2026-08-10,S027,Dehydration,Delhi,1,8
+2026-08-10,S027,Dehydration,Kerala,1,8
+2026-08-10,S027,Dehydration,Tamil Nadu,1,8
+2026-08-17,S003,Fatigue,Kerala,1,152
+2026-08-17,S006,Dry Cough,Delhi,1,542
+2026-08-17,S007,Persistent Cough,Tamil Nadu,1,38
+2026-08-17,S007,Persistent Cough,Uttar Pradesh,1,39
+2026-08-17,S009,Runny Nose,Delhi,2,356
+2026-08-17,S010,Breathlessness,Tamil Nadu,1,16
+2026-08-17,S011,Chest Pain,Puducherry,1,4
+2026-08-17,S011,Chest Pain,Uttar Pradesh,1,4
+2026-08-17,S013,Loss of Smell,Uttar Pradesh,1,37
+2026-08-17,S014,Muscle Pain,Rajasthan,1,445
+2026-08-17,S015,Joint Pain,Rajasthan,1,198
+2026-08-17,S016,Retro-orbital Pain,Karnataka,1,110
+2026-08-17,S016,Retro-orbital Pain,Rajasthan,1,160
+2026-08-17,S017,Rash,Karnataka,1,48
+2026-08-17,S017,Rash,Rajasthan,1,66
+2026-08-17,S018,Nausea,Uttar Pradesh,1,156
+2026-08-17,S021,Abdominal Pain,Chandigarh,1,94
+2026-08-17,S023,Weight Loss,Uttar Pradesh,1,8
+2026-08-17,S024,Night Sweats,Karnataka,1,13
+2026-08-17,S024,Night Sweats,Puducherry,1,14
+2026-08-17,S024,Night Sweats,Tamil Nadu,1,13
+2026-08-17,S024,Night Sweats,Uttar Pradesh,1,18
+2026-08-17,S025,Bleeding,Karnataka,1,8
+2026-08-17,S027,Dehydration,Maharashtra,1,8
+2026-08-24,S007,Persistent Cough,Puducherry,1,38
+2026-08-24,S011,Chest Pain,Maharashtra,1,3
+2026-08-24,S027,Dehydration,Kerala,1,7

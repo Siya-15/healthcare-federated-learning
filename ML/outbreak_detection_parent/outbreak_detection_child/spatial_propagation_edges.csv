@@ -1,0 +1,411 @@
+week,symptom_id,symptom_name,source_hospital_id,source_hospital_name,source_city,source_region,target_hospital_id,target_hospital_name,target_city,target_region,geographic_relation,target_growth_rate
+2026-06-15,S007,Persistent Cough,H001,AIIMS New Delhi,New Delhi,Delhi,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,28.57142857142857
+2026-06-15,S007,Persistent Cough,H001,AIIMS New Delhi,New Delhi,Delhi,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,86.36363636363636
+2026-06-15,S007,Persistent Cough,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,28.57142857142857
+2026-06-15,S007,Persistent Cough,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,86.36363636363636
+2026-06-15,S007,Persistent Cough,H007,Safdarjung Hospital,New Delhi,Delhi,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,28.57142857142857
+2026-06-15,S007,Persistent Cough,H007,Safdarjung Hospital,New Delhi,Delhi,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,86.36363636363636
+2026-06-15,S007,Persistent Cough,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,86.36363636363636
+2026-06-15,S007,Persistent Cough,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,28.57142857142857
+2026-06-15,S007,Persistent Cough,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,86.36363636363636
+2026-06-15,S011,Chest Pain,H003,JIPMER Puducherry,Puducherry,Puducherry,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,50.0
+2026-06-15,S011,Chest Pain,H003,JIPMER Puducherry,Puducherry,Puducherry,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,500.0
+2026-06-15,S011,Chest Pain,H007,Safdarjung Hospital,New Delhi,Delhi,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,33.33333333333333
+2026-06-15,S011,Chest Pain,H007,Safdarjung Hospital,New Delhi,Delhi,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,50.0
+2026-06-15,S011,Chest Pain,H007,Safdarjung Hospital,New Delhi,Delhi,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,500.0
+2026-06-15,S017,Rash,H004,CMC Vellore,Vellore,Tamil Nadu,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,30.23255813953488
+2026-06-15,S017,Rash,H004,CMC Vellore,Vellore,Tamil Nadu,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,38.46153846153847
+2026-06-15,S017,Rash,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,30.23255813953488
+2026-06-15,S017,Rash,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,38.46153846153847
+2026-06-15,S017,Rash,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,30.23255813953488
+2026-06-15,S017,Rash,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,38.46153846153847
+2026-06-15,S021,Abdominal Pain,H003,JIPMER Puducherry,Puducherry,Puducherry,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,38.70967741935484
+2026-06-15,S021,Abdominal Pain,H003,JIPMER Puducherry,Puducherry,Puducherry,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,26.666666666666668
+2026-06-15,S021,Abdominal Pain,H003,JIPMER Puducherry,Puducherry,Puducherry,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,36.666666666666664
+2026-06-15,S021,Abdominal Pain,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,38.70967741935484
+2026-06-15,S021,Abdominal Pain,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,26.666666666666668
+2026-06-15,S021,Abdominal Pain,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,36.666666666666664
+2026-06-15,S022,Loss of Appetite,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,41.37931034482759
+2026-06-15,S022,Loss of Appetite,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,26.923076923076923
+2026-06-15,S022,Loss of Appetite,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,41.37931034482759
+2026-06-15,S022,Loss of Appetite,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,26.923076923076923
+2026-06-15,S022,Loss of Appetite,H007,Safdarjung Hospital,New Delhi,Delhi,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,41.37931034482759
+2026-06-15,S022,Loss of Appetite,H007,Safdarjung Hospital,New Delhi,Delhi,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,26.923076923076923
+2026-06-15,S022,Loss of Appetite,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,41.37931034482759
+2026-06-15,S022,Loss of Appetite,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,26.923076923076923
+2026-06-15,S023,Weight Loss,H003,JIPMER Puducherry,Puducherry,Puducherry,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,200.0
+2026-06-15,S023,Weight Loss,H003,JIPMER Puducherry,Puducherry,Puducherry,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,100.0
+2026-06-15,S023,Weight Loss,H003,JIPMER Puducherry,Puducherry,Puducherry,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,125.0
+2026-06-15,S023,Weight Loss,H004,CMC Vellore,Vellore,Tamil Nadu,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,200.0
+2026-06-15,S023,Weight Loss,H004,CMC Vellore,Vellore,Tamil Nadu,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,33.33333333333333
+2026-06-15,S023,Weight Loss,H004,CMC Vellore,Vellore,Tamil Nadu,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,100.0
+2026-06-15,S023,Weight Loss,H004,CMC Vellore,Vellore,Tamil Nadu,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,125.0
+2026-06-15,S023,Weight Loss,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,200.0
+2026-06-15,S023,Weight Loss,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,33.33333333333333
+2026-06-15,S023,Weight Loss,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,100.0
+2026-06-15,S023,Weight Loss,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,125.0
+2026-06-15,S024,Night Sweats,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H001,AIIMS New Delhi,New Delhi,Delhi,cross_region,62.5
+2026-06-15,S024,Night Sweats,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,36.36363636363637
+2026-06-15,S024,Night Sweats,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,50.0
+2026-06-15,S024,Night Sweats,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,166.66666666666669
+2026-06-15,S024,Night Sweats,H003,JIPMER Puducherry,Puducherry,Puducherry,H001,AIIMS New Delhi,New Delhi,Delhi,cross_region,62.5
+2026-06-15,S024,Night Sweats,H003,JIPMER Puducherry,Puducherry,Puducherry,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,40.0
+2026-06-15,S024,Night Sweats,H003,JIPMER Puducherry,Puducherry,Puducherry,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,50.0
+2026-06-15,S024,Night Sweats,H003,JIPMER Puducherry,Puducherry,Puducherry,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,166.66666666666669
+2026-06-15,S024,Night Sweats,H004,CMC Vellore,Vellore,Tamil Nadu,H001,AIIMS New Delhi,New Delhi,Delhi,cross_region,62.5
+2026-06-15,S024,Night Sweats,H004,CMC Vellore,Vellore,Tamil Nadu,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,40.0
+2026-06-15,S024,Night Sweats,H004,CMC Vellore,Vellore,Tamil Nadu,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,36.36363636363637
+2026-06-15,S024,Night Sweats,H004,CMC Vellore,Vellore,Tamil Nadu,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,50.0
+2026-06-15,S024,Night Sweats,H004,CMC Vellore,Vellore,Tamil Nadu,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,166.66666666666669
+2026-06-15,S024,Night Sweats,H007,Safdarjung Hospital,New Delhi,Delhi,H001,AIIMS New Delhi,New Delhi,Delhi,same_city,62.5
+2026-06-15,S024,Night Sweats,H007,Safdarjung Hospital,New Delhi,Delhi,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,40.0
+2026-06-15,S024,Night Sweats,H007,Safdarjung Hospital,New Delhi,Delhi,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,36.36363636363637
+2026-06-15,S024,Night Sweats,H007,Safdarjung Hospital,New Delhi,Delhi,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,50.0
+2026-06-15,S024,Night Sweats,H007,Safdarjung Hospital,New Delhi,Delhi,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,166.66666666666669
+2026-06-15,S025,Bleeding,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,66.66666666666666
+2026-06-15,S025,Bleeding,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,300.0
+2026-06-15,S025,Bleeding,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,25.0
+2026-06-15,S025,Bleeding,H003,JIPMER Puducherry,Puducherry,Puducherry,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,300.0
+2026-06-15,S025,Bleeding,H003,JIPMER Puducherry,Puducherry,Puducherry,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,25.0
+2026-06-15,S025,Bleeding,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,66.66666666666666
+2026-06-15,S025,Bleeding,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,300.0
+2026-06-15,S025,Bleeding,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,25.0
+2026-06-15,S025,Bleeding,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,66.66666666666666
+2026-06-15,S025,Bleeding,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,300.0
+2026-06-15,S026,Anaemia,H001,AIIMS New Delhi,New Delhi,Delhi,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,66.66666666666666
+2026-06-15,S026,Anaemia,H001,AIIMS New Delhi,New Delhi,Delhi,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,66.66666666666666
+2026-06-15,S026,Anaemia,H001,AIIMS New Delhi,New Delhi,Delhi,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,100.0
+2026-06-15,S026,Anaemia,H003,JIPMER Puducherry,Puducherry,Puducherry,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,66.66666666666666
+2026-06-15,S026,Anaemia,H003,JIPMER Puducherry,Puducherry,Puducherry,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,100.0
+2026-06-15,S026,Anaemia,H004,CMC Vellore,Vellore,Tamil Nadu,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,66.66666666666666
+2026-06-15,S026,Anaemia,H004,CMC Vellore,Vellore,Tamil Nadu,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,100.0
+2026-06-15,S026,Anaemia,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,66.66666666666666
+2026-06-15,S026,Anaemia,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,66.66666666666666
+2026-06-15,S026,Anaemia,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,100.0
+2026-06-15,S027,Dehydration,H001,AIIMS New Delhi,New Delhi,Delhi,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,300.0
+2026-06-15,S027,Dehydration,H001,AIIMS New Delhi,New Delhi,Delhi,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,33.33333333333333
+2026-06-15,S027,Dehydration,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,300.0
+2026-06-15,S027,Dehydration,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,33.33333333333333
+2026-06-15,S027,Dehydration,H003,JIPMER Puducherry,Puducherry,Puducherry,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,300.0
+2026-06-15,S027,Dehydration,H003,JIPMER Puducherry,Puducherry,Puducherry,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,33.33333333333333
+2026-06-15,S027,Dehydration,H004,CMC Vellore,Vellore,Tamil Nadu,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,300.0
+2026-06-15,S027,Dehydration,H004,CMC Vellore,Vellore,Tamil Nadu,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,33.33333333333333
+2026-06-15,S027,Dehydration,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,300.0
+2026-06-15,S027,Dehydration,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,33.33333333333333
+2026-06-15,S027,Dehydration,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,300.0
+2026-06-15,S027,Dehydration,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,300.0
+2026-06-15,S027,Dehydration,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,33.33333333333333
+2026-06-22,S007,Persistent Cough,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,57.89473684210527
+2026-06-22,S007,Persistent Cough,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,29.629629629629626
+2026-06-22,S007,Persistent Cough,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,57.89473684210527
+2026-06-22,S007,Persistent Cough,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,29.629629629629626
+2026-06-22,S007,Persistent Cough,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,57.89473684210527
+2026-06-22,S007,Persistent Cough,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,57.89473684210527
+2026-06-22,S007,Persistent Cough,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,29.629629629629626
+2026-06-22,S007,Persistent Cough,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,57.89473684210527
+2026-06-22,S007,Persistent Cough,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,29.629629629629626
+2026-06-22,S011,Chest Pain,H003,JIPMER Puducherry,Puducherry,Puducherry,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,150.0
+2026-06-22,S011,Chest Pain,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,150.0
+2026-06-22,S011,Chest Pain,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,150.0
+2026-06-22,S012,Loss of Taste,H001,AIIMS New Delhi,New Delhi,Delhi,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,50.0
+2026-06-22,S012,Loss of Taste,H001,AIIMS New Delhi,New Delhi,Delhi,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,25.0
+2026-06-22,S012,Loss of Taste,H001,AIIMS New Delhi,New Delhi,Delhi,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,64.28571428571429
+2026-06-22,S013,Loss of Smell,H001,AIIMS New Delhi,New Delhi,Delhi,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,52.0
+2026-06-22,S013,Loss of Smell,H001,AIIMS New Delhi,New Delhi,Delhi,H007,Safdarjung Hospital,New Delhi,Delhi,same_city,45.0
+2026-06-22,S017,Rash,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,76.92307692307693
+2026-06-22,S017,Rash,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,50.0
+2026-06-22,S017,Rash,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,76.92307692307693
+2026-06-22,S017,Rash,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,50.0
+2026-06-22,S022,Loss of Appetite,H004,CMC Vellore,Vellore,Tamil Nadu,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,47.61904761904761
+2026-06-22,S022,Loss of Appetite,H004,CMC Vellore,Vellore,Tamil Nadu,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,25.64102564102564
+2026-06-22,S022,Loss of Appetite,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,47.61904761904761
+2026-06-22,S022,Loss of Appetite,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,25.64102564102564
+2026-06-22,S022,Loss of Appetite,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,47.61904761904761
+2026-06-22,S022,Loss of Appetite,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,25.64102564102564
+2026-06-22,S022,Loss of Appetite,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,47.61904761904761
+2026-06-22,S022,Loss of Appetite,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,25.64102564102564
+2026-06-22,S023,Weight Loss,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H001,AIIMS New Delhi,New Delhi,Delhi,cross_region,50.0
+2026-06-22,S023,Weight Loss,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,350.0
+2026-06-22,S023,Weight Loss,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,100.0
+2026-06-22,S023,Weight Loss,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,50.0
+2026-06-22,S023,Weight Loss,H003,JIPMER Puducherry,Puducherry,Puducherry,H001,AIIMS New Delhi,New Delhi,Delhi,cross_region,50.0
+2026-06-22,S023,Weight Loss,H003,JIPMER Puducherry,Puducherry,Puducherry,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,350.0
+2026-06-22,S023,Weight Loss,H003,JIPMER Puducherry,Puducherry,Puducherry,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,100.0
+2026-06-22,S023,Weight Loss,H003,JIPMER Puducherry,Puducherry,Puducherry,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,50.0
+2026-06-22,S023,Weight Loss,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H001,AIIMS New Delhi,New Delhi,Delhi,cross_region,50.0
+2026-06-22,S023,Weight Loss,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,350.0
+2026-06-22,S023,Weight Loss,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,50.0
+2026-06-22,S023,Weight Loss,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H001,AIIMS New Delhi,New Delhi,Delhi,cross_region,50.0
+2026-06-22,S023,Weight Loss,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,350.0
+2026-06-22,S023,Weight Loss,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,100.0
+2026-06-22,S023,Weight Loss,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,50.0
+2026-06-22,S024,Night Sweats,H001,AIIMS New Delhi,New Delhi,Delhi,H007,Safdarjung Hospital,New Delhi,Delhi,same_city,114.28571428571428
+2026-06-22,S024,Night Sweats,H001,AIIMS New Delhi,New Delhi,Delhi,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,83.33333333333334
+2026-06-22,S024,Night Sweats,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,114.28571428571428
+2026-06-22,S024,Night Sweats,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,83.33333333333334
+2026-06-22,S024,Night Sweats,H003,JIPMER Puducherry,Puducherry,Puducherry,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,114.28571428571428
+2026-06-22,S024,Night Sweats,H003,JIPMER Puducherry,Puducherry,Puducherry,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,83.33333333333334
+2026-06-22,S024,Night Sweats,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,114.28571428571428
+2026-06-22,S024,Night Sweats,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,114.28571428571428
+2026-06-22,S024,Night Sweats,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,83.33333333333334
+2026-06-22,S025,Bleeding,H001,AIIMS New Delhi,New Delhi,Delhi,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,40.0
+2026-06-22,S025,Bleeding,H001,AIIMS New Delhi,New Delhi,Delhi,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,25.0
+2026-06-22,S025,Bleeding,H001,AIIMS New Delhi,New Delhi,Delhi,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,300.0
+2026-06-22,S025,Bleeding,H003,JIPMER Puducherry,Puducherry,Puducherry,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,25.0
+2026-06-22,S025,Bleeding,H003,JIPMER Puducherry,Puducherry,Puducherry,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,300.0
+2026-06-22,S025,Bleeding,H004,CMC Vellore,Vellore,Tamil Nadu,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,40.0
+2026-06-22,S025,Bleeding,H004,CMC Vellore,Vellore,Tamil Nadu,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,25.0
+2026-06-22,S025,Bleeding,H004,CMC Vellore,Vellore,Tamil Nadu,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,300.0
+2026-06-22,S025,Bleeding,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,40.0
+2026-06-22,S025,Bleeding,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,300.0
+2026-06-22,S025,Bleeding,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,40.0
+2026-06-22,S025,Bleeding,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,25.0
+2026-06-22,S025,Bleeding,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,300.0
+2026-06-22,S026,Anaemia,H003,JIPMER Puducherry,Puducherry,Puducherry,H001,AIIMS New Delhi,New Delhi,Delhi,cross_region,200.0
+2026-06-22,S026,Anaemia,H003,JIPMER Puducherry,Puducherry,Puducherry,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,100.0
+2026-06-22,S026,Anaemia,H004,CMC Vellore,Vellore,Tamil Nadu,H001,AIIMS New Delhi,New Delhi,Delhi,cross_region,200.0
+2026-06-22,S026,Anaemia,H004,CMC Vellore,Vellore,Tamil Nadu,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,100.0
+2026-06-22,S026,Anaemia,H007,Safdarjung Hospital,New Delhi,Delhi,H001,AIIMS New Delhi,New Delhi,Delhi,same_city,200.0
+2026-06-22,S026,Anaemia,H007,Safdarjung Hospital,New Delhi,Delhi,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,100.0
+2026-06-22,S027,Dehydration,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,300.0
+2026-06-22,S027,Dehydration,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,120.0
+2026-06-22,S027,Dehydration,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,200.0
+2026-06-22,S027,Dehydration,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,25.0
+2026-06-22,S027,Dehydration,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,166.66666666666669
+2026-06-22,S027,Dehydration,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,300.0
+2026-06-22,S027,Dehydration,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,120.0
+2026-06-22,S027,Dehydration,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,200.0
+2026-06-22,S027,Dehydration,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,166.66666666666669
+2026-06-29,S007,Persistent Cough,H007,Safdarjung Hospital,New Delhi,Delhi,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,75.0
+2026-06-29,S007,Persistent Cough,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,75.0
+2026-06-29,S010,Breathlessness,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,100.0
+2026-06-29,S010,Breathlessness,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,37.5
+2026-06-29,S010,Breathlessness,H007,Safdarjung Hospital,New Delhi,Delhi,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,100.0
+2026-06-29,S010,Breathlessness,H007,Safdarjung Hospital,New Delhi,Delhi,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,37.5
+2026-06-29,S010,Breathlessness,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,100.0
+2026-06-29,S011,Chest Pain,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H001,AIIMS New Delhi,New Delhi,Delhi,cross_region,33.33333333333333
+2026-06-29,S011,Chest Pain,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,50.0
+2026-06-29,S011,Chest Pain,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,100.0
+2026-06-29,S011,Chest Pain,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H001,AIIMS New Delhi,New Delhi,Delhi,cross_region,33.33333333333333
+2026-06-29,S011,Chest Pain,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,50.0
+2026-06-29,S011,Chest Pain,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,100.0
+2026-06-29,S017,Rash,H004,CMC Vellore,Vellore,Tamil Nadu,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,52.77777777777778
+2026-06-29,S017,Rash,H007,Safdarjung Hospital,New Delhi,Delhi,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,52.77777777777778
+2026-06-29,S017,Rash,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,52.77777777777778
+2026-06-29,S022,Loss of Appetite,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H001,AIIMS New Delhi,New Delhi,Delhi,cross_region,47.368421052631575
+2026-06-29,S022,Loss of Appetite,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,42.42424242424242
+2026-06-29,S022,Loss of Appetite,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,45.16129032258064
+2026-06-29,S022,Loss of Appetite,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H001,AIIMS New Delhi,New Delhi,Delhi,cross_region,47.368421052631575
+2026-06-29,S022,Loss of Appetite,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,42.42424242424242
+2026-06-29,S022,Loss of Appetite,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,45.16129032258064
+2026-06-29,S023,Weight Loss,H001,AIIMS New Delhi,New Delhi,Delhi,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,700.0
+2026-06-29,S023,Weight Loss,H001,AIIMS New Delhi,New Delhi,Delhi,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,66.66666666666666
+2026-06-29,S023,Weight Loss,H007,Safdarjung Hospital,New Delhi,Delhi,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,700.0
+2026-06-29,S023,Weight Loss,H007,Safdarjung Hospital,New Delhi,Delhi,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,66.66666666666666
+2026-06-29,S023,Weight Loss,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,700.0
+2026-06-29,S023,Weight Loss,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,66.66666666666666
+2026-06-29,S023,Weight Loss,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,700.0
+2026-06-29,S024,Night Sweats,H007,Safdarjung Hospital,New Delhi,Delhi,H001,AIIMS New Delhi,New Delhi,Delhi,same_city,50.0
+2026-06-29,S024,Night Sweats,H007,Safdarjung Hospital,New Delhi,Delhi,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,100.0
+2026-06-29,S024,Night Sweats,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H001,AIIMS New Delhi,New Delhi,Delhi,cross_region,50.0
+2026-06-29,S024,Night Sweats,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,100.0
+2026-06-29,S024,Night Sweats,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H001,AIIMS New Delhi,New Delhi,Delhi,cross_region,50.0
+2026-06-29,S024,Night Sweats,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,100.0
+2026-06-29,S025,Bleeding,H003,JIPMER Puducherry,Puducherry,Puducherry,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,100.0
+2026-06-29,S025,Bleeding,H003,JIPMER Puducherry,Puducherry,Puducherry,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,500.0
+2026-06-29,S025,Bleeding,H004,CMC Vellore,Vellore,Tamil Nadu,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,100.0
+2026-06-29,S025,Bleeding,H004,CMC Vellore,Vellore,Tamil Nadu,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,500.0
+2026-06-29,S025,Bleeding,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,100.0
+2026-06-29,S025,Bleeding,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,500.0
+2026-06-29,S025,Bleeding,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,100.0
+2026-06-29,S025,Bleeding,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,500.0
+2026-06-29,S026,Anaemia,H001,AIIMS New Delhi,New Delhi,Delhi,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,200.0
+2026-06-29,S026,Anaemia,H001,AIIMS New Delhi,New Delhi,Delhi,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,400.0
+2026-06-29,S026,Anaemia,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,200.0
+2026-06-29,S026,Anaemia,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,400.0
+2026-06-29,S026,Anaemia,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,200.0
+2026-06-29,S026,Anaemia,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,400.0
+2026-06-29,S027,Dehydration,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,37.5
+2026-06-29,S027,Dehydration,H004,CMC Vellore,Vellore,Tamil Nadu,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,37.5
+2026-06-29,S027,Dehydration,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,37.5
+2026-06-29,S027,Dehydration,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,37.5
+2026-07-06,S007,Persistent Cough,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H001,AIIMS New Delhi,New Delhi,Delhi,cross_region,32.35294117647059
+2026-07-06,S007,Persistent Cough,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H001,AIIMS New Delhi,New Delhi,Delhi,cross_region,32.35294117647059
+2026-07-06,S007,Persistent Cough,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H001,AIIMS New Delhi,New Delhi,Delhi,cross_region,32.35294117647059
+2026-07-06,S010,Breathlessness,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,62.5
+2026-07-06,S010,Breathlessness,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,57.14285714285714
+2026-07-06,S010,Breathlessness,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,100.0
+2026-07-06,S010,Breathlessness,H007,Safdarjung Hospital,New Delhi,Delhi,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,62.5
+2026-07-06,S010,Breathlessness,H007,Safdarjung Hospital,New Delhi,Delhi,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,57.14285714285714
+2026-07-06,S010,Breathlessness,H007,Safdarjung Hospital,New Delhi,Delhi,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,100.0
+2026-07-06,S010,Breathlessness,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,62.5
+2026-07-06,S010,Breathlessness,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,57.14285714285714
+2026-07-06,S010,Breathlessness,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,100.0
+2026-07-06,S011,Chest Pain,H001,AIIMS New Delhi,New Delhi,Delhi,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,33.33333333333333
+2026-07-06,S011,Chest Pain,H001,AIIMS New Delhi,New Delhi,Delhi,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,300.0
+2026-07-06,S011,Chest Pain,H001,AIIMS New Delhi,New Delhi,Delhi,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,100.0
+2026-07-06,S011,Chest Pain,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,300.0
+2026-07-06,S011,Chest Pain,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,100.0
+2026-07-06,S012,Loss of Taste,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,69.23076923076923
+2026-07-06,S012,Loss of Taste,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,26.666666666666668
+2026-07-06,S012,Loss of Taste,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,38.46153846153847
+2026-07-06,S012,Loss of Taste,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,69.23076923076923
+2026-07-06,S012,Loss of Taste,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,26.666666666666668
+2026-07-06,S012,Loss of Taste,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,38.46153846153847
+2026-07-06,S022,Loss of Appetite,H001,AIIMS New Delhi,New Delhi,Delhi,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,27.027027027027028
+2026-07-06,S022,Loss of Appetite,H003,JIPMER Puducherry,Puducherry,Puducherry,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,27.027027027027028
+2026-07-06,S022,Loss of Appetite,H004,CMC Vellore,Vellore,Tamil Nadu,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,27.027027027027028
+2026-07-06,S023,Weight Loss,H001,AIIMS New Delhi,New Delhi,Delhi,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,50.0
+2026-07-06,S023,Weight Loss,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,50.0
+2026-07-06,S023,Weight Loss,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,50.0
+2026-07-06,S024,Night Sweats,H001,AIIMS New Delhi,New Delhi,Delhi,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,55.55555555555556
+2026-07-06,S024,Night Sweats,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,55.55555555555556
+2026-07-06,S024,Night Sweats,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,55.55555555555556
+2026-07-06,S024,Night Sweats,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,55.55555555555556
+2026-07-06,S025,Bleeding,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H001,AIIMS New Delhi,New Delhi,Delhi,cross_region,200.0
+2026-07-06,S025,Bleeding,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,66.66666666666666
+2026-07-06,S025,Bleeding,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,66.66666666666666
+2026-07-06,S025,Bleeding,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,100.0
+2026-07-06,S025,Bleeding,H007,Safdarjung Hospital,New Delhi,Delhi,H001,AIIMS New Delhi,New Delhi,Delhi,same_city,200.0
+2026-07-06,S025,Bleeding,H007,Safdarjung Hospital,New Delhi,Delhi,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,66.66666666666666
+2026-07-06,S025,Bleeding,H007,Safdarjung Hospital,New Delhi,Delhi,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,66.66666666666666
+2026-07-06,S025,Bleeding,H007,Safdarjung Hospital,New Delhi,Delhi,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,100.0
+2026-07-13,S012,Loss of Taste,H003,JIPMER Puducherry,Puducherry,Puducherry,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,36.84210526315789
+2026-07-13,S012,Loss of Taste,H004,CMC Vellore,Vellore,Tamil Nadu,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,36.84210526315789
+2026-07-13,S012,Loss of Taste,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,36.84210526315789
+2026-07-13,S018,Nausea,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,28.125
+2026-07-13,S022,Loss of Appetite,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,25.925925925925924
+2026-07-13,S022,Loss of Appetite,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,48.148148148148145
+2026-07-13,S025,Bleeding,H001,AIIMS New Delhi,New Delhi,Delhi,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,33.33333333333333
+2026-07-13,S025,Bleeding,H001,AIIMS New Delhi,New Delhi,Delhi,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,25.0
+2026-07-13,S025,Bleeding,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,33.33333333333333
+2026-07-13,S025,Bleeding,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,25.0
+2026-07-13,S025,Bleeding,H004,CMC Vellore,Vellore,Tamil Nadu,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,33.33333333333333
+2026-07-13,S025,Bleeding,H004,CMC Vellore,Vellore,Tamil Nadu,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,25.0
+2026-07-13,S025,Bleeding,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,33.33333333333333
+2026-07-13,S025,Bleeding,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,25.0
+2026-07-20,S009,Runny Nose,H001,AIIMS New Delhi,New Delhi,Delhi,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,28.04878048780488
+2026-07-20,S009,Runny Nose,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,28.04878048780488
+2026-07-20,S012,Loss of Taste,H007,Safdarjung Hospital,New Delhi,Delhi,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,116.66666666666667
+2026-07-20,S012,Loss of Taste,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,116.66666666666667
+2026-07-20,S013,Loss of Smell,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,135.29411764705884
+2026-07-20,S013,Loss of Smell,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,60.86956521739131
+2026-07-20,S015,Joint Pain,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,30.386740331491712
+2026-07-20,S015,Joint Pain,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,30.386740331491712
+2026-07-20,S022,Loss of Appetite,H004,CMC Vellore,Vellore,Tamil Nadu,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,36.11111111111111
+2026-07-20,S022,Loss of Appetite,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,36.11111111111111
+2026-07-20,S022,Loss of Appetite,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,36.11111111111111
+2026-07-20,S024,Night Sweats,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H001,AIIMS New Delhi,New Delhi,Delhi,cross_region,162.5
+2026-07-20,S024,Night Sweats,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,62.5
+2026-07-20,S025,Bleeding,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,600.0
+2026-07-20,S025,Bleeding,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,75.0
+2026-07-20,S025,Bleeding,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,600.0
+2026-07-20,S025,Bleeding,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,75.0
+2026-07-20,S026,Anaemia,H003,JIPMER Puducherry,Puducherry,Puducherry,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,250.0
+2026-07-20,S026,Anaemia,H007,Safdarjung Hospital,New Delhi,Delhi,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,250.0
+2026-07-20,S026,Anaemia,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,250.0
+2026-07-20,S026,Anaemia,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,250.0
+2026-07-20,S027,Dehydration,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,33.33333333333333
+2026-07-20,S027,Dehydration,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,300.0
+2026-07-27,S007,Persistent Cough,H001,AIIMS New Delhi,New Delhi,Delhi,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,81.81818181818183
+2026-07-27,S007,Persistent Cough,H004,CMC Vellore,Vellore,Tamil Nadu,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,81.81818181818183
+2026-07-27,S007,Persistent Cough,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,81.81818181818183
+2026-07-27,S007,Persistent Cough,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,81.81818181818183
+2026-07-27,S007,Persistent Cough,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,81.81818181818183
+2026-07-27,S011,Chest Pain,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H001,AIIMS New Delhi,New Delhi,Delhi,cross_region,66.66666666666666
+2026-07-27,S011,Chest Pain,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,150.0
+2026-07-27,S018,Nausea,H001,AIIMS New Delhi,New Delhi,Delhi,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,34.78260869565217
+2026-07-27,S021,Abdominal Pain,H007,Safdarjung Hospital,New Delhi,Delhi,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,28.39506172839506
+2026-07-27,S021,Abdominal Pain,H007,Safdarjung Hospital,New Delhi,Delhi,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,34.92063492063492
+2026-07-27,S021,Abdominal Pain,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,28.39506172839506
+2026-07-27,S021,Abdominal Pain,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,34.92063492063492
+2026-07-27,S022,Loss of Appetite,H003,JIPMER Puducherry,Puducherry,Puducherry,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,32.25806451612903
+2026-07-27,S022,Loss of Appetite,H007,Safdarjung Hospital,New Delhi,Delhi,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,32.25806451612903
+2026-07-27,S024,Night Sweats,H001,AIIMS New Delhi,New Delhi,Delhi,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,54.54545454545454
+2026-07-27,S024,Night Sweats,H001,AIIMS New Delhi,New Delhi,Delhi,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,57.14285714285714
+2026-07-27,S024,Night Sweats,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,54.54545454545454
+2026-07-27,S024,Night Sweats,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,57.14285714285714
+2026-07-27,S025,Bleeding,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,100.0
+2026-07-27,S025,Bleeding,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,200.0
+2026-07-27,S025,Bleeding,H003,JIPMER Puducherry,Puducherry,Puducherry,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,100.0
+2026-07-27,S025,Bleeding,H003,JIPMER Puducherry,Puducherry,Puducherry,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,200.0
+2026-07-27,S026,Anaemia,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,200.0
+2026-07-27,S027,Dehydration,H007,Safdarjung Hospital,New Delhi,Delhi,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,100.0
+2026-07-27,S027,Dehydration,H007,Safdarjung Hospital,New Delhi,Delhi,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,66.66666666666666
+2026-07-27,S027,Dehydration,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,100.0
+2026-07-27,S027,Dehydration,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,25.0
+2026-07-27,S027,Dehydration,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,66.66666666666666
+2026-08-03,S007,Persistent Cough,H003,JIPMER Puducherry,Puducherry,Puducherry,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,36.0
+2026-08-03,S007,Persistent Cough,H004,CMC Vellore,Vellore,Tamil Nadu,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,36.0
+2026-08-03,S011,Chest Pain,H001,AIIMS New Delhi,New Delhi,Delhi,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,66.66666666666666
+2026-08-03,S011,Chest Pain,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,66.66666666666666
+2026-08-03,S012,Loss of Taste,H001,AIIMS New Delhi,New Delhi,Delhi,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,45.0
+2026-08-03,S012,Loss of Taste,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,45.0
+2026-08-03,S017,Rash,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,61.36363636363637
+2026-08-03,S020,Diarrhoea,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,29.333333333333332
+2026-08-03,S020,Diarrhoea,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,35.41666666666667
+2026-08-03,S020,Diarrhoea,H007,Safdarjung Hospital,New Delhi,Delhi,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,29.333333333333332
+2026-08-03,S020,Diarrhoea,H007,Safdarjung Hospital,New Delhi,Delhi,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,35.41666666666667
+2026-08-03,S021,Abdominal Pain,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,42.2680412371134
+2026-08-03,S021,Abdominal Pain,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,42.2680412371134
+2026-08-03,S021,Abdominal Pain,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,42.2680412371134
+2026-08-03,S022,Loss of Appetite,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,29.268292682926827
+2026-08-03,S022,Loss of Appetite,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,29.268292682926827
+2026-08-03,S025,Bleeding,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,100.0
+2026-08-03,S025,Bleeding,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,33.33333333333333
+2026-08-03,S025,Bleeding,H003,JIPMER Puducherry,Puducherry,Puducherry,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,100.0
+2026-08-03,S025,Bleeding,H003,JIPMER Puducherry,Puducherry,Puducherry,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,33.33333333333333
+2026-08-03,S025,Bleeding,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,100.0
+2026-08-03,S025,Bleeding,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H010,SMS Medical College Hospital,Jaipur,Rajasthan,cross_region,33.33333333333333
+2026-08-03,S025,Bleeding,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,100.0
+2026-08-03,S027,Dehydration,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,40.0
+2026-08-03,S027,Dehydration,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,40.0
+2026-08-10,S007,Persistent Cough,H003,JIPMER Puducherry,Puducherry,Puducherry,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,32.0
+2026-08-10,S007,Persistent Cough,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,32.0
+2026-08-10,S007,Persistent Cough,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,32.0
+2026-08-10,S009,Runny Nose,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,26.666666666666668
+2026-08-10,S009,Runny Nose,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,26.666666666666668
+2026-08-10,S010,Breathlessness,H001,AIIMS New Delhi,New Delhi,Delhi,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,50.0
+2026-08-10,S010,Breathlessness,H001,AIIMS New Delhi,New Delhi,Delhi,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,150.0
+2026-08-10,S010,Breathlessness,H001,AIIMS New Delhi,New Delhi,Delhi,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,30.76923076923077
+2026-08-10,S010,Breathlessness,H004,CMC Vellore,Vellore,Tamil Nadu,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,50.0
+2026-08-10,S010,Breathlessness,H004,CMC Vellore,Vellore,Tamil Nadu,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,150.0
+2026-08-10,S011,Chest Pain,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,100.0
+2026-08-10,S012,Loss of Taste,H001,AIIMS New Delhi,New Delhi,Delhi,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,88.23529411764706
+2026-08-10,S012,Loss of Taste,H001,AIIMS New Delhi,New Delhi,Delhi,H007,Safdarjung Hospital,New Delhi,Delhi,same_city,62.5
+2026-08-10,S012,Loss of Taste,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,88.23529411764706
+2026-08-10,S012,Loss of Taste,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,62.5
+2026-08-10,S013,Loss of Smell,H001,AIIMS New Delhi,New Delhi,Delhi,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,42.30769230769231
+2026-08-10,S013,Loss of Smell,H001,AIIMS New Delhi,New Delhi,Delhi,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,114.28571428571428
+2026-08-10,S013,Loss of Smell,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,42.30769230769231
+2026-08-10,S013,Loss of Smell,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,114.28571428571428
+2026-08-10,S016,Retro-orbital Pain,H001,AIIMS New Delhi,New Delhi,Delhi,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,27.102803738317753
+2026-08-10,S016,Retro-orbital Pain,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,27.102803738317753
+2026-08-10,S017,Rash,H001,AIIMS New Delhi,New Delhi,Delhi,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,34.146341463414636
+2026-08-10,S017,Rash,H004,CMC Vellore,Vellore,Tamil Nadu,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,34.146341463414636
+2026-08-10,S022,Loss of Appetite,H003,JIPMER Puducherry,Puducherry,Puducherry,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,88.46153846153845
+2026-08-10,S022,Loss of Appetite,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,88.46153846153845
+2026-08-10,S022,Loss of Appetite,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,88.46153846153845
+2026-08-10,S022,Loss of Appetite,H007,Safdarjung Hospital,New Delhi,Delhi,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,cross_region,88.46153846153845
+2026-08-10,S025,Bleeding,H004,CMC Vellore,Vellore,Tamil Nadu,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,200.0
+2026-08-10,S025,Bleeding,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,200.0
+2026-08-10,S026,Anaemia,H002,PGIMER Chandigarh,Chandigarh,Chandigarh,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,300.0
+2026-08-10,S027,Dehydration,H007,Safdarjung Hospital,New Delhi,Delhi,H001,AIIMS New Delhi,New Delhi,Delhi,same_city,100.0
+2026-08-10,S027,Dehydration,H007,Safdarjung Hospital,New Delhi,Delhi,H004,CMC Vellore,Vellore,Tamil Nadu,cross_region,33.33333333333333
+2026-08-10,S027,Dehydration,H007,Safdarjung Hospital,New Delhi,Delhi,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,166.66666666666669
+2026-08-17,S009,Runny Nose,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,31.372549019607842
+2026-08-17,S009,Runny Nose,H010,SMS Medical College Hospital,Jaipur,Rajasthan,H007,Safdarjung Hospital,New Delhi,Delhi,cross_region,31.372549019607842
+2026-08-17,S011,Chest Pain,H004,CMC Vellore,Vellore,Tamil Nadu,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,100.0
+2026-08-17,S011,Chest Pain,H004,CMC Vellore,Vellore,Tamil Nadu,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,300.0
+2026-08-17,S013,Loss of Smell,H004,CMC Vellore,Vellore,Tamil Nadu,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,68.18181818181817
+2026-08-17,S013,Loss of Smell,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,68.18181818181817
+2026-08-17,S024,Night Sweats,H004,CMC Vellore,Vellore,Tamil Nadu,H003,JIPMER Puducherry,Puducherry,Puducherry,cross_region,27.27272727272727
+2026-08-17,S024,Night Sweats,H004,CMC Vellore,Vellore,Tamil Nadu,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,cross_region,80.0
+2026-08-17,S024,Night Sweats,H004,CMC Vellore,Vellore,Tamil Nadu,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,30.0
+2026-08-17,S025,Bleeding,H007,Safdarjung Hospital,New Delhi,Delhi,H006,NIMHANS Bengaluru,Bengaluru,Karnataka,cross_region,300.0
+2026-08-17,S027,Dehydration,H001,AIIMS New Delhi,New Delhi,Delhi,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,700.0
+2026-08-17,S027,Dehydration,H004,CMC Vellore,Vellore,Tamil Nadu,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,700.0
+2026-08-17,S027,Dehydration,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,700.0
+2026-08-24,S011,Chest Pain,H003,JIPMER Puducherry,Puducherry,Puducherry,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,200.0
+2026-08-24,S011,Chest Pain,H005,KGMU Lucknow,Lucknow,Uttar Pradesh,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,cross_region,200.0
+2026-08-24,S027,Dehydration,H008,King Edward Memorial Hospital,Mumbai,Maharashtra,H009,Sree Chitra Tirunal Institute,Thiruvananthapuram,Kerala,cross_region,133.33333333333331

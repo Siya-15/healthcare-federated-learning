@@ -21,6 +21,11 @@ from .model_utils import (
     get_model_parameters,
 )
 
+from ..privacy.local_data_isolation import (
+    inspect_dataframe_for_leakage,
+    validate_model_update,
+)
+
 
 # ==========================================================
 # FLOWER CLIENT
@@ -119,6 +124,33 @@ def train(
         hospital_id
     )
 
+    # ------------------------------------------------------
+    # C2 LOCAL DATA ISOLATION
+    # ------------------------------------------------------
+
+    update_check = inspect_dataframe_for_leakage(
+        [
+            # Only the data actually entering the model
+            "age",
+            "temperature",
+            "heart_rate",
+            "respiratory_rate",
+            "systolic_bp",
+            "diastolic_bp",
+            "spo2",
+            "symptom_onset_days",
+            "travel_history",
+            "vaccination_status",
+        ]
+    )
+
+    if not update_check["passed"]:
+        raise RuntimeError(
+            f"[{hospital_id}] "
+            "C2 data-isolation check failed: "
+            f"{update_check['leaked_fields']}"
+        )
+
     print(
         f"[{hospital_id}] "
         f"Local records: "
@@ -181,6 +213,21 @@ def train(
     )
 
     # ------------------------------------------------------
+    # C2 MODEL UPDATE VALIDATION
+    # ------------------------------------------------------
+
+    parameter_check = validate_model_update(
+        updated_parameters
+    )
+
+    if not parameter_check["passed"]:
+        raise RuntimeError(
+            f"[{hospital_id}] "
+            "C2 model-update validation failed: "
+            f"{parameter_check['issues']}"
+        )
+
+    # ------------------------------------------------------
     # SEND ONLY MODEL UPDATE
     # ------------------------------------------------------
 
@@ -236,6 +283,27 @@ def evaluate(
     ) = load_data(
         hospital_id
     )
+
+    isolation_check = inspect_dataframe_for_leakage(
+    [
+        "age",
+        "temperature",
+        "heart_rate",
+        "respiratory_rate",
+        "systolic_bp",
+        "diastolic_bp",
+        "spo2",
+        "symptom_onset_days",
+        "travel_history",
+        "vaccination_status",
+    ]
+    )
+
+    if not isolation_check["passed"]:
+        raise RuntimeError(
+            f"[{hospital_id}] "
+            "C2 evaluation isolation check failed."
+        )
 
     # ------------------------------------------------------
     # CREATE MODEL

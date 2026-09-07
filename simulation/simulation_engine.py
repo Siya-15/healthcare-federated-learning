@@ -23,6 +23,8 @@ class SimulationEngine:
         vitals_generator,
 
         treatment_generator,
+        lab_generator,
+        imaging_generator,
 
         complication_generator,
 
@@ -44,6 +46,9 @@ class SimulationEngine:
         self.symptom_onset_generator = symptom_onset_generator
 
         self.vitals_generator = vitals_generator
+
+        self.lab_generator = lab_generator
+        self.imaging_generator = imaging_generator
 
         self.treatment_generator = treatment_generator
 
@@ -67,10 +72,15 @@ class SimulationEngine:
 
         self.severity_generator.generate(encounter)
 
-        self.symptom_generator.generate(encounter)
         self.symptom_onset_generator.generate(encounter)
 
+        self.symptom_generator.generate(encounter)
+
         self.vitals_generator.generate(encounter)
+
+        self.lab_generator.generate(encounter)
+
+        self.imaging_generator.generate(encounter)
 
         self.treatment_generator.generate(encounter)
 

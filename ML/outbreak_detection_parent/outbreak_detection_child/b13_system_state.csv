@@ -1,0 +1,3 @@
+update_timestamp,pipeline_status,new_records,total_encounters,earliest_encounter,latest_encounter,latest_surveillance_week,green_alerts,yellow_alerts,orange_alerts,red_alerts,watch_alerts,active_alerts,strongest_symptom,strongest_risk_score
+2026-09-06T12:46:51,UPDATE_SUCCESS,113602,113602,2026-06-01,2026-08-29,2026-08-24,24,3,0,0,3,0,Chest Pain,40.32
+2026-09-06T12:58:52,UPDATE_SUCCESS,1,113603,2026-06-01 00:00:00,2026-08-29 12:00:00,2026-08-24,24,3,0,0,3,0,Chest Pain,40.92

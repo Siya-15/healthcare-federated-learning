@@ -93,75 +93,153 @@ def create_autoencoder():
 
 
 # ==========================================================
-# TRAIN + SCORE
+# TRAIN ON HISTORICAL BASELINE + SCORE CURRENT DATA
 # ==========================================================
 
-def detect_anomalies(hospital_id):
+def detect_anomalies(
+    hospital_id,
+    baseline_end="2026-07-31"
+):
 
-    df, X = load_symptom_data(hospital_id)
+    df, _ = load_symptom_data(hospital_id)
 
     # ------------------------------------------------------
-    # Train autoencoder
-    #
-    # Input = symptom vector
-    # Target = same symptom vector
+    # Validate timestamp
+    # ------------------------------------------------------
+
+    if "visit_timestamp" not in df.columns:
+
+        raise ValueError(
+            f"{hospital_id}: visit_timestamp is required "
+            "for temporal anomaly detection."
+        )
+
+    df["visit_timestamp"] = pd.to_datetime(
+        df["visit_timestamp"]
+    )
+
+    baseline_end = pd.Timestamp(
+        baseline_end
+    )
+
+    # ------------------------------------------------------
+    # Split historical baseline and current window
+    # ------------------------------------------------------
+
+    baseline_df = df[
+        df["visit_timestamp"] <= baseline_end
+    ].copy()
+
+    current_df = df[
+        df["visit_timestamp"] > baseline_end
+    ].copy()
+
+    if baseline_df.empty:
+
+        raise ValueError(
+            f"{hospital_id}: Historical baseline is empty."
+        )
+
+    if current_df.empty:
+
+        raise ValueError(
+            f"{hospital_id}: Current surveillance window is empty."
+        )
+
+    # ------------------------------------------------------
+    # Extract symptom features
+    # ------------------------------------------------------
+
+    X_baseline = (
+        baseline_df[SYMPTOM_COLUMNS]
+        .fillna(0)
+        .astype(float)
+        .values
+    )
+
+    X_current = (
+        current_df[SYMPTOM_COLUMNS]
+        .fillna(0)
+        .astype(float)
+        .values
+    )
+
+    # ------------------------------------------------------
+    # Train autoencoder ONLY on historical baseline
     # ------------------------------------------------------
 
     model = create_autoencoder()
 
     model.fit(
-        X,
-        X
+        X_baseline,
+        X_baseline
     )
 
     # ------------------------------------------------------
-    # Reconstruct symptom vectors
+    # Calculate baseline reconstruction errors
+    #
+    # These establish the normal error distribution.
     # ------------------------------------------------------
 
-    reconstructed = model.predict(X)
+    baseline_reconstructed = model.predict(
+        X_baseline
+    )
 
-    # ------------------------------------------------------
-    # Reconstruction error
-    # ------------------------------------------------------
-
-    reconstruction_error = np.mean(
-        (X - reconstructed) ** 2,
+    baseline_error = np.mean(
+        (X_baseline - baseline_reconstructed) ** 2,
         axis=1
     )
 
     # ------------------------------------------------------
-    # Determine anomaly threshold
+    # Calculate current reconstruction errors
+    # ------------------------------------------------------
+
+    current_reconstructed = model.predict(
+        X_current
+    )
+
+    current_error = np.mean(
+        (X_current - current_reconstructed) ** 2,
+        axis=1
+    )
+
+    # ------------------------------------------------------
+    # Determine threshold from HISTORICAL data
     #
-    # Top 5% most unusual cases are flagged.
+    # The threshold is no longer influenced by the
+    # current surveillance window.
     # ------------------------------------------------------
 
     threshold = np.percentile(
-        reconstruction_error,
+        baseline_error,
         95
     )
 
     is_anomaly = (
-        reconstruction_error >= threshold
+        current_error >= threshold
     )
 
     # ------------------------------------------------------
-    # Create results
+    # Create results for CURRENT encounters only
     # ------------------------------------------------------
 
-    results = df[
+    results = current_df[
         [
             "encounter_id",
             "hospital_id",
+            "visit_timestamp",
             "disease_id",
             "severity_id",
         ]
     ].copy()
 
     results["anomaly_score"] = (
-        reconstruction_error
+        current_error
     )
 
-    results["anomaly_threshold"] = threshold
+    results["anomaly_threshold"] = (
+        threshold
+    )
 
     results["is_anomalous"] = (
         is_anomaly
@@ -191,7 +269,7 @@ if __name__ == "__main__":
     )
 
     print(
-        f"Records analysed: {len(results)}"
+        f"\nCurrent records analysed: {len(results)}"
     )
 
     print(
@@ -203,6 +281,8 @@ if __name__ == "__main__":
         f"\nAnomaly threshold: "
         f"{results['anomaly_threshold'].iloc[0]:.6f}"
     )
+
+    
 
     print(
         "\nTop 10 unusual encounters:"
