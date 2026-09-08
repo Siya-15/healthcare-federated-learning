@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-ink-950 text-slate-300 antialiased;
+  background-image: radial-gradient(1200px 600px at 78% -8%, rgba(52, 211, 153, 0.06), transparent 60%);
+}
+
+/* Dark form controls */
+input,
+select,
+textarea {
+  @apply bg-ink-800 text-slate-200 border-ink-700 placeholder:text-slate-500;
+}
+input:focus,
+select:focus,
+textarea:focus {
+  @apply outline-none ring-1 ring-brand/40 border-brand/40;
+}
+
+/* Slim dark scrollbars */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #2c2d33 transparent;
+}
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+*::-webkit-scrollbar-thumb {
+  background: #2c2d33;
+  border-radius: 9999px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
