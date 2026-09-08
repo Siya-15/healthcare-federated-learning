@@ -3,7 +3,6 @@ from config import DB_CONFIG
 
 
 def get_engine():
-
     connection_string = (
         f"postgresql+psycopg2://"
         f"{DB_CONFIG['user']}:"
@@ -13,4 +12,9 @@ def get_engine():
         f"{DB_CONFIG['database']}"
     )
 
-    return create_engine(connection_string)
+    return create_engine(
+        connection_string,
+        connect_args={
+            "sslmode": DB_CONFIG["sslmode"]
+        }
+    )
