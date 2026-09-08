@@ -8,10 +8,12 @@ imports the Python ML modules or downloads a model artifact).
 - **Frontend** (`frontend/`): built on this branch. Runs standalone against
   labelled sample data, so you can see every portal now. See
   [`frontend/RUNNING.md`](frontend/RUNNING.md) for the full guide.
-- **Backend** (`backend/`): **not built on this branch.** The FastAPI service and
-  its `/api/*` endpoints are specified in the integration handoff but not
-  implemented here. A different, CSV-backed FastAPI app exists on the
-  `feature/keertika` branch (its own `RUNNING.md` covers it).
+- **Backend** (`backend/app/`): built on this branch. FastAPI service that serves
+  the whole `/api/*` contract from a Supabase / PostgreSQL schema and enforces
+  RBAC + hospital scope server-side. Full guide in
+  [`backend/RUNNING.md`](backend/RUNNING.md); the essentials are below.
+
+Run the frontend alone for a quick look; run both for the live application.
 
 ## Frontend — quick start
 
@@ -38,9 +40,9 @@ resolves **labelled fixtures** (`src/mocks/*.js`) and every screen shows a blue
   hospital-admin roles).
 - New Encounter → *Analyze* runs a deterministic sample `E1–E12`; changing
   severity / SpO₂ / age visibly moves the ranked output (demo step 6).
-- Run against a real backend later: `VITE_USE_MOCK=0 npm run dev`. In live mode a
-  real `403 / 404 / 422 / 503` is shown as an error; only a connection failure
-  falls back to fixtures.
+- Run against the real backend: `npm run dev:live` (`VITE_USE_MOCK=0`) — see the
+  Backend section below. In live mode a real `403 / 404 / 422 / 503` is shown as
+  an error; only a connection failure falls back to fixtures.
 
 ### Build a static bundle
 
@@ -63,26 +65,101 @@ RBAC is enforced server-side in production (spec section 16); the role switcher
 stands in for auth and `RoleGuard` filters navigation + shows an explicit
 "access denied" panel.
 
-## Connecting a real backend later
+## Backend — quick start
 
-Run FastAPI on `http://127.0.0.1:8000` (Vite proxies `/api` there — see
-`frontend/vite.config.js`) exposing, per spec section 7:
+FastAPI service in `backend/app/`. It owns the Supabase schema, serves every
+`/api/*` endpoint the frontend calls, and enforces RBAC + hospital scope from the
+`X-Demo-Role` / `X-Demo-Hospital` headers. Full detail:
+[`backend/RUNNING.md`](backend/RUNNING.md).
+
+### 1. Prerequisites
+
+- The repo `.venv` (Python 3.12). Deps are already installed; to recreate:
+  `.venv/bin/pip install -r backend/requirements.txt`.
+- A `.env` at the **repo root** with a Supabase / PostgreSQL URL (password
+  URL-encoded; no credentials in source):
+
+  ```
+  DATABASE_URL="postgresql://USER:PASSWORD@HOST:5432/postgres?sslmode=require"
+  # optional
+  PRIVACY_SECRET="something-long-and-secret"   # pseudonymisation salt
+  ADVISOR_ENGINE=auto                          # auto | ml | heuristic
+  ```
+
+### 2. Create the schema + seed data
+
+```bash
+.venv/bin/python backend/seed_supabase.py            # migrate + seed  (idempotent)
+.venv/bin/python backend/seed_supabase.py --schema   # apply migration only, no seed
+.venv/bin/python backend/seed_supabase.py --reset    # DROP app tables, then migrate + seed
+```
+
+`seed_supabase.py` applies
+[`backend/migrations/002_supabase_app_schema.sql`](backend/migrations/002_supabase_app_schema.sql)
+and loads:
+
+- **reference data** — 10 hospitals, 9 diseases, 3 severities, 27 symptoms, 14
+  treatments;
+- **advisor config** — `disease_treatment_mapping` (E2), `treatment_contraindication`
+  (E3), per-hospital `treatment_config` (E4);
+- **encounters** — 5 canonical sample records (the `patient_token`s the UI
+  references) + 40 synthetic (~4 per hospital) for the history / dashboard views;
+- **`dashboard_snapshot`** — 14 JSONB payloads for the Surveillance / Federated /
+  Privacy / AI-Ops screens, shaped exactly like the API responses.
+
+Re-running upserts the reference data and regenerates the synthetic encounters
+and snapshots. Edit the payloads in `backend/seed_data.py` and re-run to change
+what those portals show.
+
+### 3. Run the API
+
+```bash
+.venv/bin/uvicorn app.main:app --app-dir backend --reload --port 8000
+```
+
+- Interactive docs: <http://127.0.0.1:8000/docs>
+- Health: <http://127.0.0.1:8000/api/health>
+
+### 4. Run the frontend against it
+
+```bash
+cd frontend && npm run dev:live        # = VITE_USE_MOCK=0 vite
+```
+
+Vite proxies `/api` to `127.0.0.1:8000` (`frontend/vite.config.js`). Switch the
+demo identity with the top-bar role / hospital selectors — those set the headers
+the backend authorises against. Every treatment-advisor run is persisted to the
+`advisor_run` table.
+
+### Endpoints (spec section 7)
 
 ```
-GET  /api/clinical/dashboard | form-options
-GET  /api/clinical/encounters                POST /api/clinical/encounters
+GET  /api/health
+GET  /api/clinical/form-options | dashboard
+GET  /api/clinical/encounters                 POST /api/clinical/encounters
 GET  /api/clinical/encounters/{id}
-GET  /api/clinical/treatment-advisor/{id}    POST /api/clinical/treatment-advisor
-GET  /api/models/explanations/{encounter}/{treatment}
+GET  /api/clinical/treatment-advisor/{id}     POST /api/clinical/treatment-advisor
 GET  /api/surveillance/overview | alerts | emerging-symptoms | trends
 GET  /api/federated/network | rounds | model
 GET  /api/privacy/policy | data-flow | audit
 GET  /api/models/overview | metrics | versions
+GET  /api/models/explanations/{encounter}/{treatment}
 ```
 
-Start the dev server with `VITE_USE_MOCK=0`; no frontend change is needed. Align
-real responses to `src/mocks/*` / `src/types/apiSchemas.js` — the fixtures follow
-the contract, they don't define it.
+Role access: `clinical/*` → Doctor; `surveillance/*`, `federated/*`, `privacy/*`
+→ Hospital Admin / Public-health Admin / Tech Reviewer; `models/*` → Public-health
+Admin / Tech Reviewer; `models/explanations/*` → the treating Doctor or a Tech
+Reviewer.
+
+### Treatment-advisor engine
+
+`ADVISOR_ENGINE` picks how `/treatment-advisor` runs: `auto` (default) tries the
+`ML/treatment_advisor` E1–E12 pipeline and falls back to a DB-config-backed
+heuristic engine (`backend/app/services/advisor_engine.py`, labelled
+`engine: "heuristic_fallback"`) when model artifacts / ML deps are absent; `ml`
+requires the pipeline (503 otherwise); `heuristic` always uses the fallback. E12
+weights stay in Python. Differential privacy / secure aggregation remain
+`NOT_IMPLEMENTED`; FL metrics are the validated honest numbers.
 
 ---
 

@@ -6,6 +6,7 @@
   "description": "Objective E - Doctor Treatment Advisor UI. Renders the E13 advisor contract served by the FastAPI backend.",
   "scripts": {
     "dev": "vite",
+    "dev:live": "VITE_USE_MOCK=0 vite",
     "build": "vite build",
     "preview": "vite preview"
   },
