@@ -93,8 +93,8 @@ frontend/dist/
 # Keep these out of Git unless the team explicitly decides
 # to version/share them through Git LFS or another artifact store.
 
-*.pkl
-*.joblib
+# *.pkl
+# *.joblib
 
 
 # ==========================================================
