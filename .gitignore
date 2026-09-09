@@ -152,3 +152,7 @@ frontend/.env.*
 !frontend/.env.example
 
 .env
+
+frontend/
+frontend_old/
+backend_old/
