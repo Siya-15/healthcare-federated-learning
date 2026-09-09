@@ -1,41 +1,36 @@
-"""Treatment-advisor orchestration (E1 -> E13).
+"""Objective E FastAPI integration.
 
-Order of preference (config ADVISOR_ENGINE):
-  * "ml"        -> require the ML E1-E12 pipeline; 503 if it cannot run
-  * "heuristic" -> always use the DB-config-backed heuristic engine
-  * "auto"      -> try the ML pipeline, fall back to the heuristic engine
-
-Every run is persisted to advisor_run (audit + Dashboard "Advisor Runs" KPI).
-The ML pipeline is imported lazily and defensively; the repo currently has no
-final_advisor_output.py and no guaranteed model artifacts, so on `main` the
-heuristic engine is normally the active path -- clearly labelled as such.
+This service is the API boundary for the *actual* E1-E13 treatment-advisor
+implementation.  It deliberately does not calculate replacement probabilities,
+recovery estimates, uncertainty, risk or SHAP values.
 """
 from __future__ import annotations
 
 import json
 import logging
+from datetime import datetime, timezone
 
 from fastapi import HTTPException, status
 from sqlalchemy import text
 from sqlalchemy.engine import Connection
 
-from app.core.config import get_settings
 from app.core.security import CurrentUser
-from app.schemas.advisor import AdvisorContextRequest, AdvisorOutput
-from app.services import advisor_engine, reference
+from app.schemas.advisor import AdvisorContextRequest
 
 log = logging.getLogger("advisor")
 
 
-# --------------------------------------------------------------------------
-# Context assembly
-# --------------------------------------------------------------------------
-def _context_from_encounter(conn: Connection, encounter_id: str) -> dict:
+def _bootstrap_ml() -> None:
+    import app.bootstrap  # noqa: F401
+
+
+def _db_context(conn: Connection, encounter_id: str) -> dict:
     row = conn.execute(
         text(
             """
             SELECT encounter_id, hospital_id, age, gender, disease_id, severity_id,
-                   temperature, heart_rate, respiratory_rate, spo2, systolic_bp, diastolic_bp
+                   temperature, heart_rate, respiratory_rate, spo2,
+                   systolic_bp, diastolic_bp
             FROM patient_encounter
             WHERE encounter_id = :encounter_id
             """
@@ -43,15 +38,8 @@ def _context_from_encounter(conn: Connection, encounter_id: str) -> dict:
         {"encounter_id": encounter_id},
     ).fetchone()
     if row is None:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Encounter not found.")
+        raise HTTPException(status_code=404, detail="Encounter not found.")
     m = row._mapping
-    symptoms = [
-        r[0]
-        for r in conn.execute(
-            text("SELECT symptom_text FROM encounter_symptoms WHERE encounter_id = :id ORDER BY is_primary DESC NULLS LAST"),
-            {"id": encounter_id},
-        )
-    ]
     return {
         "encounter_id": m["encounter_id"],
         "hospital_id": m["hospital_id"],
@@ -59,94 +47,177 @@ def _context_from_encounter(conn: Connection, encounter_id: str) -> dict:
         "gender": m["gender"],
         "disease_id": m["disease_id"],
         "severity_id": m["severity_id"],
-        "symptoms": symptoms,
-        "comorbidity_flags": [],
-        "pregnancy_flag": False,
-        "vitals": {
-            "temperature_c": float(m["temperature"]) if m["temperature"] is not None else None,
-            "heart_rate": m["heart_rate"],
-            "respiratory_rate": m["respiratory_rate"],
-            "spo2": m["spo2"],
-            "systolic_bp": m["systolic_bp"],
-            "diastolic_bp": m["diastolic_bp"],
-        },
+        "temperature": m["temperature"],
+        "heart_rate": m["heart_rate"],
+        "respiratory_rate": m["respiratory_rate"],
+        "systolic_bp": m["systolic_bp"],
+        "diastolic_bp": m["diastolic_bp"],
+        "spo2": m["spo2"],
     }
 
 
-def _context_from_request(req: AdvisorContextRequest) -> dict:
-    return {
-        "encounter_id": req.encounter_id,
-        "hospital_id": req.hospital_id,
-        "age": req.age,
-        "gender": req.gender,
-        "disease_id": req.disease_id,
-        "severity_id": req.severity_id,
-        "symptoms": list(req.symptoms or []),
-        "comorbidity_flags": list(req.comorbidity_flags or []),
-        "pregnancy_flag": bool(req.pregnancy_flag),
-        "vitals": {
-            "temperature_c": req.temperature,
-            "heart_rate": req.heart_rate,
-            "respiratory_rate": req.respiratory_rate,
-            "spo2": req.spo2,
-            "systolic_bp": req.systolic_bp,
-            "diastolic_bp": req.diastolic_bp,
-        },
-    }
+def _run_actual_pipeline(encounter_id: str, conn: Connection) -> dict:
+    """Execute E1 -> E13 using the project's actual implementations."""
+    _bootstrap_ml()
 
+    from ML.treatment_advisor.patient_context import load_patient_context, validate_patient_context
+    from ML.treatment_advisor.candidate_treatments import generate_candidates_for_encounter
+    from ML.treatment_advisor.clinical_eligibility import load_treatment_master, evaluate_candidates
+    from ML.treatment_advisor.e4_configuration import enrich_candidates
+    from ML.treatment_advisor.regional_epidemiology import get_regional_epidemiology
+    from ML.treatment_advisor.treatment_model import predict_treatment_success
+    from ML.treatment_advisor.probability_calibration import calibrate_treatment_probability
+    from ML.treatment_advisor.uncertainty_estimation import predict_treatment_with_uncertainty
+    from ML.treatment_advisor.recovery_estimation import predict_recovery
+    from ML.treatment_advisor.risk_complication import assess_risk_for_treatments
+    from ML.treatment_advisor.shap_explainability import explain_treatments
+    from ML.treatment_advisor.treatment_ranking import rank_treatments
+    from ML.treatment_advisor.final_advisor_output import generate_final_advisor_output
 
-# --------------------------------------------------------------------------
-# Engines
-# --------------------------------------------------------------------------
-def _try_ml_pipeline(context: dict, conn: Connection) -> dict | None:
-    """Attempt the real E1-E12 pipeline. Return None if it cannot run."""
-    try:
-        import app.bootstrap  # noqa: F401  (puts repo root + ML/ on sys.path)
-        from ML.treatment_advisor import treatment_advisor as ta  # type: ignore
+    db_context = _db_context(conn, encounter_id)
+    context = load_patient_context(encounter_id)
+    context.update({k: db_context[k] for k in ("hospital_id",)})
 
-        enc_id = context.get("encounter_id")
-        if not enc_id:
-            return None
-        raw = ta.treatment_advisor(enc_id)  # real signature: (encounter_id) -> dict
-        if not raw:
-            return None
-        return _adapt_ml_output(raw, context, conn)
-    except Exception as exc:  # ImportError, missing artifacts, DB shape, etc.
-        log.info("ML advisor pipeline unavailable, using heuristic engine: %s", exc)
-        return None
+    validation = validate_patient_context(context)
+    if not validation.get("valid", False):
+        raise ValueError(f"E1 patient context validation failed: {validation}")
 
+    context, candidates, _candidate_records = generate_candidates_for_encounter(encounter_id)
+    context["hospital_id"] = db_context["hospital_id"]
 
-def _adapt_ml_output(raw: dict, context: dict, conn: Connection) -> dict:
-    """Map the ML package's simpler dict onto the E13 contract where possible.
-
-    The ML `treatment_advisor()` returns {patient, recommendations(DataFrame),
-    recovery_days, risks}. Rather than guess at a partial mapping, we currently
-    only take it as a signal that the pipeline ran, then let the heuristic
-    engine assemble the full E13 shape with engine="ml_assisted". This keeps the
-    contract stable while a real final_advisor_output.py is built.
-    """
-    out = advisor_engine.build_advisor(context, conn, engine="ml_assisted")
-    return out
-
-
-def _run(context: dict, conn: Connection) -> dict:
-    engine_pref = get_settings().advisor_engine
-    if engine_pref == "heuristic":
-        return advisor_engine.build_advisor(context, conn)
-    ml = _try_ml_pipeline(context, conn)
-    if ml is not None:
-        return ml
-    if engine_pref == "ml":
-        raise HTTPException(
-            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
-            detail="ML treatment-advisor pipeline is not available (artifacts / data missing).",
+    if candidates is None or candidates.empty:
+        final = generate_final_advisor_output(
+            {
+                "ranked_treatments": [],
+                "excluded_treatments": [],
+                "ranking_weights": {},
+                "ranking_method": "E12 not run because E2 returned no candidates",
+                "interpretation": "No candidate treatment mapping exists for this disease/severity pair.",
+            },
+            patient_context=context,
+            regional_context=None,
         )
-    return advisor_engine.build_advisor(context, conn)
+        final.update({
+            "engine": "ACTUAL_E1_E13_PIPELINE",
+            "model_version": "E6/E7/E8/E9 artifacts as installed",
+            "configuration_version": "E4 project configuration",
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "pipeline_trace": {"E1": "PASS", "E2": "NO_CANDIDATES"},
+        })
+        return final
+
+    treatment_master = load_treatment_master()
+    e3 = evaluate_candidates(candidates, treatment_master)
+    enriched = enrich_candidates(e3, db_context["hospital_id"])
+
+    if enriched is None or enriched.empty:
+        # E3/E4 can legitimately leave nothing rankable.
+        excluded = []
+        for r in e3.to_dict("records") if e3 is not None else []:
+            if str(r.get("eligibility_status", "")).upper() == "INELIGIBLE":
+                excluded.append({
+                    "treatment_id": r.get("treatment_id"),
+                    "treatment_name": r.get("treatment_name"),
+                    "reason": r.get("reason", "Clinically ineligible."),
+                })
+        final = generate_final_advisor_output(
+            {
+                "ranked_treatments": [],
+                "excluded_treatments": excluded,
+                "ranking_weights": {},
+                "ranking_method": "E12 not run because E4 returned no rankable candidates",
+                "interpretation": "All candidates were excluded before model ranking.",
+            },
+            patient_context=context,
+            regional_context=None,
+        )
+        final.update({
+            "engine": "ACTUAL_E1_E13_PIPELINE",
+            "model_version": "E6/E7/E8/E9 artifacts as installed",
+            "configuration_version": "E4 project configuration",
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "pipeline_trace": {"E1": "PASS", "E2": "PASS", "E3": "PASS", "E4": "NO_RANKABLE_CANDIDATES"},
+        })
+        return final
+
+    treatment_ids = [str(x) for x in enriched["treatment_id"].tolist()]
+
+    # E6 -> E7 -> E8
+    e6_results = [predict_treatment_success(context, tid) for tid in treatment_ids]
+    e7_results = [calibrate_treatment_probability(r["raw_success_probability"]) | {"treatment_id": r["treatment_id"]} for r in e6_results]
+    e8_results = [predict_treatment_with_uncertainty(context, tid) for tid in treatment_ids]
+
+    # E9
+    e9_results = [predict_recovery(context, tid) for tid in treatment_ids]
+
+    # E10 uses the actual E4-enriched treatment records.
+    e10_results = assess_risk_for_treatments(context, enriched)
+
+    # E11
+    e11_results = explain_treatments(context, treatment_ids, top_n=10)
+
+    # Normalize E4 field naming expected by E12 without changing the ML module.
+    enriched = enriched.copy()
+    if "availability" not in enriched.columns and "availability_status" in enriched.columns:
+        enriched["availability"] = enriched["availability_status"]
+
+    e12 = rank_treatments(
+        enriched,
+        e7_results,
+        e8_results,
+        e9_results,
+        e10_results,
+        e11_results=e11_results,
+    )
+
+    try:
+        regional = get_regional_epidemiology(encounter_id)
+    except Exception as exc:
+        # E5 is contextual; it must never be replaced by invented numbers.
+        log.warning("E5 regional context unavailable for %s: %s", encounter_id, exc)
+        regional = None
+
+    e13_context = dict(context)
+    e13_context["vitals"] = {
+        "temperature": context.get("temperature"),
+        "heart_rate": context.get("heart_rate"),
+        "respiratory_rate": context.get("respiratory_rate"),
+        "systolic_bp": context.get("systolic_bp"),
+        "diastolic_bp": context.get("diastolic_bp"),
+        "spo2": context.get("spo2"),
+    }
+
+    e13 = generate_final_advisor_output(
+        e12,
+        patient_context=e13_context,
+        regional_context=regional,
+    )
+
+    e13.update({
+        "engine": "ACTUAL_E1_E13_PIPELINE",
+        "model_version": "E6/E7/E8/E9 artifacts as installed",
+        "configuration_version": "E4 project configuration",
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "pipeline_trace": {
+            "E1": "PASS", "E2": "PASS", "E3": "PASS", "E4": "PASS",
+            "E5": "PASS" if regional is not None else "UNAVAILABLE_OPTIONAL",
+            "E6": "PASS", "E7": "PASS", "E8": "PASS", "E9": "PASS",
+            "E10": "PASS", "E11": "PASS", "E12": "PASS", "E13": "PASS",
+        },
+        "model_sources": {
+            "E6": "ML.treatment_advisor.treatment_model",
+            "E7": "ML.treatment_advisor.probability_calibration",
+            "E8": "ML.treatment_advisor.uncertainty_estimation",
+            "E9": "ML.treatment_advisor.recovery_estimation",
+            "E10": "ML.treatment_advisor.risk_complication",
+            "E11": "ML.treatment_advisor.shap_explainability",
+            "E12": "ML.treatment_advisor.treatment_ranking",
+            "E13": "ML.treatment_advisor.final_advisor_output",
+        },
+    })
+    return e13
 
 
-# --------------------------------------------------------------------------
-# Persistence + public API
-# --------------------------------------------------------------------------
 def _persist(conn: Connection, user: CurrentUser, out: dict) -> None:
     conn.execute(
         text(
@@ -162,55 +233,51 @@ def _persist(conn: Connection, user: CurrentUser, out: dict) -> None:
             "role": user.role,
             "engine": out.get("engine"),
             "status": out.get("advisor_status"),
-            "top": out.get("summary", {}).get("top_treatment_id"),
-            "output": json.dumps(out),
+            "top": (out.get("summary", {}).get("top_ranked_treatment") or {}).get("treatment_id"),
+            "output": json.dumps(out, default=str),
         },
     )
 
 
 def run_for_encounter(conn: Connection, user: CurrentUser, encounter_id: str) -> dict:
     user.require_roles("DOCTOR")
-    context = _context_from_encounter(conn, encounter_id)
-    user.authorize_hospital(context.get("hospital_id"))
-    out = _run(context, conn)
-    validated = AdvisorOutput.model_validate(out).model_dump()
-    _persist(conn, user, validated)
-    return validated
+    db_context = _db_context(conn, encounter_id)
+    user.authorize_hospital(db_context["hospital_id"])
+    try:
+        out = _run_actual_pipeline(encounter_id, conn)
+    except HTTPException:
+        raise
+    except Exception as exc:
+        log.exception("Actual E1-E13 pipeline failed for %s", encounter_id)
+        raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+                            detail=f"Actual treatment-advisor pipeline unavailable: {type(exc).__name__}: {exc}") from exc
+    _persist(conn, user, out)
+    return out
 
 
 def run_for_context(conn: Connection, user: CurrentUser, req: AdvisorContextRequest) -> dict:
+    # The validated production path is encounter-based because E1-E13 load their
+    # canonical clinical context from the database. Context-only calls therefore
+    # require an encounter_id.
     user.require_roles("DOCTOR")
-    if req.hospital_id:
-        user.authorize_hospital(req.hospital_id)
-    context = _context_from_request(req)
-    if not context.get("hospital_id"):
-        context["hospital_id"] = user.hospital_id or "H001"
-    out = _run(context, conn)
-    validated = AdvisorOutput.model_validate(out).model_dump()
-    _persist(conn, user, validated)
-    return validated
+    if not req.encounter_id:
+        raise HTTPException(status_code=400, detail="encounter_id is required for the actual E1-E13 pipeline.")
+    return run_for_encounter(conn, user, req.encounter_id)
 
 
 def explanation(conn: Connection, user: CurrentUser, encounter_id: str, treatment_id: str) -> dict:
-    """E11 attribution for one ranked treatment of an encounter."""
-    if user.role not in ("DOCTOR", "TECH_REVIEWER"):
-        user.require_roles("DOCTOR", "TECH_REVIEWER")
-    context = _context_from_encounter(conn, encounter_id)
+    user.require_roles("DOCTOR", "TECH_REVIEWER")
+    db_context = _db_context(conn, encounter_id)
     if user.role == "DOCTOR":
-        user.authorize_hospital(context.get("hospital_id"))
-    out = _run(context, conn)
-    rec = next(
-        (r for r in out.get("recommendations", []) if r["treatment_id"] == treatment_id),
-        None,
-    )
-    if rec is None:
-        raise HTTPException(
-            status_code=status.HTTP_404_NOT_FOUND,
-            detail=f"Treatment {treatment_id} is not in the ranked set for this encounter.",
-        )
+        user.authorize_hospital(db_context["hospital_id"])
+    _bootstrap_ml()
+    from ML.treatment_advisor.patient_context import load_patient_context
+    from ML.treatment_advisor.shap_explainability import explain_treatment
+    context = load_patient_context(encounter_id)
+    result = explain_treatment(context, treatment_id, top_n=10)
     return {
         "encounter_id": encounter_id,
-        "treatment_id": rec["treatment_id"],
-        "treatment_name": rec["treatment_name"],
-        "explainability": rec["explainability"],
+        "treatment_id": treatment_id,
+        "explainability": result,
+        "source": "actual E11 SHAP TreeExplainer",
     }

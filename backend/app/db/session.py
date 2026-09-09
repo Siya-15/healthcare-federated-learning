@@ -23,6 +23,7 @@ def get_engine() -> Engine:
             pool_size=5,
             max_overflow=5,
             future=True,
+            connect_args={"sslmode": "require"},
         )
     return _engine
 

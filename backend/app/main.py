@@ -16,7 +16,11 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
 from app.core.config import get_settings
-from app.routers import clinical, federated, health, models, privacy, surveillance
+
+from app.routers import clinical, federated, health, models, privacy, surveillance, objective_a,objective_c4
+
+from app.routers.objective_b import router as objective_b_router
+
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
 log = logging.getLogger("app")
@@ -24,6 +28,8 @@ log = logging.getLogger("app")
 settings = get_settings()
 
 app = FastAPI(title="Healthcare FL — Application API", version=settings.app_version)
+app.include_router(objective_b_router)
+app.include_router(objective_c4.router)
 
 app.add_middleware(
     CORSMiddleware,
@@ -33,7 +39,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-for r in (health, clinical, surveillance, federated, privacy, models):
+for r in (health, clinical, surveillance, federated, privacy, models, objective_a):
     app.include_router(r.router)
 
 

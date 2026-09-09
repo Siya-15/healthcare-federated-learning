@@ -19,6 +19,12 @@ class Settings:
     def __init__(self) -> None:
         self.database_url: str = _normalise_db_url(os.getenv("DATABASE_URL", "").strip())
 
+        if not self.database_url:
+            self.database_url = _normalise_db_url(
+                f"postgresql://{os.getenv('DB_USER', 'postgres')}:{os.getenv('DB_PASSWORD', '')}@"
+                f"{os.getenv('DB_HOST', 'localhost')}:{os.getenv('DB_PORT', '5432')}/{os.getenv('DB_NAME', 'postgres')}?sslmode={os.getenv('DB_SSLMODE', 'require')}"
+            )
+
         # Deterministic pseudonymisation secret. A pseudonym is not irreversible
         # anonymisation; keep the secret out of the frontend and out of logs.
         self.privacy_secret: str = os.getenv("PRIVACY_SECRET", "dev-privacy-secret-change-me")

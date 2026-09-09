@@ -7,10 +7,19 @@ from app.schemas.advisor import AdvisorContextRequest
 from app.schemas.clinical import EncounterCreate
 from app.services import advisor_service, clinical_service, dashboard_service
 from app.services.reference import form_options
+from app.services.live_objectives import objective_d
 
 router = APIRouter(prefix="/api/clinical", tags=["clinical"])
 
 DoctorOnly = require("DOCTOR")
+
+
+@router.get("/database/overview")
+def database_overview(
+    conn: Connection = Depends(get_db),
+    user: CurrentUser = Depends(require("DOCTOR", "HOSPITAL_ADMIN", "PUBLIC_HEALTH_ADMIN", "TECH_REVIEWER")),
+) -> dict:
+    return objective_d(conn)
 
 
 @router.get("/form-options")
